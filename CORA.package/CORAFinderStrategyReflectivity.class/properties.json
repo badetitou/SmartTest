@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CORAFinderStrategy",
+	"category" : "CORA-Finder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"methodToTest"
+	],
+	"name" : "CORAFinderStrategyReflectivity",
+	"type" : "normal"
+}
