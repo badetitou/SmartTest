@@ -4,10 +4,10 @@
 	"category" : "CORA-Finder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [
-		"methodToTest"
+	"classvars" : [
+		"MethodsToTests"
 	],
+	"instvars" : [ ],
 	"name" : "CORAFinderStrategyReflectivity",
 	"type" : "normal"
 }

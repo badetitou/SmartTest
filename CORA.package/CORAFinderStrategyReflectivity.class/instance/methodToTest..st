@@ -1,3 +1,3 @@
 accessing
 methodToTest: anObject
-	methodToTest := anObject
+	MethodsToTests := anObject
