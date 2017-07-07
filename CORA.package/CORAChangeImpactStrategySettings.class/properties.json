@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 7/6/2017 17:44",
+	"super" : "Object",
+	"category" : "CORA-Settings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"RunInBackground"
+	],
+	"instvars" : [ ],
+	"name" : "CORAChangeImpactStrategySettings",
+	"type" : "normal"
+}

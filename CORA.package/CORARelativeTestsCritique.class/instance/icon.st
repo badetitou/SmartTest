@@ -1,0 +1,4 @@
+accessing
+icon
+
+	^#smallInfo asIcon

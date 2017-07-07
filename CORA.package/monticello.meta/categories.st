@@ -1,0 +1,10 @@
+SystemOrganization addCategory: #CORA!
+SystemOrganization addCategory: 'CORA-Critiques'!
+SystemOrganization addCategory: 'CORA-Finder'!
+SystemOrganization addCategory: 'CORA-Listener'!
+SystemOrganization addCategory: 'CORA-Morph'!
+SystemOrganization addCategory: 'CORA-Rules'!
+SystemOrganization addCategory: 'CORA-Runner'!
+SystemOrganization addCategory: 'CORA-Settings'!
+SystemOrganization addCategory: 'CORA-Tests'!
+SystemOrganization addCategory: 'CORA-Tools'!

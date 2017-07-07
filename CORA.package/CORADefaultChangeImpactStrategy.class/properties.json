@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CORAChangeImpactStrategy",
+	"category" : "CORA-Finder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CORADefaultChangeImpactStrategy",
+	"type" : "normal"
+}

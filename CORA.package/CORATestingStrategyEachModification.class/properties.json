@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CORATestingStrategy",
+	"category" : "CORA-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CORATestingStrategyEachModification",
+	"type" : "normal"
+}

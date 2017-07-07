@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 7/5/2017 14:14",
+	"super" : "Object",
+	"category" : "CORA-Settings",
+	"classinstvars" : [
+		"filter"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"RunInBackground"
+	],
+	"instvars" : [ ],
+	"name" : "CORAFilterSettings",
+	"type" : "normal"
+}

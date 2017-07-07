@@ -1,0 +1,3 @@
+protocol
+enable
+	CORACollector start

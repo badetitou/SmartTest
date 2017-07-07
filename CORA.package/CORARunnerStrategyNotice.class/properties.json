@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CORARunnerStrategy",
+	"category" : "CORA-Runner",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CORARunnerStrategyNotice",
+	"type" : "normal"
+}

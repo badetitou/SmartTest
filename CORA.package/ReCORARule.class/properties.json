@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ReAbstractRule",
+	"category" : "CORA-Rules",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tests"
+	],
+	"name" : "ReCORARule",
+	"type" : "normal"
+}

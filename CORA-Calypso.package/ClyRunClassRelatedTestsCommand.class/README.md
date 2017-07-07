@@ -1,0 +1,1 @@
+I represent the button that run the tests that CORA's found about a class
