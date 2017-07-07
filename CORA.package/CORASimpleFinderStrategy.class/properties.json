@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "CORAFinderStrategy",
+	"category" : "CORA-Finder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"filter",
+		"package",
+		"collectionOfMethod"
+	],
+	"name" : "CORASimpleFinderStrategy",
+	"type" : "normal"
+}
