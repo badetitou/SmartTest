@@ -9,4 +9,4 @@ With this plugin installed, developers will earn time and will develop on the go
 
 ## Installation
 
-The complete presentation is available [here]{http://badetitou.github.io/research/smalltalk/2017/07/05/CORA/}.
+The complete presentation is available [here](http://badetitou.github.io/research/smalltalk/2017/07/05/CORA/).
