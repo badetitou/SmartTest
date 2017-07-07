@@ -1,3 +1,3 @@
 accessing
 execute
-	TestGenerator default generateTestMethodFor: self sourceAnchor entity
+	CORATestGenerator new generateTestMethodFor: self sourceAnchor entity
