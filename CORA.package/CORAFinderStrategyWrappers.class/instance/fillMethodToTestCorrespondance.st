@@ -13,7 +13,7 @@ fillMethodToTestCorrespondance
 		do: [ :aTestMethod | 
 			| aToResetAfterMarkCollection |
 			suite := TestSuite new.
-			suite add: aTestMethod.
+			suite addTest: aTestMethod.
 			testRunner runSuite: suite.
 			aToResetAfterMarkCollection := wrappers select: [ :each | each hasRun ].
 			self addATest: aTestMethod toACollectionOfMethod: aToResetAfterMarkCollection.
