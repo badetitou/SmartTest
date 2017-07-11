@@ -8,5 +8,5 @@ baseline: spec
 				repository: 'github://badetitou/CORA';
 				package: 'CORA';
 				package: 'CORA-Calypso';
-				group: 'default' with: #('CORA ChangeImpact');
+				group: 'default' with: #('CORA' 'ChangeImpact');
 				group: 'calypso' with: #('default')  ]
