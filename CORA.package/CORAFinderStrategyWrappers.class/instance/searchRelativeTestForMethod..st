@@ -6,7 +6,7 @@ searchRelativeTestForMethod: aCompiledMethod
 	methods := packages flatCollect: [ :aPackage | (SystemNavigation default allClassesInPackageNamed: aPackage packageName) flatCollect: [ :aClass | aClass allMethods ] ].
 	wrappers := {(TestCoverage on: aCompiledMethod methodReference)} asOrderedCollection.
 	testRunner := TestRunner new.
-	wrappers do: [ :each | each install ] displayingProgress: [ :aClass | 'Processing ' , aClass asString ] every: 1.
+	wrappers do: [ :each | each install ].
 	(self collectRelativeTestMethodOfMethods: methods)
 		do: [ :aTestMethod | 
 			| aToResetAfterMarkCollection |
@@ -16,7 +16,5 @@ searchRelativeTestForMethod: aCompiledMethod
 
 			aToResetAfterMarkCollection := wrappers select: [ :each | each hasRun ].
 			self addATest: aTestMethod toACollectionOfMethod: aToResetAfterMarkCollection.
-			aToResetAfterMarkCollection do: [ :each | each unmark ] ]
-		displayingProgress: [ :aClass | 'Processing ' , aClass asString ]
-		every: 1.
-	wrappers do: [ :each | each uninstall ] displayingProgress: [ :aClass | 'Processing ' , aClass asString ] every: 1
+			aToResetAfterMarkCollection do: [ :each | each unmark ] ].
+	wrappers do: [ :each | each uninstall ]
