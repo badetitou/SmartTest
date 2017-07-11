@@ -2,8 +2,12 @@ accessing
 initializeLink
 	| link |
 	link := MetaLink new
-		metaObject: [ :aString | Transcript crShow: aString ];
+		metaObject: [ :ctxt | 
+			| aCompiledTestCase |
+			aCompiledTestCase := self extractCurrentTestExecutionFormContext: ctxt.
+			self initializeLinkInCompiledMethod: aCompiledTestCase.
+			self currentTestExecution: aCompiledTestCase ];
 		selector: #value:;
 		arguments: #(context);
 		optionOneShot: true.
-	(CORAFinderStrategyReflectivityTest >> #testMethodToTest) ast link: link
+	(TestExecutionEnvironment >> #runTestCase:) ast link: link

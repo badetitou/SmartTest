@@ -8,8 +8,8 @@
 		"MethodsToTests"
 	],
 	"instvars" : [
-		"currentTestExecution"
+		"filter"
 	],
-	"name" : "CORAFinderStrategyReflectivity",
+	"name" : "CORAFinderStrategyWrappers",
 	"type" : "normal"
 }

@@ -8,6 +8,6 @@
 	"instvars" : [
 		"tests"
 	],
-	"name" : "ReCORARule",
+	"name" : "CORARules",
 	"type" : "normal"
 }

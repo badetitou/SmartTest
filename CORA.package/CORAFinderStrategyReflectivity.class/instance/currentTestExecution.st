@@ -1,0 +1,3 @@
+accessing
+currentTestExecution
+	^ currentTestExecution

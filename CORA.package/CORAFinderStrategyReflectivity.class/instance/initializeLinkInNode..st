@@ -1,0 +1,2 @@
+accessing
+initializeLinkInNode: aMessageNode

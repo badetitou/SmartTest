@@ -1,3 +1,0 @@
-announcement handling
-addMethods: aCollectionOfCompiledMethod
-	CORARTSWindows addMethods:( aCollectionOfCompiledMethod)

@@ -1,3 +1,3 @@
 parsing
 parseCompiledMethodPackageBaseName: aCompiledMethod
-	^(aCompiledMethod package packageName substrings: '-') at: 1
+	^ self parsePackageBaseName: aCompiledMethod package packageName

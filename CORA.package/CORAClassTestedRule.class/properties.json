@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 6/28/2017 11:57",
-	"super" : "ReCORARule",
+	"commentStamp" : "BenoitVerhaeghe 6/28/2017 11:58",
+	"super" : "CORARules",
 	"category" : "CORA-Rules",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ReMethodTestedRule",
+	"name" : "CORAClassTestedRule",
 	"type" : "normal"
 }

@@ -1,0 +1,3 @@
+*CORA
+unmark
+	hasRun := false
