@@ -18,6 +18,6 @@ fillMethodToTestCorrespondance
 			aToResetAfterMarkCollection := wrappers select: [ :each | each hasRun ].
 			self addATest: aTestMethod toACollectionOfMethod: aToResetAfterMarkCollection.
 			aToResetAfterMarkCollection do: [ :each | each unmark ] ]
-		displayingProgress: [ :aClass | 'Processing ' , aClass name ]
+		displayingProgress: [ :aClass | 'Processing ' , aClass asString ]
 		every: 1.
 	wrappers do: [ :each | each uninstall ] displayingProgress: [ :aClass | 'Processing ' , aClass name ] every: 1
