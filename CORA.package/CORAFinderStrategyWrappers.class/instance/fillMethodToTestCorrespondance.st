@@ -9,7 +9,7 @@ fillMethodToTestCorrespondance
 			each install.]
 		displayingProgress: [ :aClass | 'Processing ' , aClass name ]
 		every: 1.
-	(self collectRelativeTestMethodOfMethods: SystemNavigation default allMethods)
+	(self collectRelativeTestMethodOfMethods: self availableTestMethods )
 		do: [ :aTestMethod | 
 			| aToResetAfterMarkCollection |
 			suite := TestSuite new.
@@ -18,6 +18,6 @@ fillMethodToTestCorrespondance
 			aToResetAfterMarkCollection := wrappers select: [ :each | each hasRun ].
 			self addATest: aTestMethod toACollectionOfMethod: aToResetAfterMarkCollection.
 			aToResetAfterMarkCollection do: [ :each | each unmark ] ]
-		displayingProgress: [ :aTestMethod | 'Processing ' , aTestMethod asString  ]
+		displayingProgress: [ :aClass | 'Processing ' , aClass name ]
 		every: 1.
 	wrappers do: [ :each | each uninstall ] displayingProgress: [ :aClass | 'Processing ' , aClass name ] every: 1
