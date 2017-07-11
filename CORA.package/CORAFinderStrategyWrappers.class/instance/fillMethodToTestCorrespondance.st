@@ -1,8 +1,7 @@
 accessing
 fillMethodToTestCorrespondance
 	| wrappers testRunner methods suite |
-	methods := (SystemNavigation default allMethods reject: [ :a | a asTestMethod isNotNil ])
-		collect: #methodReference.
+	methods := self availableMethods collect: #methodReference.
 	wrappers := methods collect: [ :each | TestCoverage on: each ].
 	testRunner := TestRunner new.
 	wrappers
@@ -10,7 +9,7 @@ fillMethodToTestCorrespondance
 			each install.]
 		displayingProgress: [ :aClass | 'Processing ' , aClass name ]
 		every: 1.
-	(SystemNavigation default allMethods select: [ :aMethod | aMethod asTestMethod isNotNil ])
+	(self collectRelativeTestMethodOfMethods: SystemNavigation default allMethods)
 		do: [ :aTestMethod | 
 			| aToResetAfterMarkCollection |
 			suite := TestSuite new.
