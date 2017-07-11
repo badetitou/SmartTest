@@ -3,10 +3,10 @@ baseline: spec
 	<baseline>
 	spec
 		for: #common
-		do: [spec baseline: 'ChangeImpact';
-				repository: 'github://juliendelplanque/ChangeImpact/repository';
-				group: 'pharo'.
-				 spec repository: 'github://badetitou/CORA';
-			 package: 'CORA';
-			 group: 'default' with: #('CORA').
-			 ]
+		do: [ self defineDependencies: spec.
+			spec
+				repository: 'github://badetitou/CORA';
+				package: 'CORA';
+				package: 'CORA-Calypso';
+				group: 'default' with: #('CORA');
+				group: 'calypso' with: #('CORA-Calypso' 'CORA') ]
