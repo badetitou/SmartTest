@@ -1,6 +1,7 @@
 accessing
 searchRelativeTestForMethod: aCompiledMethod
 	| wrappers methods packages packageBaseName |
+	self initializeSearchRelativeTestForMethod: aCompiledMethod.
 	packageBaseName := self filter extractCompiledMethodPackageBaseName: aCompiledMethod.
 	packages := self collectAllRelativePackages: packageBaseName.
 	methods := packages
