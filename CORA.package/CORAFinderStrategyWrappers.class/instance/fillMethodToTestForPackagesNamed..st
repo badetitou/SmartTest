@@ -1,3 +1,3 @@
 accessing
 fillMethodToTestForPackagesNamed: aCollectionOfPackagesName
-	aCollectionOfPackagesName do: [ :aPackageName | self fillMethodToTestForPackages: (self getPackageFromName: aPackageName ) ]	
+	aCollectionOfPackagesName do: [ :aPackageName | self fillMethodToTestForPackage: (self getPackageFromName: aPackageName ) ]	
