@@ -9,4 +9,4 @@ baseline: spec
 				package: 'CORA';
 				package: 'CORA-Calypso';
 				group: 'default' with: #('CORA' 'ChangeImpact');
-				group: 'calypso' with: #('default' 'CORA-Calypso')  ]
+				group: 'calypso' with: #('default' 'Calypso' 'CORA-Calypso')  ]
