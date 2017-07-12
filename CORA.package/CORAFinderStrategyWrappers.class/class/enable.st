@@ -9,4 +9,4 @@ enable
 				chooseFrom: (choosenpackages collect: [ :package | package packageName ])
 				values: choosenpackages
 				title: 'Select your project packages').
-	aFinder fillMethodToTestForPackages: choosenpackages
+	(choosenpackages at: 1) ifNotNil: [ aFinder fillMethodToTestForPackages: choosenpackages ]
