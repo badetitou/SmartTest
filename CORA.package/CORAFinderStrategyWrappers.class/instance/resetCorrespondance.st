@@ -1,3 +1,3 @@
 accessing
 resetCorrespondance
-	MethodsToTests := nil
+	self methodToTest: nil
