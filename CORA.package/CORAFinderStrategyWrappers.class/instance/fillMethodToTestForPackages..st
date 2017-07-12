@@ -1,3 +1,3 @@
 accessing
 fillMethodToTestForPackages: aCollectionOfPackage
-	aCollectionOfPackage do: [ :aPackage | aPackage methods do: [ :aMethod | self searchRelativeTestForMethod: aMethod ]]
+	aCollectionOfPackage do: [ :aPackage | self fillMethodToTestForPackage: aPackage ]
