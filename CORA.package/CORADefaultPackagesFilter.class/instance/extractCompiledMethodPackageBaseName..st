@@ -1,0 +1,3 @@
+parsing
+extractCompiledMethodPackageBaseName: aCompiledMethod
+	^ self extractPackageBaseName: aCompiledMethod package packageName

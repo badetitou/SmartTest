@@ -10,4 +10,4 @@ addImpactedTestFromWrapper: aTestMethod theTestMethod: wrappers
 	self
 		addATest: aTestMethod
 		toACollectionOfMethod: aToResetAfterMarkCollection.
-	^ aToResetAfterMarkCollection do: [ :each | each unmark ]
+	aToResetAfterMarkCollection do: [ :each | each unmark ]

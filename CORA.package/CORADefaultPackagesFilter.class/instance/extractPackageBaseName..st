@@ -1,3 +1,3 @@
 parsing
-parsePackageBaseName: aPackageName
+extractPackageBaseName: aPackageName
 	^(aPackageName substrings: '-') at: 1
