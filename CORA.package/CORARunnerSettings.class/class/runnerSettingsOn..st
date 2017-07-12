@@ -2,8 +2,8 @@ as yet unclassified
 runnerSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder pickOne: #runner)
-				label: 'CORA runner regression testing';
+				label: 'CORA test runner';
 				target: self;
 				parent: #TestRegression;
 				domainValues: CORARunnerStrategy allSubclasses;
-				description: ''.
+				description: 'The test runner defines if the tests are run in a debug way or not'.

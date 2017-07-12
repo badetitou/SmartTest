@@ -9,5 +9,5 @@ strategySettingsOn: aBuilder
 				target: self;
 				parent: #TestRegression;
 				domainValues: CORATestingStrategy allSubclasses ;
-				description: 'If true, then CORA will autotest method show you the result'.
+				description: 'The testing strategy defines when CORA will run the test it has found.'.
 				]
