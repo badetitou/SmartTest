@@ -1,0 +1,1 @@
+The Wrapper strategy is a dynamic test regression finder.

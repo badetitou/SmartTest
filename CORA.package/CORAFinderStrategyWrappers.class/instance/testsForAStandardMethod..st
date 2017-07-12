@@ -1,6 +1,6 @@
 accessing
 testsForAStandardMethod: aCompiledMethod
 	self methodToTest
-		at: aCompiledMethod
+		at: aCompiledMethod methodReference
 		ifAbsent: [ self searchRelativeTestForMethod: aCompiledMethod ].
-	^ self methodToTest at: aCompiledMethod ifAbsentPut: Set new
+	^ self methodToTest at: aCompiledMethod methodReference

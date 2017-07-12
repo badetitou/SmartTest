@@ -1,3 +1,0 @@
-parsing
-parseCompiledMethodPackageBaseName: aCompiledMethod
-	^ self parsePackageBaseName: aCompiledMethod package packageName

@@ -1,0 +1,3 @@
+accessing
+fillMethodToTestForPackage: aPackage
+	self fillMethodToTestFrom: aPackage methods

@@ -1,5 +1,6 @@
 accessing
 availableTestPackages
+	"Collect the test packages that can be used with the wrapper to fill completely the methodToTest dictionnary"
 	| availablePackages |
 	(availablePackages := RPackageOrganizer default packages
 		reject: [ :package | 

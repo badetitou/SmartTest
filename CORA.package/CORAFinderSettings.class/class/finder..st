@@ -1,3 +1,6 @@
 settings-definition
 finder: aSelector
-	^ finder := aSelector
+	finder disable.
+	finder := aSelector.
+	aSelector enable.
+	^ finder
