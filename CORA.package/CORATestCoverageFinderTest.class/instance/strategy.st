@@ -1,4 +1,4 @@
 helpers
 strategy
 
-	^ CORAWrappersTestFinderStrategy new
+	^ CORATestCoverageTestFinderStrategy new

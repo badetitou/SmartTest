@@ -1,8 +1,7 @@
-as yet unclassified
+search
 searchRelativeTestForMethod: aCompiledMethod
 	"Search for only one package and NOT relative others method"
 	| wrappers methods |
-	self initializeSearchRelativeTestForMethod: aCompiledMethod.
 	methods := self methodsInSimilarPackageAs: aCompiledMethod.
 	
 	wrappers := {(TestCoverage on: aCompiledMethod methodReference)} asOrderedCollection.

@@ -1,5 +1,5 @@
 initialization
 tearDown
 
-	CORAWrappersTestFinderStrategy methodToTest: cache.
+	CORATestCoverageTestFinderStrategy methodToTest: cache.
 	super tearDown.

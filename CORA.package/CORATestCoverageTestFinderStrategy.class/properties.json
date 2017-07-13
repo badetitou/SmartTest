@@ -10,6 +10,6 @@
 	"instvars" : [
 		"filter"
 	],
-	"name" : "CORAWrappersTestFinderStrategy",
+	"name" : "CORATestCoverageTestFinderStrategy",
 	"type" : "normal"
 }

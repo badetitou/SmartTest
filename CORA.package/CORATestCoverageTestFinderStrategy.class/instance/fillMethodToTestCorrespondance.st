@@ -1,4 +1,4 @@
-as yet unclassified
+jenkins
 fillMethodToTestCorrespondance
 	| wrappers testRunner methods suite |
 	methods := self availableMethods collect: #methodReference.

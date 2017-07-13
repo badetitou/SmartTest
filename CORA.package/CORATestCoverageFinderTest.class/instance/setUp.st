@@ -3,5 +3,5 @@ setUp
 
 	super setUp.
 	
-	cache := CORAWrappersTestFinderStrategy methodToTest.
-	CORAWrappersTestFinderStrategy methodToTest: Dictionary new.
+	cache := CORATestCoverageTestFinderStrategy methodToTest.
+	CORATestCoverageTestFinderStrategy methodToTest: Dictionary new.
