@@ -1,0 +1,4 @@
+helpers
+strategy
+
+	^ CORAWrappersTestFinderStrategy new

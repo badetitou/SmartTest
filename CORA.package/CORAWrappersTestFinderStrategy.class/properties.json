@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "BenoitVerhaeghe 7/13/2017 09:28",
-	"super" : "CORAFinderStrategy",
+	"super" : "CORATestFinderStrategy",
 	"category" : "CORA-Finder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -10,6 +10,6 @@
 	"instvars" : [
 		"filter"
 	],
-	"name" : "CORAFinderStrategyWrappers",
+	"name" : "CORAWrappersTestFinderStrategy",
 	"type" : "normal"
 }

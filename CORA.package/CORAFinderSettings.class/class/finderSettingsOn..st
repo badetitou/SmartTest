@@ -5,5 +5,5 @@ finderSettingsOn: aBuilder
 				label: 'CORA finder';
 				target: self;
 				parent: #TestRegression;
-				domainValues: CORAFinderStrategy allSubclasses;
+				domainValues: CORATestFinderStrategy allSubclasses;
 				description: 'The finder defines how CORA searchs the relative test of a method'.

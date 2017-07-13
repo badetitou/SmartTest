@@ -1,3 +1,3 @@
 tests-accessing
 testMethodToTest
-	self assert: (CORAFinderStrategyReflectivity new methodToTest isKindOf: Dictionary )
+	self assert: (CORAReflectivityTestFinderStrategy new methodToTest isKindOf: Dictionary )

@@ -8,6 +8,6 @@
 	"instvars" : [
 		"cache"
 	],
-	"name" : "CORAWrapperFinderTest",
+	"name" : "CORATestCoverageFinderTest",
 	"type" : "normal"
 }

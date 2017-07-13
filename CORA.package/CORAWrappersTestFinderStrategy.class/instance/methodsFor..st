@@ -1,6 +1,5 @@
 accessing
 methodsFor: aCompiledMethod
-	package := aCompiledMethod.
 	#( 	testsForATestMethod: 
 		testsForASetUpMethod: 
 		testsForATearDownMethod:

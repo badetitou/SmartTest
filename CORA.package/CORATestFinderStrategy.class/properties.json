@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 6/29/2017 10:06",
-	"super" : "CORAFinderStrategy",
+	"commentStamp" : "BenoitVerhaeghe 6/30/2017 08:44",
+	"super" : "Object",
 	"category" : "CORA-Finder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CORAFinderStrategyChangeImpact",
+	"name" : "CORATestFinderStrategy",
 	"type" : "normal"
 }

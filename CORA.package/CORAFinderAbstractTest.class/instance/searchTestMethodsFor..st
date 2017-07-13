@@ -1,4 +1,6 @@
 helpers
 searchTestMethodsFor: aSelector
+	| aCompiledTest |
 	
-	self subclassResponsibility
+	aCompiledTest := self class lookupSelector: aSelector.
+	^ self strategy methodsFor: aCompiledTest.

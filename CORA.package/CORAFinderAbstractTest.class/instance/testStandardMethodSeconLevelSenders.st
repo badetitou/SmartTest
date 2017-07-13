@@ -1,5 +1,5 @@
 tests
-testSenderSecondLevel
+testStandardMethodSeconLevelSenders
 	| testsFound | 
 	testsFound := self searchTestMethodsFor: #method2.
 	
