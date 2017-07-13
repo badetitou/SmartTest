@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CORAFinderTest",
+	"name" : "CORAFinderAbstractTest",
 	"type" : "normal"
 }

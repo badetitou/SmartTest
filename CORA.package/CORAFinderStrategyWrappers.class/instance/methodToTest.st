@@ -1,3 +1,3 @@
 accessing
 methodToTest
-	^ MethodsToTests ifNil: [ MethodsToTests := Dictionary new ]
+	^ self class methodToTest

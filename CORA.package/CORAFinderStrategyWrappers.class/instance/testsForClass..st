@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 testsForClass: aClass
 	"Find all tests in related packages that reference the method's class"
 	| allSendersClass allTests |

@@ -1,3 +1,4 @@
 accessing
 methodToTest: anObject
-	MethodsToTests := anObject
+	
+	self class methodToTest: anObject

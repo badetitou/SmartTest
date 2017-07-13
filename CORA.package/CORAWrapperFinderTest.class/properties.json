@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CORAFinderAbstractTest",
+	"category" : "CORA-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cache"
+	],
+	"name" : "CORAWrapperFinderTest",
+	"type" : "normal"
+}
