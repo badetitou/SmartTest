@@ -1,7 +1,11 @@
-accessing
+API
 testsForAStandardMethod: aCompiledMethod
 
-	| dependencies |
+	| filter dependencies |
 	filter := CORAFilterSettings filter new packages: { aCompiledMethod }.	
-	dependencies := self recursiveSearchForAStandardMethod: aCompiledMethod withFilter: filter.
+	dependencies := Set new.
+	self
+		recursiveSearchForAStandardMethod: aCompiledMethod
+		withFilter: filter
+		foundMethods: dependencies.
 	^ dependencies select: #isTestMethod

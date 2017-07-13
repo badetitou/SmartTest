@@ -1,4 +1,4 @@
-accessing
+API
 testsForATestMethod: aCompiledMethod
 	^ aCompiledMethod isTestMethod
 				ifTrue: [{aCompiledMethod}]

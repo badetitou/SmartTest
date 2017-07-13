@@ -1,4 +1,4 @@
-accessing
+API
 methodsFor: aCompiledMethod
 	#( 	testsForATestMethod: 
 		testsForASetUpMethod: 

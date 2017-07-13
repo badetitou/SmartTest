@@ -5,11 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"filter",
-		"package",
-		"collectionOfMethod"
-	],
+	"instvars" : [ ],
 	"name" : "CORASenderTestFinderStrategy",
 	"type" : "normal"
 }

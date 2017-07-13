@@ -1,4 +1,4 @@
-accessing
+API
 testsForATearDownMethod: aCompiledMethod
 	"If the method is a TestCase tearDown, returns all the tests of this TestCase"
 	^ (aCompiledMethod isTestTearDownMethod) 
