@@ -6,4 +6,4 @@ testAdd
 	el := (CORARunnerTest>>#noop). 
 	onModif add: el. 
 	self assert: onModif bag size equals: 2.
-	self assert:( onModif bag includes: el methodReference)
+	self assert:( onModif bag includes: el)

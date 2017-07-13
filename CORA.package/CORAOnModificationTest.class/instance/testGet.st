@@ -7,7 +7,6 @@ testGet
 	onModif add: el.
 	
 	self assert: (onModif get: (CORARunnerTest>>#testIconForTestResultGreen)) equals: nil.
-	self halt.	
 	self assert: (onModif get: el) equals: el.
 	self assert: (onModif get: el) equals: el.
 	self assert: onModif bag size equals: 2.
