@@ -1,5 +1,6 @@
 accessing
 searchRelativeTestForMethod: aCompiledMethod
+	"Search for only one package and NOT relative others method"
 	| wrappers methods packages packageBaseName |
 	self initializeSearchRelativeTestForMethod: aCompiledMethod.
 	packageBaseName := self filter extractCompiledMethodPackageBaseName: aCompiledMethod.
