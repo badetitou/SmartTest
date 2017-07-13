@@ -1,3 +1,3 @@
 adding
 add: aModifiedElement
-	self bag add: aModifiedElement withOccurrences: 2.
+	self bag add: aModifiedElement methodReference withOccurrences: 2.
