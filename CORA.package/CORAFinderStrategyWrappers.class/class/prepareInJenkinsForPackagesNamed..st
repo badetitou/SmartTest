@@ -1,7 +1,6 @@
 protocol
 prepareInJenkinsForPackagesNamed: aCollectionOfPackageNamed
-	| aCoraFinder |
-	aCoraFinder := self new.
-	aCoraFinder fillMethodToTestForPackagesNamed: aCollectionOfPackageNamed.
-	aCoraFinder	fillClassToTestForPackagesNamed: aCollectionOfPackageNamed.
+	self new
+		fillMethodToTestForPackagesNamed: aCollectionOfPackageNamed";
+		fillClassToTestForPackagesNamed: aCollectionOfPackageNamed".
 	CORAFinderSettings finder: self
