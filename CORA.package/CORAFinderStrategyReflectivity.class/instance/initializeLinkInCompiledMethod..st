@@ -2,11 +2,16 @@ accessing
 initializeLinkInCompiledMethod: aCompiledMethod
 	| link |
 	link := MetaLink new
-		metaObject: [ :ctxt | ctxt methodNode sendNodes do: [ :aMessageNode | self initializeLinkInNode: aMessageNode ] ];
+		metaObject: [ :ctxt | 
+			| anfoundCompiledMethod |
+			self halt.
+			ctxt methodNode sendNodes
+				do: [ :aMessageNode | 
+					anfoundCompiledMethod := self findCompiledMethodFromMessageNode: aMessageNode.
+					self initializeLinkInCompiledMethod: aMessageNode ] ];
 		selector: #value:;
 		arguments: #(context);
 		level: 0;
 		optionMetalevel: true;
 		optionOneShot: true.
-	self halt.
-	aCompiledMethod ast link: link
+	aCompiledMethod sendNodes first link: link
