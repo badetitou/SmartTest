@@ -1,2 +1,0 @@
-accessing
-initializeLinkInNode: aMessageNode

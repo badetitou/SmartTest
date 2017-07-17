@@ -1,4 +1,3 @@
 accessing
 changeImpactStrategy
-	^ changeImpactStrategy
-		ifNil: [ changeImpactStrategy := CORADefaultChangeImpactStrategy ]
+	^ changeImpactStrategy ifNil: [ changeImpactStrategy := CORADefaultChangeImpactStrategy ]
