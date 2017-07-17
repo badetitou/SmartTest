@@ -1,1 +1,9 @@
+language: smalltalk
+sudo: false
+
+# Select operating system(s)
+os:
+  - linux
+  - osx
+
 script: ./script/script.sh
