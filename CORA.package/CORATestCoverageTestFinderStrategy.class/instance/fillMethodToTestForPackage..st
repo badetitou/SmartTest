@@ -1,3 +1,0 @@
-jenkins
-fillMethodToTestForPackage: aPackage
-	self fillMethodToTestFrom: aPackage methods
