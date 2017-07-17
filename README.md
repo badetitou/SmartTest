@@ -1,3 +1,6 @@
+master [![Build Status](https://travis-ci.org/badetitou/CORA.svg?branch=master)](https://travis-ci.org/badetitou/CORA)
+development [![Build Status](https://travis-ci.org/badetitou/CORA.svg?branch=development)](https://travis-ci.org/badetitou/CORA)
+
 # CORA
 
 ## What is CORA ?
