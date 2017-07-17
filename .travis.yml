@@ -5,5 +5,8 @@ sudo: false
 os:
   - linux
   - osx
+  
+smalltalk:
+  - Pharo-6.0
 
 script: ./script/script.sh
