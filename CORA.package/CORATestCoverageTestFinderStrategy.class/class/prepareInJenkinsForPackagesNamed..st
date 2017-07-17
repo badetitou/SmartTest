@@ -6,7 +6,7 @@ prepareInJenkinsForPackagesNamed: aCollectionOfPackageNamed
 	methodToWrap addAll: (aCORATestCoverageFinder collectMethodToTestForPackagesNamed: aCollectionOfPackageNamed).
 	methodToWrap addAll: (aCORATestCoverageFinder collectClassToTestForPackagesNamed: aCollectionOfPackageNamed).
 	methodToWrap := methodToWrap intersection: aCORATestCoverageFinder availableMethods.
-	methodToWrap do: [ :anExploredMethod | self methodToTest at: anExploredMethod ifAbsentPut: Set new ].
+	methodToWrap do: [ :anExploredMethod | aCORATestCoverageFinder testsForMethod: anExploredMethod  ].
 	wrappers := methodToWrap asOrderedCollection collect: [ :each | TestCoverage on: each methodReference ].
 	wrappers do: [ :each | each install ] displayingProgress: [ :aClass | 'Processing ' , aClass asString ] every: 1.
 	[ (aCORATestCoverageFinder collectRelativeTestMethodOfMethods: methodToWrap)
