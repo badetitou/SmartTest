@@ -1,1 +1,0 @@
-I'm a big button that provide you the possibility to run all test (from CORA) easily and quickly
