@@ -1,6 +1,3 @@
-deploy:
-  skip_cleanup: true
-
 language: smalltalk
 sudo: false
 
