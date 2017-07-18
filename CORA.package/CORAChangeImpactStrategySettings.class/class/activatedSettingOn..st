@@ -1,5 +1,5 @@
 accessing
-changeImpactStrategySettingOn: aBuilder
+activatedSettingOn: aBuilder
 	<systemsettings>
 	(aBuilder pickOne: #changeImpactStrategy)
 		parent: #TestRegression ;

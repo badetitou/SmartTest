@@ -1,0 +1,3 @@
+running
+isVisible
+	^ true

@@ -1,13 +1,11 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 7/5/2017 14:14",
+	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "CORA-Settings",
-	"classinstvars" : [
-		"filter"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CORAFilterSettings",
+	"name" : "CORAActivatedSettings",
 	"type" : "normal"
 }

@@ -6,9 +6,7 @@
 		"finder"
 	],
 	"pools" : [ ],
-	"classvars" : [
-		"RunInBackground"
-	],
+	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "CORAFinderSettings",
 	"type" : "normal"
