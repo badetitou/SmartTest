@@ -1,11 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "BenoitVerhaeghe 7/18/2017 09:28",
 	"super" : "CircleMorph",
 	"category" : "CORA-Morph",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"percentage"
+	],
 	"name" : "ProgressCircle",
 	"type" : "normal"
 }

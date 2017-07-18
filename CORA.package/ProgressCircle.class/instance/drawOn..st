@@ -1,8 +1,8 @@
 drawing
 drawOn: aCanvas
-	aCanvas 
-		fillOval: bounds 
+	aCanvas
+		fillOval: bounds
 		fillStyle: self fillStyle
-		withPercentage: 0.33
-		borderWidth: borderWidth  
-		borderColor: borderColor.
+		withPercentage: self percentage
+		borderWidth: borderWidth
+		borderColor: borderColor

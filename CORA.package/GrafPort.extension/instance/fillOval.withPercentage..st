@@ -9,7 +9,8 @@ fillOval: rect withPercentage: aFloat
 	centerY := rect center y.
 	outer := EllipseMidpointTracer new on: rect.
 	nextY := rect height // 2.
-	[nextY > 0] whileTrue:[
+	
+	[nextY > 0 and: ( aFloat / 2 * rect height > (centerY - nextY - 1 ) ) ] whileTrue:[
 		nextOuterX := outer stepInY.
 		width := (nextOuterX bitShift: 1) + xBias.
 		destX := centerX - nextOuterX.
@@ -19,6 +20,7 @@ fillOval: rect withPercentage: aFloat
 		self copyBits.
 		nextY := nextY - 1.
 	].
+
 	destY := centerY.
 	height := 1 + yBias.
 	width := rect width.
