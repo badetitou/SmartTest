@@ -4,7 +4,7 @@ forMethods: aCompiledMethod
 	semaphore := Semaphore new.
 	CORATestingStrategy
 		addABlockClosureThatSearchForACompiledMethod: [ tests := self getMethodsFor: aCompiledMethod.
-			CORARunnerStrategy runner runCases: tests.
+			CORARunnerSettings runner runCases: tests.
 			semaphore signal ].
 	semaphore wait.
 	^ self getTestMethodFromCompiledTestMethod: tests
