@@ -4,7 +4,7 @@ initializeLink
 	link := MetaLink new
 		metaObject: [ :ctxt | 
 			| aCompiledTestCase |
-			aCompiledTestCase := self extractCurrentTestExecutionFormContext: ctxt.
+			aCompiledTestCase := self extractCurrentTestExecutionFromContext: ctxt.
 			self initializeLinkInCompiledMethod: aCompiledTestCase.
 			self currentTestExecution: aCompiledTestCase ];
 		selector: #value:;
