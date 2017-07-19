@@ -1,3 +1,4 @@
 protocol
 enable
-	CORACollector start
+	CORACollector start.
+		super enable
