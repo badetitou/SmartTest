@@ -5,7 +5,11 @@ defineDependencies: spec
 		with: [ spec
 				repository: 'github://juliendelplanque/ChangeImpact/repository';
 				loads: 'pharo' ].
-	Process addInstVarNamed: 'level'. 
+	[ [ Process addInstVarNamed: 'level' ]
+		on: DuplicatedSlotName
+		do: [  ] ]
+		on: Warning
+		do: [ :a | a resume ].
 	spec
 		package: 'Reflectivity' with: 'Reflectivity-BenoitVerhaeghe.340';
 		repository: 'http://smalltalkhub.com/mc/Pharo/Pharo60Inbox/main'.
