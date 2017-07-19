@@ -8,8 +8,8 @@ createIconForMethods: aTestCollection
 		arguments:
 			{aTestCollection.
 			ib};
-		labelGraphic: #testNotRun asIcon;
+		labelGraphic:(CORARunnerSettings runner colorForTestFromTestsCasesHistory: aTestCollection) asIcon;
 		color: Color transparent;
 		borderColor: Color transparent;
-		helpText: 'Run the test'.	
+		helpText: 'Run the test'.
 	^ ib
