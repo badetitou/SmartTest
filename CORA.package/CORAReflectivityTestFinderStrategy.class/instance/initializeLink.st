@@ -6,7 +6,7 @@ initializeLink
 			| aCompiledTestCase |
 			aCompiledTestCase := self extractCurrentTestExecutionFromContext: ctxt.
 			self initializeLinkInCompiledMethod: aCompiledTestCase.
-			self currentTestExecution: aCompiledTestCase ];
+			self currentTestExecution: aCompiledTestCase methodReference ];
 		selector: #value:;
 		arguments: #(context);
 		optionOneShot: true.
