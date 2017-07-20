@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TestCase",
+	"super" : "CORAFinderAbstractTest",
 	"category" : "CORA-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"cache"
+	],
 	"name" : "CORAFinderStrategyReflectivityTest",
 	"type" : "normal"
 }
