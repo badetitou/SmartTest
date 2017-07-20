@@ -1,0 +1,4 @@
+accessing
+testsForAStandardMethod: aCompiledMethod
+
+	self subclassResponsibility 

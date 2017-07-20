@@ -8,7 +8,8 @@
 		"MethodsToTests"
 	],
 	"instvars" : [
-		"currentTestExecution"
+		"currentTestExecution",
+		"filter"
 	],
 	"name" : "CORAReflectivityTestFinderStrategy",
 	"type" : "normal"
