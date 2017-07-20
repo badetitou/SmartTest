@@ -4,9 +4,13 @@ initializeLinkInCompiledMethod: aCompiledMethod
 	link := MetaLink new
 		metaObject: [ :receiver :selector | 
 			| receiverCompiledMethod |
-			receiverCompiledMethod := self extractCompiledMethodFromReceiver: receiver andSelector: selector.
+			receiverCompiledMethod := self
+				extractCompiledMethodFromReceiver: receiver
+				andSelector: selector.
 			self addATest: self currentTestExecution toMethod: receiverCompiledMethod.
-			[ self isCompiledMethod: receiverCompiledMethod alreadyExploredForTest: self currentTestExecution ]
+			(self
+				isCompiledMethod: receiverCompiledMethod
+				alreadyExploredForTest: self currentTestExecution)
 				ifFalse: [ self initializeLinkInCompiledMethod: receiverCompiledMethod ] ];
 		selector: #value:value:;
 		arguments: #(receiver selector);
