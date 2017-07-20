@@ -2,4 +2,4 @@ protocol
 initialize
 	queue := SharedQueue new.
 	[ [ true ]
-		whileTrue: [ self queue next resume ] ] forkAt: Processor userSchedulingPriority
+		whileTrue: [ self queue next value ] ] forkAt: Processor userSchedulingPriority
