@@ -10,5 +10,6 @@ initializeLinkInCompiledMethod: aCompiledMethod
 			self addATest: self currentTestExecution toMethod: receiverCompiledMethod ];
 		selector: #value:value:;
 		arguments: #(receiver selector);
+		level: 0;
 		optionOneShot: true.
 	aCompiledMethod sendNodes do: [ :node | node link: link ]
