@@ -7,7 +7,7 @@ defineDependencies: spec
 				loads: 'pharo' ].
 	spec
 		package: 'SLICE-Issue-20258-Fix-to-make-recursive-links-work'
-			with: 'SLICE-Issue-20258-Fix-to-make-recursive-links-work-BenoitVerhaeghe.3';
+			with: 'SLICE-Issue-20258-Fix-to-make-recursive-links-work-BenoitVerhaeghe.4';
 		repository: 'http://smalltalkhub.com/mc/Pharo/Pharo60Inbox/main'.
 	spec
 		configuration: 'Calypso'

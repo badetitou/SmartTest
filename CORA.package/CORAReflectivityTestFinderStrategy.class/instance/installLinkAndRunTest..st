@@ -1,8 +1,8 @@
 accessing
 installLinkAndRunTest: aTestMethod
-	| suite testRunner |
+	| testEnv |
 	self initializeLink.
-	testRunner := TestRunner new.
-	suite := TestSuite new.
-	suite addTest: aTestMethod.
-	testRunner runSuite: suite
+
+	testEnv := TestExecutionEnvironment new.
+	[testEnv beActiveDuring: [
+		testEnv runTestCase: aTestMethod]] on: Exception do: [ ]

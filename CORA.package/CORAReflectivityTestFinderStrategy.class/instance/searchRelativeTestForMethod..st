@@ -4,7 +4,7 @@ searchRelativeTestForMethod: aCompiledMethod
 
 	| methods |
 	methods := self methodsInSimilarPackageAs: aCompiledMethod.
-	(self collectRelativeTestMethodOfMethods: methods)
+	((self collectRelativeTestMethodOfMethods: methods) asOrderedCollection sort: [ :a :b | a printString < b printString ])
 		do: [ :aTestMethod | self installLinkAndRunTest: aTestMethod ]
 		displayingProgress: [ :aClass | 'Processing ' , aClass asString ]
 		every: 1
