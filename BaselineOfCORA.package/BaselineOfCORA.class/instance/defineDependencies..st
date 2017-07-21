@@ -5,13 +5,9 @@ defineDependencies: spec
 		with: [ spec
 				repository: 'github://juliendelplanque/ChangeImpact/repository';
 				loads: 'pharo' ].
-	[ [ Process addInstVarNamed: 'level' ]
-		on: DuplicatedSlotName
-		do: [  ] ]
-		on: Warning
-		do: [ :a | a resume ].
 	spec
-		package: 'Reflectivity' with: 'Reflectivity-BenoitVerhaeghe.340';
+		package: 'SLICE-Issue-20258-Fix-to-make-recursive-links-work'
+			with: 'SLICE-Issue-20258-Fix-to-make-recursive-links-work-BenoitVerhaeghe.2';
 		repository: 'http://smalltalkhub.com/mc/Pharo/Pharo60Inbox/main'.
 	spec
 		configuration: 'Calypso'
