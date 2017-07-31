@@ -3,7 +3,9 @@ baseline: spec
 	<baseline>
 	spec
 		for: #common
-		do: [ self defineDependencies: spec.
+		do: [ 
+			spec preLoadDoIt: #preLoad.
+			self defineDependencies: spec.
 			spec
 				repository: 'github://badetitou/CORA';
 				package: 'CORA';

@@ -1,0 +1,3 @@
+baselines
+preLoad
+	CompilationContext bytecodeBackend: OpalEncoderForSistaV1
