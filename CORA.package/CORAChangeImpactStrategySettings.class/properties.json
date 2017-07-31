@@ -6,9 +6,7 @@
 		"changeImpactStrategy"
 	],
 	"pools" : [ ],
-	"classvars" : [
-		"RunInBackground"
-	],
+	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "CORAChangeImpactStrategySettings",
 	"type" : "normal"

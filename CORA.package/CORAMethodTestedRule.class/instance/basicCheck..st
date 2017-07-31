@@ -1,3 +1,3 @@
 running
 basicCheck: anEntity
-	^(anEntity isKindOf: CompiledMethod ) and: self isOnNautilusOrCalypso  
+	^ (anEntity isKindOf: CompiledMethod) and: (super basicCheck: anEntity)

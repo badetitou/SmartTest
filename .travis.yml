@@ -1,1 +1,12 @@
+language: smalltalk
+sudo: false
+
+# Select operating system(s)
+os:
+  - linux
+  - osx
+  
+smalltalk:
+  - Pharo-6.0
+
 script: ./script/script.sh

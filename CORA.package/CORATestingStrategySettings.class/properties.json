@@ -7,9 +7,7 @@
 		"changeImpactStrategy"
 	],
 	"pools" : [ ],
-	"classvars" : [
-		"RunInBackground"
-	],
+	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "CORATestingStrategySettings",
 	"type" : "normal"

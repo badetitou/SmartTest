@@ -4,7 +4,9 @@
 	"category" : "CORA-Rules",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"Activated"
+	],
 	"instvars" : [
 		"tests"
 	],

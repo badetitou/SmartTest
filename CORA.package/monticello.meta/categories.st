@@ -1,5 +1,6 @@
 SystemOrganization addCategory: #CORA!
 SystemOrganization addCategory: 'CORA-Critiques'!
+SystemOrganization addCategory: 'CORA-Event'!
 SystemOrganization addCategory: 'CORA-Finder'!
 SystemOrganization addCategory: 'CORA-Listener'!
 SystemOrganization addCategory: 'CORA-Morph'!
