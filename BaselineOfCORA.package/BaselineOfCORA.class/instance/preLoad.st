@@ -1,3 +1,4 @@
 baselines
 preLoad
-	CompilationContext bytecodeBackend: OpalEncoderForSistaV1
+	CompilationContext bytecodeBackend: OpalEncoderForSistaV1.
+	Compiler recompileAll 
