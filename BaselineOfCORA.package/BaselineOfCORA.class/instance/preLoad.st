@@ -1,4 +1,5 @@
 baselines
 preLoad
-	CompilationContext bytecodeBackend: OpalEncoderForSistaV1.
-	Compiler recompileAll 
+	(CompilationContext bytecodeBackend equals: OpalEncoderForSistaV1)
+		ifFalse: [ CompilationContext bytecodeBackend: OpalEncoderForSistaV1.
+			Compiler recompileAll ]
