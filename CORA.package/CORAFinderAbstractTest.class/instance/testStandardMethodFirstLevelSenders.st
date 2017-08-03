@@ -3,5 +3,5 @@ testStandardMethodFirstLevelSenders
 	<CORATestBlacklisted>
 	| testsFound | 
 	testsFound := self searchTestMethodsFor: #method1.
-	
-	self assert: (testsFound includes: self dependentTestMethod)
+	testsFound := testsFound collect: #methodReference.
+	self assert: (testsFound includes: self dependentTestMethod methodReference)
