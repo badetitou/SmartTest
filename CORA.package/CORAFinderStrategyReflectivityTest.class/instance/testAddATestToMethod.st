@@ -1,5 +1,6 @@
 tests-accessing
 testAddATestToMethod
+	<CORATestBlacklisted>
 	| strategy methodReference |
 	methodReference := (CORARunnerTest >> #noop) methodReference.
 	strategy := CORAReflectivityTestFinderStrategy new.

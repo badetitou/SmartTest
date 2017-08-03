@@ -1,5 +1,6 @@
 tests
 testStandardMethodFirstLevelSenders
+	<CORATestBlacklisted>
 	| testsFound | 
 	testsFound := self searchTestMethodsFor: #method1.
 	
