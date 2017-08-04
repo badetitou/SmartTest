@@ -6,9 +6,9 @@ defineDependencies: spec
 				repository: 'github://juliendelplanque/ChangeImpact/repository';
 				loads: 'pharo' ].
 	spec
+		repository: 'http://smalltalkhub.com/mc/Pharo/Pharo60Inbox/main';
 		package: 'SLICE-Issue-20258-Fix-to-make-recursive-links-work'
-			with: 'SLICE-Issue-20258-Fix-to-make-recursive-links-work-BenoitVerhaeghe.5';
-		repository: 'http://smalltalkhub.com/mc/Pharo/Pharo60Inbox/main'.
+			with: 'SLICE-Issue-20258-Fix-to-make-recursive-links-work-BenoitVerhaeghe.5'.
 	spec
 		configuration: 'Calypso'
 		with: [ spec
