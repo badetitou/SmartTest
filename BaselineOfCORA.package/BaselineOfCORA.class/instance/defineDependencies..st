@@ -13,4 +13,17 @@ defineDependencies: spec
 		configuration: 'Calypso'
 		with: [ spec
 				versionString: #stable;
-				repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main' ]
+				repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main' ].
+	spec
+		package: 'Reflectivity' with: 'Reflectivity-BenoitVerhaeghe.343';
+		repository: 'http://smalltalkhub.com/mc/Pharo/Pharo60Inbox/main'.
+	spec
+		package: 'Reflectivity-Tests' with: 'Reflectivity-Tests-BenoitVerhaeghe.231';
+		repository: 'http://smalltalkhub.com/mc/Pharo/Pharo60Inbox/main'.
+	spec
+		package: 'Kernel' with: 'Kernel-BenoitVerhaeghe.2523';
+		repository: 'http://smalltalkhub.com/mc/Pharo/Pharo60Inbox/main'.
+	spec
+		package: 'OpalCompiler-Core' with: 'OpalCompiler-Core-BenoitVerhaeghe.893';
+		repository: 'http://smalltalkhub.com/mc/Pharo/Pharo60Inbox/main'.
+	spec group: 'Slice-MetaLink' with: #('Kernel' 'Reflectivity' 'Reflectivity-Tests' 'OpalCompiler-Core')
