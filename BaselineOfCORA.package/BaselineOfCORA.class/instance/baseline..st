@@ -7,7 +7,7 @@ baseline: spec
 			spec preLoadDoIt: #preLoad.
 			self defineDependencies: spec.
 			spec
-				repository: 'github://badetitou/CORA';
+				repository: 'github://badetitou/CORA' ;
 				package: 'CORA';
 				package: 'CORA-Calypso';
 				group: 'default'

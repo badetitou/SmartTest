@@ -1,5 +1,6 @@
 tests
 testTestSelfSelected
+	<CORATestBlacklisted>
 	| testsFound | 
 	testsFound := self searchTestMethodsFor: self dependentTestMethod selector.
 	

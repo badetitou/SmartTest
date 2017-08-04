@@ -1,3 +1,0 @@
-accessing
-resetCorrespondance
-	MethodsToTests := nil.
