@@ -11,5 +11,5 @@ baseline: spec
 				package: 'CORA';
 				package: 'CORA-Calypso';
 				group: 'default'
-					with: #('CORA' 'ChangeImpact' 'Slice-MetaLink');
+					with: #('CORA' 'ChangeImpact' 'SLICE-Issue-20258-Fix-to-make-recursive-links-work');
 				group: 'calypso' with: #('default' 'Calypso' 'CORA-Calypso') ]
