@@ -7,7 +7,7 @@ baseline: spec
 			spec preLoadDoIt: #preLoad.
 			self defineDependencies: spec.
 			spec
-				repositories: #('github://badetitou/CORA' 'http://smalltalkhub.com/mc/Pharo/Pharo60Inbox/main');
+				repository: 'github://badetitou/CORA';
 				package: 'CORA';
 				package: 'CORA-Calypso';
 				group: 'default'
