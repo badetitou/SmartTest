@@ -9,5 +9,5 @@ prepareInJenkins
 		reject: [ :aTestMethod | aCORAReflectivityFinder isCORAMethodBlacklisted: aTestMethod ].
 	listOfTestsMethod
 		do:
-			[ :aAvailableTestMethod | aCORAReflectivityFinder installLinkAndRunTest: aAvailableTestMethod ].
+			[ :aAvailableTestMethod | aCORAReflectivityFinder installLinkAndRunTest: aAvailableTestMethod ] displaying: [ :aAvailableTestMethod | 'Processing', aAvailableTestMethod  asString ].
 	CORAFinderSettings finder: self
