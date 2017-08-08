@@ -5,4 +5,4 @@ installLinkAndRunTest: aTestMethod
 
 	testEnv := TestExecutionEnvironment new.
 	[testEnv beActiveDuring: [
-		testEnv runTestCase: aTestMethod]] on: Exception do: [ ]
+		testEnv runTestCase: aTestMethod]] on: Exception do: [ ].
