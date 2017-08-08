@@ -3,7 +3,7 @@ prepareInJenkins
 	| aCORAReflectivityFinder listOfTestsMethod |
 	CompilationContext bytecodeBackend = OpalEncoderForSistaV1
 		ifFalse: [ CompilationContext bytecodeBackend: OpalEncoderForSistaV1.
-			Compiler recompileAll ].
+			OpalCompiler recompileAll ].
 	aCORAReflectivityFinder := self new.
 	listOfTestsMethod := Smalltalk allTestMethods
 		reject: [ :aTestMethod | aCORAReflectivityFinder isCORAMethodBlacklisted: aTestMethod ].
