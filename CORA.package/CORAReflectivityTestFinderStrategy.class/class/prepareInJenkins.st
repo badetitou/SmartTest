@@ -9,5 +9,6 @@ prepareInJenkins
 		reject: [ :aTestMethod | aCORAReflectivityFinder isCORAMethodBlacklisted: aTestMethod ].
 	listOfTestsMethod
 		do:
-			[ :aAvailableTestMethod | aCORAReflectivityFinder installLinkAndRunTest: aAvailableTestMethod ] displaying: [ :aAvailableTestMethod | 'Processing', aAvailableTestMethod  asString ].
+			[ :aAvailableTestMethod | aCORAReflectivityFinder installLinkAndRunTest: aAvailableTestMethod ] displayingProgress: [ :aAvailableTestMethod | 'Processing', aAvailableTestMethod name  ].
+	Smalltalk allMethods do: [:aCompiledMethod | self methodToTest at: aCompiledMethod ifAbsentPut: [ Set new ]].
 	CORAFinderSettings finder: self
