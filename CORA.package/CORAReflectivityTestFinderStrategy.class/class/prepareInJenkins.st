@@ -20,6 +20,6 @@ prepareInJenkins
 				do: [ 'UnAsStringAble' ] ]
 		every: 0.
 	Smalltalk allMethods
-		do: [ :aCompiledMethod | self methodToTest at: aCompiledMethod ifAbsentPut: [ Set new ] ].
+		do: [ :aCompiledMethod | self methodToTest at: aCompiledMethod methodReference ifAbsentPut: [ Set new ] ].
 	CORAFinderSettings finder: self.
 	MetaLink uninstallAll
