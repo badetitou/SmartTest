@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "CORA-Settings",
+	"classinstvars" : [
+		"activated"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CORAActivatedClassAnalyseSettings",
+	"type" : "normal"
+}
