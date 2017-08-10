@@ -1,3 +1,3 @@
 instance creation
-forMethods: aCompiledMethod
+findTestsForMethods: aCompiledMethod
 	^ self getMethodsFor: aCompiledMethod

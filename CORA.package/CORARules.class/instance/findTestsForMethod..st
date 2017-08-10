@@ -1,3 +1,3 @@
 initialize-release
-forMethod: aCompiledMethod
+findTestsForMethod: aCompiledMethod
 	^ tests := CORATestingStrategySettings strategy new findTestsForMethods: aCompiledMethod

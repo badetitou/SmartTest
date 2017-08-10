@@ -1,5 +1,5 @@
 instance creation
-forMethods: aCompiledMethod
+findTestsForMethods: aCompiledMethod
 	| tests semaphore |
 	semaphore := Semaphore new.
 	CORATestingStrategy
