@@ -13,4 +13,6 @@ methodsFor: aCompiledMethod
 				methods isEmpty ifFalse: [
 					(self testsForMethod: aCompiledMethod) addAll: methods asOrderedCollection.
 					^ methods asOrderedCollection]].
+			self methodToTest
+		at: aCompiledMethod methodReference put: Set new.
 		^ {}. ]
