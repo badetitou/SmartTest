@@ -11,4 +11,4 @@ testsForClassReferenceOf: aCompiledMethod
 	
 	allTests := OrderedCollection new.
 	allSendersClass do: [:aClass|  allTests addAll: aClass allTestMethods].
-	^ allTests.
+	^ allTests collect: #methodReference.

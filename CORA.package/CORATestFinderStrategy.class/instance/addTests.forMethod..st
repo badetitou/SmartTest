@@ -1,0 +1,2 @@
+accessing
+addTests: aCollectionOfTest forMethod: aCompiledMethod
