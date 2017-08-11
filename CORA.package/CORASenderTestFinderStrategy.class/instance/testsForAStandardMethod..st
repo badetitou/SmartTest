@@ -8,4 +8,4 @@ testsForAStandardMethod: aCompiledMethod
 		recursiveSearchForAStandardMethod: aCompiledMethod
 		withFilter: filter
 		foundMethods: dependencies.
-	^ dependencies select: #isTestMethod
+	^ (dependencies select: #isTestMethod) collect: #methodReference

@@ -1,7 +1,7 @@
 tests
 testRunCaseNotifyIconGreen
 	| case result anIcon |
-	case := self class selector: #noop.
+	case := self class selector: #noop. 
 	anIcon := IconicButton new. 
 	result := CORARunnerSettings runner runCase: case notifyIcon: anIcon.
 	self assert: result passed size equals: 1.

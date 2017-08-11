@@ -9,5 +9,6 @@ initializeLink
 			self currentTestExecution: aCompiledTestCase ];
 		selector: #value:;
 		arguments: #(context);
+		level: 0;
 		optionOneShot: true.
 	(TestExecutionEnvironment >> #runTestCase:) ast link: link

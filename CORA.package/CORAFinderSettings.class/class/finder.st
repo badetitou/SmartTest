@@ -1,3 +1,3 @@
 settings-definition
 finder 
-	^ finder ifNil: [ finder := CORAChangeImpactTestFinderStrategy  ]
+	^ finder ifNil: [ finder := CORASenderTestFinderStrategy   ]

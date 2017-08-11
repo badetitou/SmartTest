@@ -7,5 +7,5 @@ testsForATearDownMethod: aCompiledMethod
 					result := OrderedCollection new. 
 					result addAll: aCompiledMethod methodClass allTestMethods.
 					(aCompiledMethod methodClass subclasses do:[:aSubClass | result addAll: aSubClass allTestMethods]).
-					result]
+					result collect: #methodReference]
 				ifFalse: [{}].

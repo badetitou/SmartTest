@@ -1,5 +1,5 @@
 accessing
 testsForATestMethod: aCompiledMethod
 	^ aCompiledMethod isTestMethod
-				ifTrue: [{aCompiledMethod}]
+				ifTrue: [{aCompiledMethod methodReference}]
 				ifFalse: [{}].

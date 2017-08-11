@@ -1,16 +1,11 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 6/28/2017 16:19",
+	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "CORA-Tools",
+	"category" : "CORA-Collector",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"Collector",
-		"UniqueInstance"
-	],
-	"instvars" : [
-		"process"
-	],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "CORACollector",
 	"type" : "normal"
 }

@@ -7,7 +7,7 @@ strategySettingsOn: aBuilder
 		with: [ (aBuilder pickOne: #strategy)
 				label: 'CORA testing strategy';
 				target: self;
-				parent: #TestRegression;
+				parent: #CORAStrategyOption;
 				domainValues: CORATestingStrategy allSubclasses ;
 				description: 'The testing strategy defines when CORA will run the test it has found.'.
 				]

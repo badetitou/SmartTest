@@ -1,0 +1,3 @@
+drawing
+handlesMouseDown: anEvent 
+    ^ true
