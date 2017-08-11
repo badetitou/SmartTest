@@ -5,8 +5,8 @@ activatedSettingOn: aBuilder
 		parent: 'TestRegression';
 		target: CORARules;
 		order: 0.01;
-		label: 'CORA Activated';
-		description: 'Toogle to activate/disable the plugin'.
+		label: 'CORA Reneraku Integration Activated';
+		description: 'Toogle to activate/disable the reneraku integration of the plugin'.
 	(aBuilder group: #TestRegressionActivation)
 		label: 'CORA activation option';
 		description: 'General CORA activation settings';

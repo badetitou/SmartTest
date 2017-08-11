@@ -2,7 +2,7 @@ accessing
 activatedSettingOn: aBuilder
 	<systemsettings>
 	(aBuilder pickOne: #changeImpactStrategy)
-		parent: #TestRegression ;
+		parent: #CORAStrategyOption ;
 		target: self;
 		label: 'Change Impact strategies' ;
 		domainValues: CORAChangeImpactStrategy  allSubclasses ;
