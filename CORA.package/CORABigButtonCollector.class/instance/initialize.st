@@ -5,7 +5,7 @@ initialize
 		controler: self;
 		percentage: 100;
 		extent: 200@200;
-		color: Color blue;
+		color: Color gray;
 		openInWorld;
 		hide
 		
