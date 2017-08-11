@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "CORA-Morph",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"testList",
+		"button",
+		"icons",
+		"controler",
+		"buttonText"
+	],
+	"name" : "CORAButtonResultWindow",
+	"type" : "normal"
+}

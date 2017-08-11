@@ -1,8 +1,17 @@
 accessing
 notify
 	| aTestResult |
-	aTestResult := (CORARunnerSettings runner runCases: (self collector collect: [ :aMethodReference |aMethodReference methodClass selector: aMethodReference selector] )).
-	morph color: Color green.
-	aTestResult hasFailures ifTrue: [ morph color: Color yellow ].
-	aTestResult hasErrors ifTrue: [ morph color: Color red ].
-	self flush
+	aTestResult := CORARunnerSettings runner
+		runCases:
+			(self collector
+				collect:
+					[ :aMethodReference | aMethodReference methodClass selector: aMethodReference selector ]).
+	self
+		collector:
+			(self collector
+				reject: [ :a | 
+					((TestResult historyAt: a methodClass) at: #passed)
+						includes: a selector ]).
+	self updateNumberOfTheProgressCircle.
+	self changeColorFromTestResult: aTestResult.
+	morph fillFailedTestListFromTestResult: aTestResult
