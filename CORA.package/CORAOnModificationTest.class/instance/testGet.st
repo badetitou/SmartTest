@@ -1,7 +1,6 @@
 tests-adding
 testGet
 	| onModif el |
-
 	onModif := CORAOnModificationStrategy new.
 	el := (CORARunnerTest>>#noop).
 	onModif add: el.

@@ -9,7 +9,8 @@
 		"testList",
 		"button",
 		"icons",
-		"controler"
+		"controler",
+		"buttonText"
 	],
 	"name" : "CORAButtonResultWindow",
 	"type" : "normal"
