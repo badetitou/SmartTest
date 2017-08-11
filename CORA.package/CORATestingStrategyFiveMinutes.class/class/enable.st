@@ -1,4 +1,4 @@
 protocol
 enable
-	CORACollector start.
+	CORAFivesMinutesCollector start.
 		super enable

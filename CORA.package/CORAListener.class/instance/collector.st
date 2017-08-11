@@ -1,0 +1,3 @@
+search
+collector
+	^ collector

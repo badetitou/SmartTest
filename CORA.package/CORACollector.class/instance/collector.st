@@ -1,3 +1,3 @@
 accessing
 collector
-	^Collector ifNil: [ Collector := Set new. ]
+	self subclassResponsibility 
