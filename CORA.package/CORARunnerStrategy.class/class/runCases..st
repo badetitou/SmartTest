@@ -4,4 +4,5 @@ runCases: aTestCollection
 	aTestResult := TestResult new.
 	aTestCollection do: [ :aTest |aTestResult runCase: aTest ].
 	aTestResult updateResultsInHistory.
-	^aTestResult 
+	self notifyTitle: 'CORA Execution' contents: aTestResult.
+	^aTestResult

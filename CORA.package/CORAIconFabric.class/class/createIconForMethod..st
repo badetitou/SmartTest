@@ -8,7 +8,7 @@ createIconForMethod: testMethod
 		arguments:
 			{testMethod.
 			ib};
-		labelGraphic: (CORARunnerSettings runner colorForTestFromTestCaseHistory: testMethod) asIcon;
+		labelGraphic: (CORARunnerSettings runner iconForTestFromTestCaseHistory: testMethod) asIcon;
 		color: Color transparent;
 		borderColor: Color transparent;
 		helpText: 'Run the test'.

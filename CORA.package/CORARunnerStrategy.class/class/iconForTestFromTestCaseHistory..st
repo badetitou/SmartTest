@@ -1,5 +1,5 @@
 accessing
-colorForTestFromTestCaseHistory: aTestCase
+iconForTestFromTestCaseHistory: aTestCase
 	(aTestCase class methodRaisedError: aTestCase selector)
 		ifTrue: [ ^ #testRedIcon ].
 	(aTestCase class methodFailed: aTestCase selector)

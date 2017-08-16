@@ -1,10 +1,10 @@
 accessing
-colorForTestFromTestsCasesHistory: aCollectionOfTestCase
+iconForTestFromTestsCasesHistory: aCollectionOfTestCase
 	| iconType tempColor |
 	iconType := #testNotRunIcon.
 	aCollectionOfTestCase
 		do: [ :aTestCase | 
-			tempColor := self colorForTestFromTestCaseHistory: aTestCase.
+			tempColor := self iconForTestFromTestCaseHistory: aTestCase.
 			(tempColor = #testNotRunIcon)
 				ifTrue: [ ^ #testNotRunIcon ].
 			(tempColor = #testRedIcon)

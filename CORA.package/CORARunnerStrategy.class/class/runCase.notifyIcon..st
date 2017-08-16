@@ -6,4 +6,5 @@ runCase: aTestMethod notifyIcon: anIcon
 		ensure: [ anIcon labelGraphic: (self iconForTestResultOf: aTestResult) ].
 	anIcon labelGraphic: (self iconForTestResultOf: aTestResult).
 	aTestResult updateResultsInHistory.
+	self notifyTitle: 'CORA Execution' contents: aTestResult.
 	^aTestResult.
