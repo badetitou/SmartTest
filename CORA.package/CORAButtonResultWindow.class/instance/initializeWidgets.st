@@ -7,9 +7,9 @@ initializeWidgets
 		extent: 400@200;
 		color: Color gray) asSpecAdapter.
 	
-	buttonText := ('0' asStringMorph
+	buttonText := ('00' asStringMorph
 		font: (LogicalFont familyName: 'Source Sans Pro' pointSize: 50) emphasis: 2;
-		position: 75@60;
+		position: 60@60;
 		color: Color white;
 		yourself).
 	
