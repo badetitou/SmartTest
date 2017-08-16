@@ -6,4 +6,4 @@ fillFailedTestListFromTestResult: aTestResult
 	list addAll: aTestResult errors.
 	list addAll: aTestResult failures.
 	list := (list collect: [ :a | (a class lookupSelector: a selector) methodReference  ]) asSet.
-	self setList: (list collect: [:methodReference | methodReference methodClass selector: methodReference selector]) asOrderedCollection 
+	self setList: ((list collect: [:methodReference | methodReference methodClass selector: methodReference selector]) asOrderedCollection sort: [ :a :b | a asString < b asString ] ) 
