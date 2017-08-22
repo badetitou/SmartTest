@@ -1,0 +1,4 @@
+symbolic versions
+customProjectAttributes
+
+	^ #()
