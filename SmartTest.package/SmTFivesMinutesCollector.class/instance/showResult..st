@@ -4,6 +4,6 @@ showResult: aTestResult
 
 	(aTestResult hasErrors or: aTestResult hasFailures)
 		ifFalse: [ ^ self ].
-	ui := SmtAutoTestsWindows new.
+	ui := SmTAutoTestsWindows new.
 	ui setList: aTestResult tests.
 	ui openWithSpec.

@@ -1,6 +1,6 @@
 symbolic versions
 development: spec
-	<version: 'development'>
+	<version: 'dev-0.5'>
 	
 	spec for: #'common' do: [
   		spec
