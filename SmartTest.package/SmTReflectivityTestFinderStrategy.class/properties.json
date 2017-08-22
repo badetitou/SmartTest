@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 7/13/2017 14:23",
+	"super" : "SmTTestFinderStrategy",
+	"category" : "SmartTest-Finder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"MethodsToTests"
+	],
+	"instvars" : [
+		"currentTestExecution",
+		"filter"
+	],
+	"name" : "SmTReflectivityTestFinderStrategy",
+	"type" : "normal"
+}

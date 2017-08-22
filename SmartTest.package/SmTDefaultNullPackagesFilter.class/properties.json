@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 7/13/2017 14:23",
+	"super" : "SmTDefaultPackagesFilter",
+	"category" : "SmartTest-Finder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTDefaultNullPackagesFilter",
+	"type" : "normal"
+}

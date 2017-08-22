@@ -1,0 +1,1 @@
+I check class tests

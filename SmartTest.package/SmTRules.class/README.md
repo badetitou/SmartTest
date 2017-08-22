@@ -1,0 +1,1 @@
+I represent a kind of CORA structure

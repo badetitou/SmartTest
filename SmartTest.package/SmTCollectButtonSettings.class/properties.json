@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SmartTest-Settings",
+	"classinstvars" : [
+		"activated",
+		"bigButton"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTCollectButtonSettings",
+	"type" : "normal"
+}

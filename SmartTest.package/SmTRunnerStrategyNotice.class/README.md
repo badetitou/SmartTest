@@ -1,0 +1,1 @@
+When a test is run by CORA. If it failled, nothing happen

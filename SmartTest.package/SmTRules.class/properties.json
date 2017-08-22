@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 7/13/2017 14:21",
+	"super" : "ReAbstractRule",
+	"category" : "SmartTest-Rules",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Activated"
+	],
+	"instvars" : [
+		"tests"
+	],
+	"name" : "SmTRules",
+	"type" : "normal"
+}

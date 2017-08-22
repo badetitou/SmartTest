@@ -1,0 +1,3 @@
+accessing
+addTestMethods: aCollectionOfTestMethods
+	self uniqueInstance addTestMethods: aCollectionOfTestMethods

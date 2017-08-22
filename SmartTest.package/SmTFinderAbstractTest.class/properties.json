@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 7/13/2017 16:52",
+	"super" : "TestCase",
+	"category" : "SmartTest-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cache"
+	],
+	"name" : "SmTFinderAbstractTest",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+*SmartTest
+unmark
+	hasRun := false
