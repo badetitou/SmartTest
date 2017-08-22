@@ -1,0 +1,1 @@
+Every 5 minutes, CORA run the tests which have been found in the last 5 minutes

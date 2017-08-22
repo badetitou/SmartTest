@@ -1,0 +1,3 @@
+accessing
+whatToDisplayIn: aBrowser
+	^ { self }

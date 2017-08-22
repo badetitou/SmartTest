@@ -1,0 +1,3 @@
+strategy dispatching
+impactForStrategy: aCIStrategy
+	aCIStrategy impactedTestForChange: self

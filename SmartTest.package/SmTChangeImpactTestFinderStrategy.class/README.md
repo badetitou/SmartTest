@@ -1,0 +1,1 @@
+This finder is inspired by the finder of Autotest by  Laurent Laffont, Torsten Bergmann and Benoit badetitou Verhaeghe

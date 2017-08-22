@@ -1,0 +1,3 @@
+helpers
+strategy
+	^ SmTChangeImpactTestFinderStrategy new

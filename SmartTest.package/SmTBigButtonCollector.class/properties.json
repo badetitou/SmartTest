@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 8/11/2017 08:48",
+	"super" : "SmTCollector",
+	"category" : "SmartTest-Collector",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"morph",
+		"collector"
+	],
+	"name" : "SmTBigButtonCollector",
+	"type" : "normal"
+}

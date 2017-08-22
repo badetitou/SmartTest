@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "SmartTest-Morph",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"testList",
+		"button",
+		"icons",
+		"controler",
+		"buttonText"
+	],
+	"name" : "SmTButtonResultWindow",
+	"type" : "normal"
+}

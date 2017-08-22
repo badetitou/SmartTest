@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 6/28/2017 09:32",
+	"super" : "ComposableModel",
+	"category" : "SmartTest-Morph",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"testList",
+		"button",
+		"icons"
+	],
+	"name" : "SmtAutoTestsWindows",
+	"type" : "normal"
+}

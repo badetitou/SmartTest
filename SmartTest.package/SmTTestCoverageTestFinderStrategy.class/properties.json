@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 7/13/2017 09:28",
+	"super" : "SmTTestFinderStrategy",
+	"category" : "SmartTest-Finder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"MethodsToTests"
+	],
+	"instvars" : [
+		"filter"
+	],
+	"name" : "SmTTestCoverageTestFinderStrategy",
+	"type" : "normal"
+}

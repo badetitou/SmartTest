@@ -1,0 +1,1 @@
+The testing strategy defines when the tests we've found will be run.

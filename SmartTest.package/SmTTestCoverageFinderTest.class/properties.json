@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SmTFinderAbstractTest",
+	"category" : "SmartTest-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cache"
+	],
+	"name" : "SmTTestCoverageFinderTest",
+	"type" : "normal"
+}

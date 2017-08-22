@@ -1,0 +1,3 @@
+accessing
+updateNumberOfTheProgressCircle
+	morph buttonText acceptValue: self collector size asTwoCharacterString

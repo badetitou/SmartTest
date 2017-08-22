@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 6/29/2017 11:51",
+	"super" : "Object",
+	"category" : "SmartTest-Listener",
+	"classinstvars" : [
+		"uniqueInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"collector"
+	],
+	"name" : "SmTListener",
+	"type" : "normal"
+}
