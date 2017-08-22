@@ -7,4 +7,4 @@ development: spec
 			baseline: 'Iceberg'
 			with: [ 
 				spec 
-					repository: 'github://pharo-vcs/iceberg:developement' ] ].
+					repository: 'github://badetitou/SmartTest:developement' ] ].
