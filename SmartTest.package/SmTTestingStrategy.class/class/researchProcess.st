@@ -1,3 +1,3 @@
 protocol
 researchProcess
-	^ researchProcess 
+	^ researchProcess ifNil: [ self initializeResearchProcess. ^ researchProcess   ]
