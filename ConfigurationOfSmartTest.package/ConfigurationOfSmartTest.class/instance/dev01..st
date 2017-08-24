@@ -7,4 +7,4 @@ dev01: spec
 			baseline: 'SmartTest'
 			with: [ 
 				spec 
-					repository: 'github://badetitou/SmartTest:developement' ] ].
+					repository: 'github://badetitou/SmartTest' ] ].
