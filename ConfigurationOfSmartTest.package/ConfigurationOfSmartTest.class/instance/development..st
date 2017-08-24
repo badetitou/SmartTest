@@ -1,10 +1,10 @@
 symbolic versions
 development: spec
-	<version: 'development'>
+	<symbolicVersion: 'development'>
 	
 	spec for: #'common' do: [
   		spec
-			baseline: 'Iceberg'
+			baseline: 'SmartTest'
 			with: [ 
 				spec 
 					repository: 'github://badetitou/SmartTest:developement' ] ].
