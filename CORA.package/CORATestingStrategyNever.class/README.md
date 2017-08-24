@@ -1,1 +1,0 @@
-CORA never run test automatically

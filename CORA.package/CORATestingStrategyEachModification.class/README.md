@@ -1,1 +1,0 @@
-Each time the developer does a modification, CORA run the test suite

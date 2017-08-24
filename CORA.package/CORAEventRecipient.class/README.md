@@ -1,1 +1,0 @@
-I collect tests, run tests and notify the bug button of my work

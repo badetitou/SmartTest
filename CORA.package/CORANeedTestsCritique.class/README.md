@@ -1,1 +1,0 @@
-I represent a critique when there are no tests for an entity

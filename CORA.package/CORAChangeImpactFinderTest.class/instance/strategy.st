@@ -1,3 +1,0 @@
-helpers
-strategy
-	^ CORAChangeImpactTestFinderStrategy new

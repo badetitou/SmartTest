@@ -1,3 +1,0 @@
-drawing
-handlesMouseDown: anEvent 
-    ^ true
