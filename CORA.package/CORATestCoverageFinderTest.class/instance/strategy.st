@@ -1,4 +1,0 @@
-helpers
-strategy
-
-	^ CORATestCoverageTestFinderStrategy new

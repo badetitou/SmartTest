@@ -1,1 +1,0 @@
-I filter the entities thanks to their package base ( Potato-Hello -> Potato )

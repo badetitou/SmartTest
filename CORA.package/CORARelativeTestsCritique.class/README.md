@@ -1,1 +1,0 @@
-I represent a critique when there are tests to run for an entity

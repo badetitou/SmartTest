@@ -1,1 +1,0 @@
-I represent the strategy used by the soft

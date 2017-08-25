@@ -1,3 +1,0 @@
-protocol
-addABlockClosureThatSearchForACompiledMethod: aBlockClosure
-	self queue nextPut: aBlockClosure

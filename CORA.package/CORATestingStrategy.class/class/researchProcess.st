@@ -1,3 +1,0 @@
-protocol
-researchProcess
-	^ researchProcess 
