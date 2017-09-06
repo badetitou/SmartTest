@@ -1,0 +1,3 @@
+protocol
+resetMethodToTestCache
+	MethodsToTests := nil
