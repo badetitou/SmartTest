@@ -1,5 +1,7 @@
 accessing
 methodModified: anAnnouncement
+	| listOfTest |
+	listOfTest := (SmTFinderSettings finder new methodsFor: anAnnouncement newMethod).
 	self collector
-		addAll: (SmTFinderSettings finder new methodsFor: anAnnouncement newMethod).
-	self updateNumberOfTheProgressCircle
+		addAll: listOfTest.
+	self updateUIAfterAddingMethod: listOfTest.
