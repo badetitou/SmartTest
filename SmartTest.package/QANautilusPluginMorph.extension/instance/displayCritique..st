@@ -35,7 +35,7 @@ displayCritique: aCritique
 						extent: 16 @ 16;
 						borderWidth: 0;
 						yourself) ].
-	aCritique isCritique
+	aCritique isCritic
 		ifTrue: [ listItem
 				addMorphBack:
 					(Morph new
