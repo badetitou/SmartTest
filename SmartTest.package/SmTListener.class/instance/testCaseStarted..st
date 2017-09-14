@@ -1,0 +1,3 @@
+protocol
+testCaseStarted: aTestAnnouncement
+	
