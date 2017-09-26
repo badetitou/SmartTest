@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SmartTest-Settings",
+	"classinstvars" : [
+		"collectionOfRegex"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTFilterSpecifyPackageSettings",
+	"type" : "normal"
+}

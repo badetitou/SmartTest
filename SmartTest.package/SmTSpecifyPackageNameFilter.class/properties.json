@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SmTDefaultPackagesFilter",
+	"category" : "SmartTest-Finder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTSpecifyPackageNameFilter",
+	"type" : "normal"
+}
