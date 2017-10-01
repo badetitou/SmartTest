@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SmartTest-Settings",
+	"classinstvars" : [
+		"defaultSize"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTResearchQueueSize",
+	"type" : "normal"
+}
