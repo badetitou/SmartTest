@@ -1,10 +1,12 @@
 instance creation
 findTestsForMethods: aCompiledMethod
-	| tests semaphore |
-	semaphore := Semaphore new.
+	| tests ended |
+	ended := false.
 	SmTTestingStrategy
-		addABlockClosureThatSearchForACompiledMethod: [tests := self getMethodsFor: aCompiledMethod.
-			SmTRunnerSettings runner runCases: tests.
-			semaphore signal] .
-	semaphore wait.
+		addABlockClosureThatSearchForACompiledMethod: [ :skip | 
+			skip
+				ifFalse: [ tests := self getMethodsFor: aCompiledMethod.
+					SmTRunnerSettings runner runCases: tests ].
+			ended := true ].
+	[ ended ] whileFalse.
 	^ self getTestMethodFromCompiledTestMethod: tests

@@ -1,6 +1,6 @@
 protocol
 prepareInJenkinsForPackagesNamed: aCollectionOfPackageNamed
-	| methodToWrap aCORATestCoverageFinder wrappers |
+	| methodToWrap aCORATestCoverageFinder |
 	aCORATestCoverageFinder := self new.
 	methodToWrap := Set new. 
 	methodToWrap addAll: (aCORATestCoverageFinder collectMethodToTestForPackagesNamed: aCollectionOfPackageNamed).

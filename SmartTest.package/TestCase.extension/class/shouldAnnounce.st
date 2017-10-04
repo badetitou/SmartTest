@@ -1,0 +1,3 @@
+*SmartTest
+shouldAnnounce
+	^ true

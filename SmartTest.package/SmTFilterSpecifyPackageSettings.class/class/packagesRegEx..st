@@ -1,0 +1,3 @@
+settings-definition
+packagesRegEx: aRegexStringCollection
+	collectionOfRegex := aRegexStringCollection
