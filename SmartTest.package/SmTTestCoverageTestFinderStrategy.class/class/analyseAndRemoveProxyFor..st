@@ -2,5 +2,5 @@ protocol
 analyseAndRemoveProxyFor: aTestCase
 	| aCORATestCoverageFinder |
 	aCORATestCoverageFinder := self new.
-	aCORATestCoverageFinder addImpactedTestFromWrapper: aTestCase theTestMethod: wrappers.
-	wrappers do: [ :each | each uninstall ]
+	aCORATestCoverageFinder updateCacheAndUnmarkFrom: wrappers forMethod: aTestCase.
+	(wrappers at: aTestCase) do: [ :each | each uninstall ]
