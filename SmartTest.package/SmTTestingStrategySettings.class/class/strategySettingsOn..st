@@ -2,7 +2,7 @@ accessing
 strategySettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #TestRegression)
-		label: 'Test Regression';
+		label: 'Smart Test';
 		description: 'General Test Regression settings';
 		with: [ (aBuilder pickOne: #strategy)
 				label: 'SmartTest testing strategy';
