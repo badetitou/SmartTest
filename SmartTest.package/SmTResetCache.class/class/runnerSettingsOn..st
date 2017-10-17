@@ -11,4 +11,5 @@ runnerSettingsOn: aBuilder
 				actionSelector: #resetMethodToTestCache;
 				themeChanged;
 				yourself ];
-		description: 'Reset the cache of SmartTest'
+		description: 'Reset the cache of SmartTest
+		SmTTestFinderStrategy methodToTest'
