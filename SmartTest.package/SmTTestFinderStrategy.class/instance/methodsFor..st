@@ -11,8 +11,8 @@ methodsFor: aCompiledMethod
 				[:heuristic | |methods|
 				methods := [self perform: heuristic with: aCompiledMethod] on: MessageNotUnderstood do: [ #() ].
 				methods isEmpty ifFalse: [
-					(self testsForMethod: aCompiledMethod) addAll: methods asOrderedCollection.
-					^ methods asOrderedCollection]].
+					(self testsForMethod: aCompiledMethod) addAll: (self computeInheritedTestFromDiscoveredTest: methods) asOrderedCollection.
+					^ (self testsForMethod: aCompiledMethod)]].
 			self methodToTest
 		at: aCompiledMethod methodReference put: Set new.
 		^ {}. ]
