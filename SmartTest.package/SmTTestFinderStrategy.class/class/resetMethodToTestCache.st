@@ -1,3 +1,3 @@
 protocol
 resetMethodToTestCache
-	MethodsToTests := nil
+	self methodToTest resetCache

@@ -1,5 +1,5 @@
 accessing
 testsForMethod: aCompiledMethod
-	^ self methodToTest
-		at: aCompiledMethod methodReference
-		ifAbsentPut: [ Set new ]
+	^ self methodToTest relevantTestsFor: aCompiledMethod 
+		"at: aCompiledMethod methodReference
+		ifAbsentPut: [ Set new ]"
