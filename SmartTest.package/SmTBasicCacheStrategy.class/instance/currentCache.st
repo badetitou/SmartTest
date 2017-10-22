@@ -1,0 +1,3 @@
+accessing
+currentCache
+	^ self methodsToTests 

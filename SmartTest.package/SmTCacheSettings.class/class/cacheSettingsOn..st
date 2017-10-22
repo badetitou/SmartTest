@@ -6,5 +6,5 @@ cacheSettingsOn: aBuilder
 				target: self;
 				parent: #SmTStrategyOption;
 				domainValues: SmTCacheStrategy allSubclasses;
-				description: 'If you want to use a Change Impact for finder strategy, you can also use a filter and define it here.
-You can also use the default finder strategy and change the filter by another'.
+				description: 'To visualize the current cache
+				SmTCacheSettings cache new currentCache'.

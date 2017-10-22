@@ -7,7 +7,7 @@ runnerSettingsOn: aBuilder
 		parent: #TestRegression;
 		dialog: [ SimpleButtonMorph new
 				target: SmTTestFinderStrategy;
-				label: 'Reset SmartTest Cache';
+				label: 'Reset Current SmartTest Cache';
 				actionSelector: #resetMethodToTestCache;
 				themeChanged;
 				yourself ];

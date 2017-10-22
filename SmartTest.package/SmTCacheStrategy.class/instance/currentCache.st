@@ -1,0 +1,3 @@
+private
+currentCache
+	self subclassResponsibility 
