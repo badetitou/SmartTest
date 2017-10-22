@@ -2,7 +2,7 @@ settings-definition
 cacheSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder pickOne: #cache)
-				label: 'SmartTest cache regression testing';
+				label: 'SmartTest Cache';
 				target: self;
 				parent: #SmTStrategyOption;
 				domainValues: SmTCacheStrategy allSubclasses;
