@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SmTCacheStrategy",
+	"category" : "SmartTest-Finder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"MethodsToTests"
+	],
+	"instvars" : [ ],
+	"name" : "SmTBasicCacheStrategy",
+	"type" : "normal"
+}

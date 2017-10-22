@@ -1,3 +1,3 @@
 protocol
 methodToTest
-	^ MethodsToTests ifNil: [ MethodsToTests := Dictionary new ]
+	^ SmTCacheSettings cache new

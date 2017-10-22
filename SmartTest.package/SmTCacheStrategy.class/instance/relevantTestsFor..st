@@ -1,0 +1,3 @@
+as yet unclassified
+relevantTestsFor: aCompiledMethod
+	self subclassResponsibility

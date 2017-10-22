@@ -2,13 +2,13 @@ as yet unclassified
 runnerSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #reset)
-		label: 'Reset Cache';
+		label: 'Big Button Reset Cache';
 		target: self;
 		parent: #TestRegression;
 		dialog: [ SimpleButtonMorph new
-				target: SmTTestFinderStrategy;
-				label: 'Reset Current SmartTest Cache';
-				actionSelector: #resetMethodToTestCache;
+				target: self;
+				label: 'Reset Bg Button SmartTest Cache';
+				actionSelector: #reset;
 				themeChanged;
 				yourself ];
 		description: 'Reset the cache of SmartTest
