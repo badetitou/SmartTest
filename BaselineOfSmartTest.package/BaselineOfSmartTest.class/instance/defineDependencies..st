@@ -4,7 +4,7 @@ defineDependencies: spec
 		baseline: 'ChangeImpact'
 		with: [ spec
 				repository: 'github://juliendelplanque/ChangeImpact/repository';
-				loads: 'pharo' ].
+				loads: '0.1-beta' ].
 	spec
 		package: 'SLICE-Issue-20258-Fix-to-make-recursive-links-work'
 		with: [ spec
