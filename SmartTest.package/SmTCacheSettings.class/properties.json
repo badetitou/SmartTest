@@ -3,8 +3,8 @@
 	"super" : "Object",
 	"category" : "SmartTest-Settings",
 	"classinstvars" : [
-		"filter",
-		"cache"
+		"cacheClass",
+		"filter"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],

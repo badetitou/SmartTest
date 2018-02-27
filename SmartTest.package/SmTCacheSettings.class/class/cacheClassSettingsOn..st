@@ -1,7 +1,7 @@
 settings-definition
-cacheSettingsOn: aBuilder
+cacheClassSettingsOn: aBuilder
 	<systemsettings>
-	(aBuilder pickOne: #cache)
+	(aBuilder pickOne: #cacheClass)
 				label: 'SmartTest Cache';
 				target: self;
 				parent: #SmTStrategyOption;
