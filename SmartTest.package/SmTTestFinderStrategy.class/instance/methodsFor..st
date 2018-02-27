@@ -3,7 +3,7 @@ methodsFor: aCompiledMethod
 	| finalFoundMethod |
 	^ self methodToTest
 		at: aCompiledMethod methodReference
-		ifAbsent: [ #(testsForATestMethod: testsForASetUpMethod: testsForATearDownMethod: testsForAStandardMethod: testsForClassReferenceOf:)
+		ifAbsent: [ #(testsForATestMethod: testsForASetUpMethod: testsForATearDownMethod: testsForAStandardMethod:)
 				do: [ :heuristic | 
 					| methods |
 					methods := [ self perform: heuristic with: aCompiledMethod ]
