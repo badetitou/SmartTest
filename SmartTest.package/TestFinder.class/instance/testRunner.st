@@ -1,3 +1,0 @@
-accessing
-testRunner
-	^ testRunner

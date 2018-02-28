@@ -1,4 +1,3 @@
 accessing
 methodToTest: anObject
-	
-	self class methodToTest: anObject
+	cache methodToTest: anObject

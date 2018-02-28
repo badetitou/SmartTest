@@ -8,8 +8,7 @@
 		"MethodsToTests"
 	],
 	"instvars" : [
-		"currentTestExecution",
-		"filter"
+		"currentTestExecution"
 	],
 	"name" : "SmTReflectivityTestFinderStrategy",
 	"type" : "normal"
