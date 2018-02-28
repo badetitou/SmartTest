@@ -2,7 +2,7 @@ accessing
 settingsOn: aBuilder
 	<systemsettings>
 	(aBuilder setting: #activated)
-		parent: 'SmTNG';
+		parent: 'SmartTest';
 		target: self;
 		order: 0.04;
 		label: 'AutoUpdate Cache';

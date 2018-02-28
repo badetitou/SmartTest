@@ -2,7 +2,7 @@ accessing
 settingsOn: aBuilder
 	<systemsettings>
 	(aBuilder setting: #activated)
-		parent: 'SmTNG';
+		parent: 'SmartTest';
 		target: self;
 		order: 0.01;
 		label: 'SmartTest Collect ButtonActivated';
@@ -10,7 +10,7 @@ settingsOn: aBuilder
 	(aBuilder group: #reset)
 		label: 'Big Button Reset Cache';
 		target: self;
-		parent: #SmTNG;
+		parent: #SmartTest;
 		dialog: [ SimpleButtonMorph new
 				target: self;
 				label: 'Reset Bg Button SmartTest Cache';

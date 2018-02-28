@@ -4,7 +4,7 @@ settingsOn: aBuilder
 	(aBuilder group: #reset)
 		label: 'Reset Cache';
 		target: self;
-		parent: #TestRegression;
+		parent: #SmartTest;
 		dialog: [ SimpleButtonMorph new
 				target: SmTTestFinderStrategy;
 				label: 'Reset Current SmartTest Cache';

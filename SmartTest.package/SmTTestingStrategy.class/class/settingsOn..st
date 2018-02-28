@@ -2,7 +2,7 @@ protocol
 settingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #TestingStrategy)
-	parent: #SmTNG;
+	parent: #SmartTest;
 		with: [ (aBuilder setting: #defaultSizeOfResearchQueue)
 				target: self;
 				parent: #TestingStrategy;

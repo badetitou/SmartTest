@@ -1,7 +1,7 @@
 settings
 settingsOn: aBuilder
 	<systemsettings>
-	(aBuilder group: #SmTNG)
+	(aBuilder group: #'SmartTest')
 		with: [ (aBuilder group: #SmartFinder)
 				with: [ (aBuilder pickOne: #finder)
 						label: 'SmartTest finder';
