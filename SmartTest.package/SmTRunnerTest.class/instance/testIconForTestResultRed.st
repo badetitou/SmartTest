@@ -3,5 +3,5 @@ testIconForTestResultRed
 	| case result |
 	case := self class selector: #error.
 	result := case run.
-	self assert: (SmTRunnerSettings runner iconForTestResultOf: result) equals: (self iconNamed: #testRedIcon)
+	self assert: (runner iconForTestResultOf: result) equals: (self iconNamed: #testRedIcon)
 	
