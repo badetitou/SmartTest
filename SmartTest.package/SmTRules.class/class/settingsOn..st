@@ -9,14 +9,6 @@ settingsOn: aBuilder
 						parent: #SmartFinder;
 						domainValues: SmTTestFinderStrategy allSubclasses;
 						description: 'The finder defines how CORA searchs the relative test of a method'.
-					(aBuilder pickOne: #filter)
-						label: 'SmartTest filter regression testing';
-						target: self;
-						parent: #SmartFinder;
-						domainValues: CIPackagesFilter allSubclasses;
-						description:
-							'If you want to use a Change Impact for finder strategy, you can also use a filter and define it here.
-You can also use the default finder strategy and change the filter by another'.
 					(aBuilder pickOne: #cacheClass)
 						label: 'SmartTest Cache';
 						target: self;
