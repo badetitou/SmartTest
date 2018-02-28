@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 2/28/2018 20:11",
+	"super" : "PackageManifest",
+	"category" : "SmartTest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"SmTCache",
+		"SmTClassTestingStrategy",
+		"SmTFilter",
+		"SmTFinder",
+		"SmTTestRunner"
+	],
+	"instvars" : [
+		"filter",
+		"testRunner",
+		"cache",
+		"testingStrategy",
+		"smtFinder"
+	],
+	"name" : "SmartFinder",
+	"type" : "normal"
+}

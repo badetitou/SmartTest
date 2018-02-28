@@ -1,14 +1,18 @@
 {
 	"commentStamp" : "BenoitVerhaeghe 7/13/2017 14:17",
 	"super" : "Object",
-	"category" : "SmartTest-Tools",
+	"category" : "SmartTest-Testing",
 	"classinstvars" : [
 		"queue",
-		"researchProcess"
+		"researchProcess",
+		"defaultSize"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"finder",
+		"runner"
+	],
 	"name" : "SmTTestingStrategy",
 	"type" : "normal"
 }

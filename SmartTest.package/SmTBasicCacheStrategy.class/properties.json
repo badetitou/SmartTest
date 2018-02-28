@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "SmTCacheStrategy",
-	"category" : "SmartTest-Finder",
+	"category" : "SmartTest-Cache",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [

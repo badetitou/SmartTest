@@ -6,7 +6,7 @@ methodsFor: aCompiledMethod
 		ifAbsent: [ #(testsForATestMethod: testsForASetUpMethod: testsForATearDownMethod: testsForAStandardMethod:)
 				do: [ :heuristic | 
 					| methods |
-					methods := [ "self haltIf: [heuristic = #testsForAStandardMethod: ]." self perform: heuristic with: aCompiledMethod ]
+					methods := [ self perform: heuristic with: aCompiledMethod ]
 						on: MessageNotUnderstood
 						do: [ #() ].
 					methods isEmpty

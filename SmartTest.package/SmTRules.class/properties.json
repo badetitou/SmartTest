@@ -5,7 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
-		"Activated"
+		"Activated",
+		"SmTCache",
+		"SmTClassTestingStrategy",
+		"SmTFilter",
+		"SmTFinder",
+		"SmTTestRunner"
 	],
 	"instvars" : [
 		"tests"

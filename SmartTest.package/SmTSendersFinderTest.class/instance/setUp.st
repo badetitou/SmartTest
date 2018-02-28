@@ -1,7 +1,5 @@
-as yet unclassified
+initialization
 setUp
-
 	super setUp.
-	
-	cache := SmTTestFinderStrategy methodToTest.
-	SmTTestFinderStrategy methodToTest: Dictionary new.
+	cache := SmTBasicCacheStrategy new methodsToTests.
+	SmTBasicCacheStrategy new setCache: Dictionary new

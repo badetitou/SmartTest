@@ -9,9 +9,7 @@
 	"classvars" : [
 		"MethodsToTests"
 	],
-	"instvars" : [
-		"filter"
-	],
+	"instvars" : [ ],
 	"name" : "SmTTestCoverageTestFinderStrategy",
 	"type" : "normal"
 }
