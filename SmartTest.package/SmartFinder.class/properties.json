@@ -4,13 +4,7 @@
 	"category" : "SmartTest",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"SmTCache",
-		"SmTClassTestingStrategy",
-		"SmTFilter",
-		"SmTFinder",
-		"SmTTestRunner"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"filter",
 		"testRunner",
