@@ -6,8 +6,7 @@ findTestsForMethods: aCompiledMethod
 		addABlockClosureThatSearchForACompiledMethod: [ :skip | 
 			skip
 				ifFalse: [ tests := self getMethodsFor: aCompiledMethod.
-					(SmTOnModificationStrategy get: aCompiledMethod)
-						ifNotNil: [ SmTRunnerSettings runner runCases: tests ] ].
+					(SmTOnModificationStrategy get: aCompiledMethod) ifNotNil: [ self runner runCases: tests ] ].
 			ended := true ].
 	[ ended ] whileFalse.
 	^ tests

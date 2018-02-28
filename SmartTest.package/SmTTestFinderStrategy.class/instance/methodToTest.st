@@ -1,3 +1,3 @@
 accessing
 methodToTest
-	^ self class methodToTest
+	^ self cache

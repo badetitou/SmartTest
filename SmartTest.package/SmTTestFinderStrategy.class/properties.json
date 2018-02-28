@@ -7,7 +7,10 @@
 	"classvars" : [
 		"MethodsToTests"
 	],
-	"instvars" : [ ],
+	"instvars" : [
+		"filter",
+		"cache"
+	],
 	"name" : "SmTTestFinderStrategy",
 	"type" : "normal"
 }

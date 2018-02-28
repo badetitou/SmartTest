@@ -1,5 +1,7 @@
 helpers
 tearDown
 
-	SmTTestFinderStrategy methodToTest: cache.
+	"rest the cache"
+	SmTBasicCacheStrategy new resetCache.
 	super tearDown.
+	

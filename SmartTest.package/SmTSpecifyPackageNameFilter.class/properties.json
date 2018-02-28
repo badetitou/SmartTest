@@ -1,8 +1,10 @@
 {
 	"commentStamp" : "",
 	"super" : "SmTDefaultPackagesFilter",
-	"category" : "SmartTest-Finder",
-	"classinstvars" : [ ],
+	"category" : "SmartTest-Filter",
+	"classinstvars" : [
+		"collectionOfRegex"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],

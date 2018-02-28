@@ -1,3 +1,3 @@
 protocol
 methodToTest
-	^ SmTCacheSettings cache new
+	^ SmTCacheSettings cacheClass new

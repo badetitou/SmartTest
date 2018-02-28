@@ -11,5 +11,5 @@ baseline: spec
 				package: 'SmartTest';
 				package: 'SmartTest-Calypso';
 				group: 'default'
-					with: #('SmartTest' 'ChangeImpact' 'SLICE-Issue-20258-Fix-to-make-recursive-links-work');
+					with: #('SmartTest' 'SLICE-Issue-20258-Fix-to-make-recursive-links-work');
 				group: 'calypso' with: #('default' 'Calypso' 'SmartTest-Calypso') ]
