@@ -1,1 +1,0 @@
-I provide the possibility to change the change impact strategy to the user

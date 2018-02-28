@@ -2,7 +2,10 @@
 	"commentStamp" : "BenoitVerhaeghe 8/11/2017 08:48",
 	"super" : "SmTCollector",
 	"category" : "SmartTest-Collector",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"activated",
+		"bigButton"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

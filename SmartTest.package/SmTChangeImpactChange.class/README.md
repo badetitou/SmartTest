@@ -1,1 +1,0 @@
-A kind of change impact change for CORA

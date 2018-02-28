@@ -1,3 +1,3 @@
 helpers
 strategy
-	^ SmTSenderTestFinderStrategy new
+	^ SmTSenderTestFinderStrategy new filter: SmTDefaultClassPackagesFilter new; cache: SmTBasicCacheStrategy new.

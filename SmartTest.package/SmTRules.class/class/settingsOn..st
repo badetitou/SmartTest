@@ -17,7 +17,7 @@ settingsOn: aBuilder
 						description:
 							'If you want to use a Change Impact for finder strategy, you can also use a filter and define it here.
 You can also use the default finder strategy and change the filter by another'.
-					(aBuilder pickOne: #cache)
+					(aBuilder pickOne: #cacheClass)
 						label: 'SmartTest Cache';
 						target: self;
 						parent: #SmartFinder;
@@ -36,4 +36,10 @@ You can also use the default finder strategy and change the filter by another'.
 						target: self;
 						parent: #SmartFinder;
 						domainValues: SmTTestingStrategy allSubclasses;
-						description: 'The testing strategy defines when SmartTest will run the test it has found.' ] ]
+						description: 'The testing strategy defines when SmartTest will run the test it has found.' ].
+			(aBuilder group: #SmTActivationRenrakuOption)
+				with: [ (aBuilder setting: #activated)
+						target: self;
+						order: 0.01;
+						label: 'SmartTest Reneraku Integration Activated';
+						description: 'Toogle to activate/disable the reneraku integration of the plugin' ] ]

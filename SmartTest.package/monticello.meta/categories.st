@@ -9,7 +9,6 @@ SystemOrganization addCategory: 'SmartTest-Listener'!
 SystemOrganization addCategory: 'SmartTest-Morph'!
 SystemOrganization addCategory: 'SmartTest-Rules'!
 SystemOrganization addCategory: 'SmartTest-Runner'!
-SystemOrganization addCategory: 'SmartTest-Settings'!
 SystemOrganization addCategory: 'SmartTest-Testing'!
 SystemOrganization addCategory: 'SmartTest-Tests'!
 SystemOrganization addCategory: 'SmartTest-Tools'!

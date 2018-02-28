@@ -2,7 +2,9 @@
 	"commentStamp" : "",
 	"super" : "SmTDefaultPackagesFilter",
 	"category" : "SmartTest-Filter",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"collectionOfRegex"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],

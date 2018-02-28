@@ -1,1 +1,0 @@
-I contain the different strategy you can use with CORA

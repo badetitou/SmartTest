@@ -4,7 +4,9 @@
 	"category" : "SmartTest-Rules",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"ClassActivated"
+	],
 	"instvars" : [ ],
 	"name" : "SmTClassTestedRule",
 	"type" : "normal"
