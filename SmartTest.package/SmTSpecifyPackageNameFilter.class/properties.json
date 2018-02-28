@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "SmTDefaultPackagesFilter",
-	"category" : "SmartTest-Finder",
+	"category" : "SmartTest-Filter",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

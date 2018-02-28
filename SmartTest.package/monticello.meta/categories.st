@@ -1,12 +1,15 @@
 SystemOrganization addCategory: #SmartTest!
+SystemOrganization addCategory: 'SmartTest-Cache'!
 SystemOrganization addCategory: 'SmartTest-Collector'!
 SystemOrganization addCategory: 'SmartTest-Critiques'!
 SystemOrganization addCategory: 'SmartTest-Event'!
+SystemOrganization addCategory: 'SmartTest-Filter'!
 SystemOrganization addCategory: 'SmartTest-Finder'!
 SystemOrganization addCategory: 'SmartTest-Listener'!
 SystemOrganization addCategory: 'SmartTest-Morph'!
 SystemOrganization addCategory: 'SmartTest-Rules'!
 SystemOrganization addCategory: 'SmartTest-Runner'!
 SystemOrganization addCategory: 'SmartTest-Settings'!
+SystemOrganization addCategory: 'SmartTest-Testing'!
 SystemOrganization addCategory: 'SmartTest-Tests'!
 SystemOrganization addCategory: 'SmartTest-Tools'!

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "BenoitVerhaeghe 7/3/2017 16:30",
 	"super" : "CIPackagesFilter",
-	"category" : "SmartTest-Finder",
+	"category" : "SmartTest-Filter",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
