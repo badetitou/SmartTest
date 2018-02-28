@@ -2,4 +2,4 @@ tests
 testTearDownMethodForStandardMethodFindsNoTests
 	<CORATestBlacklisted>
 
-	self assert: (self searchTestMethodsForTearDownMethod: #method1) isEmpty.
+	self assert: (self strategy testsForATearDownMethod: SmTClassTest >> #testMethod1) isEmpty.

@@ -2,7 +2,7 @@ API
 testsForAStandardMethod: aCompiledMethod
 
 	| filter dependencies |
-	filter := SmTFilterSettings filter new packages: { aCompiledMethod }.	
+	filter := SmTFilterSettings filter new extractPackagesFrom: { aCompiledMethod }.	
 	dependencies := Set new.
 	self
 		recursiveSearchForAStandardMethod: aCompiledMethod

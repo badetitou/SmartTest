@@ -3,7 +3,7 @@ testsForAStandardMethod: aCompiledMethod
 	^ (((SmTChangeImpactStrategySettings changeImpactStrategy new
 		filter:
 			(SmTFilterSettings filter new
-				packages: {aCompiledMethod};
+				extractPackagesFrom: {aCompiledMethod};
 				yourself);
 		modelStrategy: CIPharoModelStrategy new;
 		impactOfChange:

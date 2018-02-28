@@ -1,6 +1,6 @@
 accessing
-packages: aCollectionOfCompiledMethod
+extractPackagesFrom: aCollectionOfCompiledMethod
 	super
-		packages:
+		extractPackagesFrom:
 			((aCollectionOfCompiledMethod collect: #methodClass) flatCollect: [ :aClass | aClass allCallsOn collect: #compiledMethod ])
 				, (aCollectionOfCompiledMethod collect: #package) asOrderedCollection

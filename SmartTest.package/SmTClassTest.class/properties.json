@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "SmTFinderAbstractTest",
+	"super" : "TestCase",
 	"category" : "SmartTest-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTTestCoverageFinderTest",
+	"name" : "SmTClassTest",
 	"type" : "normal"
 }

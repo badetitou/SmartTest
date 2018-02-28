@@ -5,4 +5,4 @@ methodsInSimilarPackageAs: aCompiledMethod
 	packageBaseName := self filter extractCompiledMethodPackageBaseName: aCompiledMethod.
 	packages := self collectAllRelativePackages: packageBaseName.
 	^ packages
-		flatCollect: [ :aPackage | aPackage package correspondingRPackage methods ]
+		flatCollect: [ :aPackage | aPackage methods ]

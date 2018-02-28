@@ -1,0 +1,1 @@
+Class that will be modified to find the right impacted tests in order to test SmartTest
