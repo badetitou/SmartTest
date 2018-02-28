@@ -1,3 +1,3 @@
 accessing
 cache
-	^ cache ifNil: [ cache := SmTCache new ]
+	^ cache ifNil: [ cache := SmTBasicCacheStrategy new ]

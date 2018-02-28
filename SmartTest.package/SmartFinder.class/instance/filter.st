@@ -1,3 +1,3 @@
 accessing
 filter
-	^ filter ifNil: [ filter := SmTFilter new ]
+	^ filter ifNil: [ filter := SmTDefaultPackagesFilter new ]
