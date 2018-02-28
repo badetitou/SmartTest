@@ -1,3 +1,3 @@
-as yet unclassified
+private
 relevantTestsFor: aCompiledMethod
 	self subclassResponsibility

@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"cache"
-	],
+	"instvars" : [ ],
 	"name" : "SmTTestCoverageFinderTest",
 	"type" : "normal"
 }

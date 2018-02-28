@@ -1,0 +1,3 @@
+impact computation
+impactedTestForChange: aCORAChangeImpactChange
+	self subclassResponsibility
