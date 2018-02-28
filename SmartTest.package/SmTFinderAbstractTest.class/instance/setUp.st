@@ -1,5 +1,0 @@
-helpers
-setUp
-
-	super setUp.
-	
