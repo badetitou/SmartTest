@@ -2,7 +2,7 @@ tests
 testSetupMethodFindsTests
 	<CORATestBlacklisted>
 	| testsFound |
-	testsFound := self strategy testsForASetUpMethod: SmTClassTest >> #setUp.
+	testsFound := self testsForASetUpMethod: SmTClassTest >> #setUp.
 	self assert: (testsFound) isNotEmpty.
 	self assert: (testsFound includes: (RGMethodDefinition className: 'SmTClassTest'  selector: #testMethod1 isMetaSide: false )).
 	self assert: (testsFound includes: (RGMethodDefinition className: 'SmTClassTest'  selector: #testMethod2 isMetaSide: false )).

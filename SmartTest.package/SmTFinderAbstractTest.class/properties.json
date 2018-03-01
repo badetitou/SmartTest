@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cache"
+		"cache",
+		"smartFinder"
 	],
 	"name" : "SmTFinderAbstractTest",
 	"type" : "normal"

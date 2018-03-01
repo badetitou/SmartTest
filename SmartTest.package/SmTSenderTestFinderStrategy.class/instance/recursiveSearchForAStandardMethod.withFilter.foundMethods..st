@@ -5,7 +5,7 @@ recursiveSearchForAStandardMethod: aCompiledMethod withFilter: aFilter foundMeth
 	senderMethods := aCompiledMethod senders collect: #compiledMethod.
 	filteredSenderMethods := senderMethods reject: [ :aSenderMethod | 
 		aFilter shouldEntityBeFiltered: aSenderMethod ].
-
+	
 	filteredSenderMethods do: [ :aSenderCompiledMethod | 
 			(aCollection includes: aSenderCompiledMethod)
 				ifFalse: [ 

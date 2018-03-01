@@ -1,3 +1,0 @@
-accessing
-methodToTest
-	^ self cache

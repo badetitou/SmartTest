@@ -1,3 +1,3 @@
 private
 resetCache
-	^ self 
+	nil 

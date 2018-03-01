@@ -1,7 +1,7 @@
 accessing
 methodsFor: aCompiledMethod
 	| finalFoundMethod |
-	^ self methodToTest
+	^ self cache
 		at: aCompiledMethod methodReference
 		ifAbsent: [ #(testsForATestMethod: testsForASetUpMethod: testsForATearDownMethod: testsForAStandardMethod:)
 				do: [ :heuristic | 
@@ -13,5 +13,5 @@ methodsFor: aCompiledMethod
 						ifFalse: [ finalFoundMethod := self testsForMethod: aCompiledMethod.
 							finalFoundMethod addAll: (self computeInheritedTestFromDiscoveredTest: methods) asOrderedCollection.
 							^ finalFoundMethod ] ].
-			self methodToTest at: aCompiledMethod methodReference put: Set new.
+			self cache at: aCompiledMethod methodReference put: Set new.
 			^ {} ]

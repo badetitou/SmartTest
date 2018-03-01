@@ -1,3 +1,3 @@
 protocol
 resetMethodToTestCache
-	self methodToTest resetCache
+	self cache resetCache

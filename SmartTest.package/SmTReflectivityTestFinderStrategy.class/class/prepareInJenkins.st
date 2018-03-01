@@ -20,6 +20,6 @@ prepareInJenkins
 				do: [ 'UnAsStringAble' ] ]
 		every: 0.
 	Smalltalk allMethods
-		do: [ :aCompiledMethod | self methodToTest at: aCompiledMethod methodReference ifAbsentPut: [ Set new ] ].
-	SmTFinderSettings finder: self.
+		do: [ :aCompiledMethod | self cache at: aCompiledMethod methodReference ifAbsentPut: [ Set new ] ].
+	self finder: self.
 	MetaLink uninstallAll

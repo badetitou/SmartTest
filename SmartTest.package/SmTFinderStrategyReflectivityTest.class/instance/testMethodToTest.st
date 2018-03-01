@@ -1,3 +1,3 @@
 tests-accessing
 testMethodToTest
-	self assert: (SmTReflectivityTestFinderStrategy new methodToTest isKindOf: Dictionary)
+	self assert: (SmTReflectivityTestFinderStrategy new cache isKindOf: Dictionary)

@@ -1,4 +1,4 @@
 helpers
-searchTestMethodsFor: aSelector
+searchTestMethodsFor: aCompiledMethod
 	
-	^ self strategy methodsFor: aSelector.
+	^ smartFinder resarchTestsForMethod: aCompiledMethod .

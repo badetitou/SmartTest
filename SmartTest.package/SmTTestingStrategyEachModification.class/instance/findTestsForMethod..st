@@ -1,12 +1,13 @@
 instance creation
-findTestsForMethods: aCompiledMethod
+findTestsForMethod: aCompiledMethod
 	| tests ended |
 	ended := false.
 	SmTTestingStrategy
 		addABlockClosureThatSearchForACompiledMethod: [ :skip | 
+			1halt.
 			skip
 				ifFalse: [ tests := self getMethodsFor: aCompiledMethod.
-					SmTFivesMinutesCollector addTestMethods: tests ].
+					(SmTOnModificationStrategy get: aCompiledMethod) ifNotNil: [ self runner runCases: tests ] ].
 			ended := true ].
 	[ ended ] whileFalse.
-	^ self getTestMethodFromCompiledTestMethod: tests
+	^ tests

@@ -1,3 +1,3 @@
 instance creation
-findTestsForMethods: aCompiledMethod
+findTestsForMethod: aCompiledMethod
 	self subclassResponsibility 

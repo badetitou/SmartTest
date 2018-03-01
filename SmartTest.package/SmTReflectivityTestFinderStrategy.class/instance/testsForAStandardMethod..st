@@ -1,6 +1,6 @@
 accessing
 testsForAStandardMethod: aCompiledMethod
-	self methodToTest
+	self cache
 		at: aCompiledMethod methodReference
 		ifAbsent: [ self searchRelativeTestForMethod: aCompiledMethod ].
 	^ (self testsForMethod: aCompiledMethod) collect: #compiledMethod

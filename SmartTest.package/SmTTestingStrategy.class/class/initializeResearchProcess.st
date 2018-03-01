@@ -1,4 +1,6 @@
 protocol
 initializeResearchProcess
 	researchProcess := [ [ true ]
-		whileTrue: [ self queue next value: false ] ] forkAt: Processor userSchedulingPriority
+		whileTrue: [ | aBlock |
+			aBlock := self queue next.
+			aBlock value: false ] ] forkAt: Processor userSchedulingPriority

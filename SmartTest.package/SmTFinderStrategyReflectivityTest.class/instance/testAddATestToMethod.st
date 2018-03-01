@@ -10,5 +10,5 @@ testAddATestToMethod
 	strategy addATest: (test1 methodClass selector: test1 selector) toMethod: SmTRunnerTest >> #noop.
 	strategy addATest: (test2 methodClass selector: test2 selector) toMethod: SmTRunnerTest >> #noop.
 	
-	self assert: ((strategy methodToTest at: methodReference) includes: test1 methodReference).
-	self assert: ((strategy methodToTest at: methodReference) includes: test2 methodReference)
+	self assert: ((strategy cache at: methodReference) includes: test1 methodReference).
+	self assert: ((strategy cache at: methodReference) includes: test2 methodReference)

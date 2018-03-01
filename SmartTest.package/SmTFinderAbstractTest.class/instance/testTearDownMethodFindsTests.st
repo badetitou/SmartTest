@@ -2,7 +2,7 @@ tests
 testTearDownMethodFindsTests
 	<CORATestBlacklisted>
 	| testsFound |
-	testsFound := self strategy testsForATearDownMethod: SmTClassTest >> #tearDown.
+	testsFound := self testsForATearDownMethod: SmTClassTest >> #tearDown.
 	self assert: (testsFound) isNotEmpty.
 	self assert: (testsFound includes: (RGMethodDefinition className: 'SmTClassTest'  selector: #testMethod1 isMetaSide: false )).
 	self assert: (testsFound includes: (RGMethodDefinition className: 'SmTClassTest'  selector: #testMethod2 isMetaSide: false )).
