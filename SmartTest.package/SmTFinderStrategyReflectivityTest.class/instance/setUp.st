@@ -5,5 +5,5 @@ setUp
 	| initialCache |
 	super setUp.
 	initialCache := self initCache.
-	smartFinder cache: (SmTBasicCacheStrategy new setCache: initialCache).
+	smartFinder cacheClass: (SmTBasicCacheStrategy new setCache: initialCache).
 	smartFinder smtFinder: SmTReflectivityTestFinderStrategy new
