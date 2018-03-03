@@ -8,9 +8,9 @@
 	"instvars" : [
 		"filter",
 		"testRunner",
-		"cache",
 		"testingStrategy",
-		"smtFinder"
+		"smtFinder",
+		"cacheClass"
 	],
 	"name" : "SmartFinder",
 	"type" : "normal"

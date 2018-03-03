@@ -1,4 +1,3 @@
 accessing
 cacheValues
-	^ self cache currentCache.
-	
+	^ self cacheClass currentCache

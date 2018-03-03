@@ -1,3 +1,3 @@
 testing
 hasEmptyCache
-	^cache isNil
+	^ cacheClass isNil

@@ -1,5 +1,5 @@
 initialization
 setUp
 	super setUp.
-	smartFinder cache: SmTNoCacheStrategy new.
+	smartFinder cacheClass: SmTNoCacheStrategy new.
 	cache := SmTNoCacheStrategy new

@@ -1,4 +1,4 @@
-reset
+private
 resetCache
-	self cache resetCache.
-	self cache: nil.
+	self cacheClass resetCache.
+	self cacheClass: nil
