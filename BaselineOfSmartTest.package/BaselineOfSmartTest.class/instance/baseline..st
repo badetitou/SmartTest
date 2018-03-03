@@ -9,7 +9,5 @@ baseline: spec
 			spec
 				repository: 'github://badetitou/SmartTest' ;
 				package: 'SmartTest';
-				package: 'SmartTest-Calypso';
 				group: 'default'
-					with: #('SmartTest' 'SLICE-Issue-20258-Fix-to-make-recursive-links-work');
-				group: 'calypso' with: #('default' 'Calypso' 'SmartTest-Calypso') ]
+					with: #('SmartTest' 'SLICE-Issue-20258-Fix-to-make-recursive-links-work') ]
