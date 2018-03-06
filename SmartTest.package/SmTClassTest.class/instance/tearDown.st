@@ -1,4 +1,3 @@
 test data
 tearDown
-
-	super tearDown .
+	"this is data for SmTFinderAbstractTest tests"
