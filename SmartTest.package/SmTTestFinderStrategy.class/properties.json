@@ -9,7 +9,8 @@
 	],
 	"instvars" : [
 		"filter",
-		"cache"
+		"cache",
+		"shouldTryToFindTestForDynamic"
 	],
 	"name" : "SmTTestFinderStrategy",
 	"type" : "normal"
