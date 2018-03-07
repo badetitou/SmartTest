@@ -3,7 +3,8 @@ methodsFor: aCompiledMethod
 	| finalFoundMethod |
 	^ self cache
 		at: aCompiledMethod methodReference
-		ifAbsent: [ 
+		ifAbsent: [  (self shouldTryToFindTestForDynamic not )
+				ifTrue: [ ^ {} ].
 			#(testsForATestMethod: testsForASetUpMethod: testsForATearDownMethod: testsForAStandardMethod:)
 				do: [ :heuristic | 
 					| methods |
