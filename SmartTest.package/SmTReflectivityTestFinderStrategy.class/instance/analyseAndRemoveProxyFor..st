@@ -1,2 +1,3 @@
 accessing
 analyseAndRemoveProxyFor: aTestCase
+		MetaLink uninstallAll

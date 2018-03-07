@@ -1,6 +1,4 @@
 accessing
 installProxyFor: aTestCase
-	[self installLinkAndRunTest: aTestCase.
-			MetaLink uninstallAll ]
-				on: Error
-				do: [  ]
+	self currentTestExecution: aTestCase.
+	self initializeLinkInCompiledMethod: aTestCase class >> aTestCase selector
