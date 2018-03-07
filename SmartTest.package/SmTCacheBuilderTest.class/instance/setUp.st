@@ -4,4 +4,5 @@ setUp
 	smartFinder filter: SmTDefaultClassPackagesFilter new.
 	"the cache is initially empty"
 	smartFinder cacheClass: (SmTBasicCacheStrategy new setCache: nil).
-	smartFinder smtFinder: SmTTestCoverageTestFinderStrategy new
+	smartFinder smtFinder: SmTTestCoverageTestFinderStrategy new.
+	smartFinder autoUpdateCache: true

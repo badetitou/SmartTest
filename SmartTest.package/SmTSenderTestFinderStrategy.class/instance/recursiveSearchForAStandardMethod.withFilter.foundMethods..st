@@ -7,7 +7,7 @@ recursiveSearchForAStandardMethod: aCompiledMethod withFilter: aFilter foundMeth
 		aFilter shouldEntityBeFiltered: aSenderMethod ].
 	
 	filteredSenderMethods do: [ :aSenderCompiledMethod | 
-			(aCollection includes: aSenderCompiledMethod)
+			(aCollection includes: aSenderCompiledMethod methodReference)
 				ifFalse: [ 
-					aCollection add: aSenderCompiledMethod.
+					aCollection add: aSenderCompiledMethod methodReference.
 					self recursiveSearchForAStandardMethod: aSenderCompiledMethod withFilter: aFilter foundMethods: aCollection ] ]

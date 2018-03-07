@@ -1,0 +1,3 @@
+announcement handling
+smtDynamicFinder: aSmTTestFinderStrategy
+	smtDynamicFinder := aSmTTestFinderStrategy

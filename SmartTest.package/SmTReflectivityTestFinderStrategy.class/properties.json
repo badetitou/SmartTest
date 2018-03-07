@@ -1,12 +1,10 @@
 {
 	"commentStamp" : "BenoitVerhaeghe 7/13/2017 14:23",
-	"super" : "SmTTestFinderStrategy",
+	"super" : "SmTTestFinderDynamicStrategy",
 	"category" : "SmartTest-Finder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"MethodsToTests"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"currentTestExecution"
 	],

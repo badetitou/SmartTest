@@ -12,7 +12,8 @@
 		"smtFinder",
 		"cacheClass",
 		"shouldTryToFindTestForDynamic",
-		"autoUpdateCache"
+		"autoUpdateCache",
+		"smtListener"
 	],
 	"name" : "SmartFinder",
 	"type" : "normal"

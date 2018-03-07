@@ -1,3 +1,3 @@
 accessing
 shouldTryToFindTestForDynamic: aBoolean
-	^ shouldTryToFindTestForDynamic := aBoolean
+	shouldTryToFindTestForDynamic := aBoolean

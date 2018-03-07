@@ -1,4 +1,4 @@
-accessing
+initialization
 settingsOn: aBuilder
 	<systemsettings>
 	(aBuilder setting: #activated)

@@ -1,0 +1,3 @@
+accessing
+smtListener
+	^ SmTTestListener uniqueInstance

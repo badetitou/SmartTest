@@ -1,3 +1,0 @@
-protocol
-resetMethodToTestCache
-	self cache resetCache

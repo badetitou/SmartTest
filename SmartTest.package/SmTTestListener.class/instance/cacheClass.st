@@ -1,0 +1,3 @@
+announcement handling
+cacheClass
+	^ cacheClass

@@ -1,3 +1,3 @@
-protocol
+testing
 initialize
 	wrappers := Dictionary new.

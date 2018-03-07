@@ -1,0 +1,3 @@
+testing
+analyseAndRemoveProxyFor: aTestCase
+	self subclassResponsibility

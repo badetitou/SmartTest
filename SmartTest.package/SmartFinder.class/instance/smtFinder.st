@@ -4,4 +4,5 @@ smtFinder
 		ifNil: [ smtFinder := SmTSenderTestFinderStrategy new
 				filter: self filter;
 				cache: self cacheClass;
-				shouldTryToFindTestForDynamic: self shouldTryToFindTestForDynamic ]
+				shouldTryToFindTestForDynamic: self shouldTryToFindTestForDynamic;
+				yourself  ]
