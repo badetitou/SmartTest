@@ -1,9 +1,11 @@
-accessing
+api
 methodsFor: aCompiledMethod
 	| finalFoundMethod |
+	
 	^ self cache
 		at: aCompiledMethod methodReference
-		ifAbsent: [ #(testsForATestMethod: testsForASetUpMethod: testsForATearDownMethod: testsForAStandardMethod:)
+		ifAbsent: [ (self isDynamic and: [ self shouldTryToFindTestForDynamic not ]) ifTrue: [ ^{} ].
+			 #(testsForATestMethod: testsForASetUpMethod: testsForATearDownMethod: testsForAStandardMethod:)
 				do: [ :heuristic | 
 					| methods |
 					methods := [ self perform: heuristic with: aCompiledMethod ]

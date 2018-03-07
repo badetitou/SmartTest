@@ -10,7 +10,9 @@
 		"testRunner",
 		"testingStrategy",
 		"smtFinder",
-		"cacheClass"
+		"cacheClass",
+		"shouldTryToFindTestForDynamic",
+		"autoUpdateCache"
 	],
 	"name" : "SmartFinder",
 	"type" : "normal"

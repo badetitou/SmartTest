@@ -3,4 +3,5 @@ smtFinder: aSmTTestFinderStrategy
 	smtFinder := aSmTTestFinderStrategy.
 	smtFinder
 		filter: self filter;
-		cache: self cacheClass
+		cache: self cacheClass;
+		shouldTryToFindTestForDynamic: self shouldTryToFindTestForDynamic 
