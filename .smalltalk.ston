@@ -1,7 +1,7 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #baseline : 'QualityAssistant',
+      #baseline : 'SmartTest',
       #directory : '',
       #platforms : [ #pharo ]
     }
