@@ -1,5 +1,5 @@
 execution
 canBeExecutedInContext: aCriticContext
-	(super canBeExecutedInContext: aCriticContext) ifFalse: [ ^false ].
+	(super canBeExecutedInDropContext: aCriticContext) ifFalse: [ ^false ].
 	
-	^ CORARelativeTestsCritique subclasses includes: aCriticContext selectedCritique class
+	^ SmTRelativeTestsCritique subclasses includes: aCriticContext selectedCritique class

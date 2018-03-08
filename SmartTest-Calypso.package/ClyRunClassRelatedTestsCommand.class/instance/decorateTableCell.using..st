@@ -2,6 +2,7 @@ table decoration
 decorateTableCell: anItemCellMorph using: aCommandActivator
 
 	| button |
-	button := CORAIconFabric createIconForMethods: critique tests.
+	(self canBeExecutedInContext: critique) ifFalse: [ ^ self ].
+	button := SmTIconFabric createIconForMethods: critique tests.
 		
 	self decorateTableCell: anItemCellMorph with: button
