@@ -1,7 +1,7 @@
 testing-interest
 settingsOn: aBuilder
 	<systemsettings>
-	(aBuilder setting: #activated)
+	(aBuilder setting: #classActivated)
 		parent: #SmTActivationRenrakuOption;
 		target: self;
 		order: 0.1;

@@ -1,3 +1,3 @@
 settings
 runner
-	^ SmTTestRunner ifNil: [ SmTTestRunner := SmTRunnerStrategySmart ]
+	^ smTTestRunner ifNil: [ smTTestRunner := SmTRunnerStrategySmart ]

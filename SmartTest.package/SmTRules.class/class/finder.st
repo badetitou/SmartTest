@@ -1,3 +1,3 @@
 settings
 finder
-	^ SmTFinder ifNil: [ SmTFinder := SmTSenderTestFinderStrategy ]
+	^ smTFinder ifNil: [ smTFinder := SmTSenderTestFinderStrategy ]

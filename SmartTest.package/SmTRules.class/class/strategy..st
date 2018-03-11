@@ -1,5 +1,6 @@
 settings
 strategy: aSelector
-	SmTClassTestingStrategy disable.
+	smTClassTestingStrategy disable.
 	aSelector enable.
-	SmTClassTestingStrategy := aSelector
+	smTClassTestingStrategy := aSelector.
+	self testFinder testingStrategy: aSelector new.

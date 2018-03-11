@@ -3,17 +3,18 @@
 	"super" : "ReAbstractRule",
 	"category" : "SmartTest-Rules",
 	"classinstvars" : [
-		"shouldTryToFindTestForDynamic"
+		"shouldTryToFindTestForDynamic",
+		"activated",
+		"smTCache",
+		"smTClassTestingStrategy",
+		"smTFilter",
+		"smTFinder",
+		"smTTestRunner"
 	],
 	"pools" : [ ],
 	"classvars" : [
 		"Activated",
-		"ShouldTryToFindTestForDynamic",
-		"SmTCache",
-		"SmTClassTestingStrategy",
-		"SmTFilter",
-		"SmTFinder",
-		"SmTTestRunner"
+		"SmTSmartFinder"
 	],
 	"instvars" : [
 		"tests"

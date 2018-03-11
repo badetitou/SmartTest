@@ -1,6 +1,5 @@
 settings
 finder: aSelector
-	self finder disable.
-	SmTFinder := aSelector.
-	self finder enable.
-	^ SmTFinder
+	smTFinder := aSelector.
+	self testFinder smtFinder: aSelector new.
+	^ smTFinder

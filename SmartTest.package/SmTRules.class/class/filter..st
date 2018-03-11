@@ -1,3 +1,4 @@
 settings
 filter: aSelector
-	^ SmTFilter := aSelector
+	self testFinder filter: aSelector new.
+	^ smTFilter := aSelector
