@@ -1,3 +1,3 @@
 instance creation
 shouldTryToFindTestForDynamic: aBoolean
-	ShouldTryToFindTestForDynamic := aBoolean 
+	shouldTryToFindTestForDynamic := aBoolean

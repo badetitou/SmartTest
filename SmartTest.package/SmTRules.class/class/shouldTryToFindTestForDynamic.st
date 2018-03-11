@@ -1,3 +1,3 @@
 instance creation
 shouldTryToFindTestForDynamic
-	^ ShouldTryToFindTestForDynamic ifNil: [ ShouldTryToFindTestForDynamic := true ]
+	^ shouldTryToFindTestForDynamic ifNil: [ shouldTryToFindTestForDynamic := true ]

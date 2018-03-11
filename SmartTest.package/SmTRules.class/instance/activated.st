@@ -1,3 +1,3 @@
 accessing
 activated
-	^ Activated ifNil: [ Activated := true ]
+	^ self class activated

@@ -1,3 +1,3 @@
 settings
 runner: aSelector
-	SmTTestRunner := aSelector
+	smTTestRunner := aSelector

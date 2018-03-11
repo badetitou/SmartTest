@@ -1,4 +1,3 @@
 settings
 strategy
-	^ SmTClassTestingStrategy
-		ifNil: [ SmTClassTestingStrategy := SmTTestingStrategyEachModification ]
+	^ smTClassTestingStrategy ifNil: [ smTClassTestingStrategy := SmTTestingStrategyEachModification ]
