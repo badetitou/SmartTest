@@ -2,10 +2,13 @@
 	"commentStamp" : "BenoitVerhaeghe 7/13/2017 14:21",
 	"super" : "ReAbstractRule",
 	"category" : "SmartTest-Rules",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"shouldTryToFindTestForDynamic"
+	],
 	"pools" : [ ],
 	"classvars" : [
 		"Activated",
+		"ShouldTryToFindTestForDynamic",
 		"SmTCache",
 		"SmTClassTestingStrategy",
 		"SmTFilter",

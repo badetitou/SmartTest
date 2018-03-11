@@ -1,3 +1,3 @@
 protocol
 defaultSizeOfResearchQueue
-	^ defaultSize ifNil: [ defaultSize := 5 ]
+	^ defaultSize ifNil: [ defaultSize := 1 ]

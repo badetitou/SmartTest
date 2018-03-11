@@ -5,4 +5,5 @@ testFinder
 		filter: self filter new;
 		testRunner: self runner;
 		smtFinder: self finder new;
-		testingStrategy: self strategy new
+		testingStrategy: self strategy new;
+		shouldTryToFindTestForDynamic: self shouldTryToFindTestForDynamic.

@@ -40,4 +40,12 @@ settingsOn: aBuilder
 						target: self;
 						order: 0.01;
 						label: 'SmartTest Reneraku Integration Activated';
-						description: 'Toogle to activate/disable the reneraku integration of the plugin' ] ]
+						description: 'Toogle to activate/disable the reneraku integration of the plugin' ].
+			(aBuilder setting: #shouldTryToFindTestForDynamic)
+				parent: 'SmartTest';
+				target: self;
+				order: 0.04;
+				label: 'Try to find for Dynamic ';
+				description:
+					'When you click in a method, and have selected a Dynamix finder, we''''are updating the cache for it execution
+	(BETA)' ]
