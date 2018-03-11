@@ -13,7 +13,8 @@
 	],
 	"pools" : [ ],
 	"classvars" : [
-		"Activated"
+		"Activated",
+		"SmTSmartFinder"
 	],
 	"instvars" : [
 		"tests"
