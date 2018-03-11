@@ -1,3 +1,3 @@
-initialization
+settings
 activated
-	^ activated ifNil: [ activated := true ]
+	^ Activated ifNil: [ Activated := true ]

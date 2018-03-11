@@ -1,3 +1,3 @@
-initialization
+settings
 activated: aSelector
-	^ activated := aSelector
+	^ Activated := aSelector

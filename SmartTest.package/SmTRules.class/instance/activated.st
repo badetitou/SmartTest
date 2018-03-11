@@ -1,3 +1,3 @@
 accessing
 activated
-	^ self class activated
+	^ Activated

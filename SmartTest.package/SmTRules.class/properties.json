@@ -12,7 +12,9 @@
 		"smTTestRunner"
 	],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"Activated"
+	],
 	"instvars" : [
 		"tests"
 	],
