@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "HDTestCoverage",
+	"category" : "SmartTest-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"finder"
+	],
+	"name" : "SmTTestCoverage",
+	"type" : "normal"
+}

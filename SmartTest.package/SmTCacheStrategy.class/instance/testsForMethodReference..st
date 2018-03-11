@@ -1,0 +1,3 @@
+private
+testsForMethodReference: aMethodReference
+	self subclassResponsibility 

@@ -1,4 +1,4 @@
-accessing
+search
 searchRelativeTestForMethod: aCompiledMethod
 	"Search for only one package and NOT relative others method"
 

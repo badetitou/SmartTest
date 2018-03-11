@@ -1,4 +1,4 @@
-accessing
+initialization
 initializeLink
 	| link |
 	link := MetaLink new

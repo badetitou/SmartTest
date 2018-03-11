@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 installLinkAndRunTest: aTestMethod
 	| testEnv |
 	self currentTestExecution: aTestMethod.
