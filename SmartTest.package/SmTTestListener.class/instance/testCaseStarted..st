@@ -1,3 +1,3 @@
 protocol
 testCaseStarted: aTestAnnouncement
-	self smtDynamicFinder  installProxyFor: aTestAnnouncement testCase
+	self smtDynamicFinder installProxyFor: aTestAnnouncement testCase 

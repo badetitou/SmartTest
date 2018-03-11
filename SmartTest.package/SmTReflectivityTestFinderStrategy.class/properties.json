@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"currentTestExecution"
-	],
+	"instvars" : [ ],
 	"name" : "SmTReflectivityTestFinderStrategy",
 	"type" : "normal"
 }

@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"wrappers"
+		"currentTestExecution"
 	],
 	"name" : "SmTTestFinderDynamicStrategy",
 	"type" : "normal"

@@ -1,7 +1,7 @@
 accessing
 notify
 	| aTestResult |
-	aTestResult := SmTRunnerSettings runner
+	aTestResult := SmTRules runner
 		runCases:
 			(self collector
 				collect:

@@ -9,6 +9,6 @@ process
 							tempOrderedCollection add: self collector .
 							([ :aCollectionOfTest | 
 							| tempResult |
-							tempResult := SmTRunnerSettings runner runCases: aCollectionOfTest.
+							tempResult := SmTRules runner runCases: aCollectionOfTest.
 							self showResult: tempResult ] newProcessWith: tempOrderedCollection) resume.
 							self reset ] ] ] newProcess ]

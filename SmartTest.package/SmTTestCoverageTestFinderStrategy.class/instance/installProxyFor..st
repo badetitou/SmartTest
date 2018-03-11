@@ -3,7 +3,7 @@ installProxyFor: aTestCase
 	| methodToWrap listOfPackage |
 	self currentTestExecution: aTestCase.
 	listOfPackage := OrderedCollection new.
-	listOfPackage add: (aTestCase class >> aTestCase selector) package name.
+	listOfPackage add: aTestCase compiledMethod package name.
 	methodToWrap := Set new.
 	methodToWrap
 		addAll: (self collectMethodToTestForPackagesNamed: listOfPackage).

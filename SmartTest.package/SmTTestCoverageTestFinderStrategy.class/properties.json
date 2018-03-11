@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"currentTestExecution"
+		"wrappers"
 	],
 	"name" : "SmTTestCoverageTestFinderStrategy",
 	"type" : "normal"
