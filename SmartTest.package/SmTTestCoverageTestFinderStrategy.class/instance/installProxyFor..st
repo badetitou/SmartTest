@@ -1,6 +1,7 @@
 api
 installProxyFor: aTestCase
 	| methodToWrap listOfPackage |
+	self currentTestExecution: aTestCase.
 	listOfPackage := OrderedCollection new.
 	listOfPackage add: (aTestCase class >> aTestCase selector) package name.
 	methodToWrap := Set new.
@@ -13,8 +14,8 @@ installProxyFor: aTestCase
 		at: aTestCase
 		put:
 			(methodToWrap asOrderedCollection
-				collect: [ :each | TestCoverage on: each methodReference ]).
-	(wrappers at: aTestCase)
+				collect: [ :each | (SmTTestCoverage on: each methodReference) finder: self ]).
+	((wrappers at: aTestCase) sort: [ :a :b | a name < b name ])
 		do: [ :each | each install ]
-		displayingProgress: [ :aClass | 'Processing ' , aClass asString ]
+		displayingProgress: [ :aClass | 'Installing ' , aClass asString ]
 		every: 1

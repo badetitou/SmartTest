@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 methodsInSimilarPackageAs: aCompiledMethod
 		
 	| packageBaseName packages |

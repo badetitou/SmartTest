@@ -1,0 +1,3 @@
+adding
+addToCurrentExecutionMethodReference: aMethodReference
+	self addATest: self currentTestExecution  toMethodReference: aMethodReference

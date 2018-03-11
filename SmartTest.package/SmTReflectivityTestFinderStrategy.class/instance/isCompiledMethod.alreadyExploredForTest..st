@@ -1,4 +1,4 @@
-accessing
+testing
 isCompiledMethod: receiverCompiledMethod alreadyExploredForTest: testInstance
 	self cache
 		at: receiverCompiledMethod methodReference

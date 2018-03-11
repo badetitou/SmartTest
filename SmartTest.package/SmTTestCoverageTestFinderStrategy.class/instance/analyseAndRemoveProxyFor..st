@@ -1,6 +1,6 @@
-protocol
+api
 analyseAndRemoveProxyFor: aTestCase
-	self
+"	self
 		updateCacheAndUnmarkFrom: (wrappers at: aTestCase)
-		forMethod: aTestCase.
+		forMethod: aTestCase."
 	(wrappers at: aTestCase) do: [ :each | each uninstall ]
