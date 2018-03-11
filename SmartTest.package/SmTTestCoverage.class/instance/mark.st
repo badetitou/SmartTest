@@ -1,5 +1,7 @@
 accessing
 mark
-	hasRun := true.
-	Transcript crLog: method asString.
-"	self finder addToCurrentExecutionMethodReference: reference."
+	hasRun
+		ifFalse: [ hasRun := true.
+			Transcript
+				crLog: method asString. self finder
+				addToCurrentExecutionMethodReference: reference ]
