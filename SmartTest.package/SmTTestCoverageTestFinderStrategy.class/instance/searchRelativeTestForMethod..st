@@ -1,10 +1,10 @@
 search
 searchRelativeTestForMethod: aCompiledMethod
 	"Search for only one package and NOT relative others method"
-	| wrappers methods |
+	| methods |
 	methods := self methodsInSimilarPackageAs: aCompiledMethod.
 	
-	wrappers := {(TestCoverage on: aCompiledMethod methodReference)} asOrderedCollection.
+	wrappers := {(HDTestCoverage on: aCompiledMethod methodReference)} asOrderedCollection.
 	wrappers do: [ :each | each install ].
 	[
 	 
