@@ -1,3 +1,4 @@
 settings
 runner: aSelector
-	SmTTestRunner := aSelector
+	smTTestRunner := aSelector.
+	self testFinder testRunner: aSelector

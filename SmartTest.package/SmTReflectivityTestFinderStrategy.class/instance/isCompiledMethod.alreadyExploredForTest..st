@@ -1,6 +1,6 @@
-accessing
+testing
 isCompiledMethod: receiverCompiledMethod alreadyExploredForTest: testInstance
-	self methodToTest
+	self cache
 		at: receiverCompiledMethod methodReference
 		ifPresent: [ :aSetOfTestInstance | ^ aSetOfTestInstance includes: (testInstance class >> testInstance selector) methodReference  ]
 		ifAbsent: [ ^ false ]

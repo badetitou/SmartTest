@@ -1,8 +1,9 @@
 instance creation
 testFinder
-	^ SmartFinder new
-		cache: self cacheClass new;
+	^ SmTSmartFinder ifNil: [ SmTSmartFinder := SmartFinder new
+		cacheClass: self cacheClass new;
 		filter: self filter new;
 		testRunner: self runner;
 		smtFinder: self finder new;
-		testingStrategy: self strategy new
+		testingStrategy: self strategy new;
+		shouldTryToFindTestForDynamic: self shouldTryToFindTestForDynamic ]

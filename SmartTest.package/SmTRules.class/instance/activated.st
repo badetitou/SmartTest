@@ -1,3 +1,3 @@
 accessing
 activated
-	^ Activated ifNil: [ Activated := true ]
+	^ Activated

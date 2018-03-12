@@ -1,3 +1,0 @@
-protocol
-disableListenerTestCase
-	SmTAnnouncer announcer unsubscribe: self

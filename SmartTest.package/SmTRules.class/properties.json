@@ -2,15 +2,19 @@
 	"commentStamp" : "BenoitVerhaeghe 7/13/2017 14:21",
 	"super" : "ReAbstractRule",
 	"category" : "SmartTest-Rules",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"shouldTryToFindTestForDynamic",
+		"activated",
+		"smTCache",
+		"smTClassTestingStrategy",
+		"smTFilter",
+		"smTFinder",
+		"smTTestRunner"
+	],
 	"pools" : [ ],
 	"classvars" : [
 		"Activated",
-		"SmTCache",
-		"SmTClassTestingStrategy",
-		"SmTFilter",
-		"SmTFinder",
-		"SmTTestRunner"
+		"SmTSmartFinder"
 	],
 	"instvars" : [
 		"tests"

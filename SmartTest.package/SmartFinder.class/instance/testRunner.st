@@ -1,3 +1,3 @@
 accessing
 testRunner
-	^ testRunner ifNil: [ testRunner := SmTTestRunner new ]
+	^ testRunner ifNil: [ testRunner := SmTRunnerStrategySmart ]

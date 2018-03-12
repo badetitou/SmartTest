@@ -1,5 +1,5 @@
 test data
 testMethod3
-	"this test is a data"
+	"this is data for SmTFinderAbstractTest tests"
 	^ SmTClass new method3: 3. 
 	

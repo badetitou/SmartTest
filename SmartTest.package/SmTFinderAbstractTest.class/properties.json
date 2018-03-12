@@ -6,7 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cache"
+		"cache",
+		"smartFinder",
+		"testMethod2",
+		"testMethod1",
+		"testMethod3",
+		"testMethod4"
 	],
 	"name" : "SmTFinderAbstractTest",
 	"type" : "normal"

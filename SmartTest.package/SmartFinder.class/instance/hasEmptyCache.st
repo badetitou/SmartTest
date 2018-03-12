@@ -1,0 +1,3 @@
+testing
+hasEmptyCache
+	^ cacheClass isNil

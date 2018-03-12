@@ -4,12 +4,11 @@
 	"category" : "SmartTest-Finder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"MethodsToTests"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"filter",
-		"cache"
+		"cache",
+		"shouldTryToFindTestForDynamic"
 	],
 	"name" : "SmTTestFinderStrategy",
 	"type" : "normal"

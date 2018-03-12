@@ -1,3 +1,3 @@
 running
 basicCheck: anEntity
-	^ (anEntity isKindOf: Class) and: ((super basicCheck: anEntity) and: self class classActivated)
+	^ (super basicCheck: anEntity) and: [(anEntity isKindOf: Class) and: [ self class classActivated] ]

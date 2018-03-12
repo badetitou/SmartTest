@@ -1,3 +1,0 @@
-protocol
-testCaseEnded: aTestAnnouncement
-	SmTTestCoverageTestFinderStrategy analyseAndRemoveProxyFor: aTestAnnouncement testCase 	

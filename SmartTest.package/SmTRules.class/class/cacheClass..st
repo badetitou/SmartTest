@@ -1,3 +1,4 @@
 settings
 cacheClass: aSelector
-	^ SmTCache := aSelector
+	self testFinder cacheClass: aSelector new.
+	^ smTCache := aSelector

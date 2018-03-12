@@ -1,2 +1,3 @@
 helpers
 tearDown
+	smartFinder resetCache.

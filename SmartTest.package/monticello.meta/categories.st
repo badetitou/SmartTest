@@ -11,4 +11,5 @@ SystemOrganization addCategory: 'SmartTest-Rules'!
 SystemOrganization addCategory: 'SmartTest-Runner'!
 SystemOrganization addCategory: 'SmartTest-Testing'!
 SystemOrganization addCategory: 'SmartTest-Tests'!
+SystemOrganization addCategory: 'SmartTest-Tests-Data'!
 SystemOrganization addCategory: 'SmartTest-Tools'!

@@ -1,4 +1,0 @@
-accessing
-enableListenerTestCase
-	self disableListenerTestCase.
-	self uniqueInstance enableListenerTestCase.

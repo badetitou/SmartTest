@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SmTTestFinderStrategy",
+	"category" : "SmartTest-Finder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentTestExecution"
+	],
+	"name" : "SmTTestFinderDynamicStrategy",
+	"type" : "normal"
+}

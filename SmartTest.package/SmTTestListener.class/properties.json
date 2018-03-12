@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SmartTest-Listener",
+	"classinstvars" : [
+		"uniqueInstance",
+		"activated"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cacheClass",
+		"smtDynamicFinder"
+	],
+	"name" : "SmTTestListener",
+	"type" : "normal"
+}

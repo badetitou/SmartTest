@@ -1,4 +1,3 @@
 test data
 setUp
-
-	super setUp.
+	"this is data for SmTFinderAbstractTest tests"

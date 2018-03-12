@@ -1,0 +1,3 @@
+private
+setCache: aDictionnary
+	self subclassResponsibility

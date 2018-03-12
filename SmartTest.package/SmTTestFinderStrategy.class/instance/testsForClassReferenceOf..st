@@ -1,8 +1,7 @@
-accessing
+private
 testsForClassReferenceOf: aCompiledMethod
 	"Find all tests in related packages that reference the method's class"
 	| allSendersClass allTests |
-	1halt.
 	allSendersClass := (aCompiledMethod methodClass allCallsOn 
 							collect: [:aReference| 
 									 aReference actualClass]) asSet

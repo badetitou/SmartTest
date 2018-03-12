@@ -1,4 +1,4 @@
 running
 basicCheck: anEntity
-	^ (anEntity isKindOf: CompiledMethod)
-		and: ((super basicCheck: anEntity) and: self class methodActivated)
+	^ (super basicCheck: anEntity)
+		and: [ (anEntity isKindOf: CompiledMethod) and: [ self class methodActivated ] ]

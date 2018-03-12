@@ -8,6 +8,6 @@ use this way
 SmartFinder new
 		cache: self cache new;
 		filter: self filter new;
-		testRunner: self runner new;
+		testRunner: self runner;
 		smtFinder: self finder new;
 		testingStrategy: self strategy new

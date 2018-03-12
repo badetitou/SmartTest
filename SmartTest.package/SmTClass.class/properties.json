@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "AnneEtien 2/28/2018 10:40",
+	"commentStamp" : "NicolasAnquetil 3/5/2018 09:45",
 	"super" : "Object",
-	"category" : "SmartTest-Tests",
+	"category" : "SmartTest-Tests-Data",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

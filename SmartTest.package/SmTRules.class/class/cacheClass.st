@@ -1,3 +1,3 @@
 settings
 cacheClass
-	^ SmTCache ifNil: [ SmTCache := SmTBasicCacheStrategy ]
+	^ smTCache ifNil: [ smTCache := SmTBasicCacheStrategy ]
