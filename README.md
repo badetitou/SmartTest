@@ -1,5 +1,6 @@
 # SmartTest
-Development : ![development](https://travis-ci.org/badetitou/SmartTest.svg?branch=development)
+Master:![master](https://api.travis-ci.org/badetitou/SmartTest.svg?branch=master)
+ Development: ![development](https://travis-ci.org/badetitou/SmartTest.svg?branch=development)
 
 ## What is SmartTest ?
 
