@@ -1,3 +1,4 @@
 initialization
 initialize
-	self shouldTryToFindTestForDynamic: false
+	cache := Dictionary new.
+	 self shouldTryToFindTestForDynamic: false

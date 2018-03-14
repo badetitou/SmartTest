@@ -4,9 +4,7 @@
 	"category" : "SmartTest-Cache",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"MethodsToTests"
-	],
+	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "SmTBasicCacheStrategy",
 	"type" : "normal"

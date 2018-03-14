@@ -1,3 +1,3 @@
 accessing
 at: aMethodReference
-	^ self methodsToTests at: aMethodReference 
+	^ self currentCache at: aMethodReference 

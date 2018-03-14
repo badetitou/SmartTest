@@ -1,3 +1,3 @@
 accessing
 at: aMethodReference put: aCacheElement
-	^ self methodsToTests at: aMethodReference put: aCacheElement 
+	^ self currentCache at: aMethodReference put: aCacheElement 

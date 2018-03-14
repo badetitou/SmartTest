@@ -1,4 +1,3 @@
-private
+api
 resetCache
-	self cacheClass resetCache.
-	self cacheClass: nil
+	cache removeAll

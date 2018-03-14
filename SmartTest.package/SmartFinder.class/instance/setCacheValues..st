@@ -1,3 +1,4 @@
 api
 setCacheValues: aDictionnary
-	self cacheClass setCache: aDictionnary
+	cache := aDictionnary.
+	self cacheClass cache: cache.
