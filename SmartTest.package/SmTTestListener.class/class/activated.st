@@ -1,3 +1,3 @@
 accessing
 activated
-	^ activated ifNil: [ activated := false ]
+	^ activated ifNil: [ activated := false. self uniqueInstance activated: false ]
