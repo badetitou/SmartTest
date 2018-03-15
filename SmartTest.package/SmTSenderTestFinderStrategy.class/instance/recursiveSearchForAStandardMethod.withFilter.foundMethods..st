@@ -1,13 +1,9 @@
 private - search
-recursiveSearchForAStandardMethod: aCompiledMethod withFilter: aFilter foundMethods: aCollection
-
-	| senderMethods filteredSenderMethods |
-	senderMethods := aCompiledMethod senders collect: #compiledMethod.
-	filteredSenderMethods := senderMethods reject: [ :aSenderMethod | 
-		aFilter shouldEntityBeFiltered: aSenderMethod ].
-	
-	filteredSenderMethods do: [ :aSenderCompiledMethod | 
-			(aCollection includes: aSenderCompiledMethod methodReference)
-				ifFalse: [ 
-					aCollection add: aSenderCompiledMethod methodReference.
-					self recursiveSearchForAStandardMethod: aSenderCompiledMethod withFilter: aFilter foundMethods: aCollection ] ]
+recursiveSearchForAStandardMethod: aRGMethodDefinition withFilter: aFilter foundMethods: aCollection
+	| filteredSenderMethods |
+	filteredSenderMethods := aRGMethodDefinition senders
+		reject: [ :aSenderMethod | (aFilter shouldEntityBeFiltered: aSenderMethod) or: [ aCollection includes: aSenderMethod ] ].
+	filteredSenderMethods
+		do: [ :aSenderRGMethodDefinition | 
+			aCollection add: aSenderRGMethodDefinition.
+			self recursiveSearchForAStandardMethod: aSenderRGMethodDefinition withFilter: aFilter foundMethods: aCollection ]
