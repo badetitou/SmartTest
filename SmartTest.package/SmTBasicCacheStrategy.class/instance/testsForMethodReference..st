@@ -1,3 +1,3 @@
 accessing
 testsForMethodReference: aMethodReference
-	^ self methodsToTests at: aMethodReference ifAbsentPut: [ Set new ]
+	^ self currentCache at: aMethodReference ifAbsentPut: [ Set new ]

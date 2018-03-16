@@ -5,10 +5,8 @@ installProxyFor: aTestCase
 	listOfPackage := OrderedCollection new.
 	listOfPackage add: aTestCase compiledMethod package name.
 	methodToWrap := Set new.
-	methodToWrap
-		addAll: (self collectMethodToTestForPackagesNamed: listOfPackage).
-	methodToWrap
-		addAll: (self collectClassToTestForPackagesNamed: listOfPackage).
+	methodToWrap addAll: (self collectMethodToTestForPackagesNamed: listOfPackage).
+	"methodToWrap addAll: (self collectClassToTestForPackagesNamed: listOfPackage)."
 	methodToWrap := methodToWrap intersection: self availableMethods.
 	wrappers
 		at: aTestCase

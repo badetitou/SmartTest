@@ -1,3 +1,3 @@
-as yet unclassified
+private
 relevantTestsFor: aCompiledMethod
-	^ self methodsToTests at: aCompiledMethod methodReference ifAbsentPut: [ Set new ]
+	^ self currentCache at: aCompiledMethod methodReference ifAbsentPut: [ Set new ]

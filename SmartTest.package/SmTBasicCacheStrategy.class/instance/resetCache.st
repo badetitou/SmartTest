@@ -1,3 +1,0 @@
-accessing
-resetCache
-	MethodsToTests := nil
