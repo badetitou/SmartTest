@@ -11,7 +11,6 @@ sf buildCacheFromTestSuite: ts.
 sf cacheValues ] timeToRun 
 "
 	| listOfPackage methodToWrap |
-	aTestSuite.
 	listOfPackage := (aTestSuite tests flatCollect: [ :aTestCase | self class collectPackagesFromName: aTestCase class package name ]) asSet collect: #packageName.
 	methodToWrap := Set new.
 	methodToWrap addAll: (self collectMethodToTestForPackagesNamed: listOfPackage).

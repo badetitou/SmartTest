@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "SmartTest-Tests-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"instVar1",
+		"instVar2"
+	],
+	"name" : "SmTClass2",
+	"type" : "normal"
+}

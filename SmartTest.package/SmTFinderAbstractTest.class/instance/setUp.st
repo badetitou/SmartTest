@@ -7,3 +7,4 @@ setUp
 	testMethod2 := RGMethodDefinition className: 'SmTClassTest' selector: #testMethod2 isMetaSide: false.
 	testMethod3 := RGMethodDefinition className: 'SmTClassTest' selector: #testMethod3 isMetaSide: false.
 	testMethod4 := RGMethodDefinition className: 'SmTClassTest' selector: #testMethod4 isMetaSide: false.
+	testMethod5 := RGMethodDefinition className: 'SmTClassTest' selector: #testMethod5 isMetaSide: false.
