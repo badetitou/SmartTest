@@ -12,6 +12,6 @@ buildCacheFromTestSuite: aTestSuite
 	aTestSuite tests
 		do: [ :aTest | 
 			self currentTestExecution: aTest.
-"			aTest run."
+			aTest run.
 			(wrappers at: aTestSuite) do: [ :each | each unmark ] ].
 	(wrappers at: aTestSuite) do: [ :each | each uninstall ]

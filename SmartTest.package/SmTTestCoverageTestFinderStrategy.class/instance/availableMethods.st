@@ -7,4 +7,4 @@ availableMethods
 			method methodClass = SmTTestCoverage
 				or: [ method methodClass = SmTTestCoverageTestFinderStrategy
 						or: [ method methodClass = SmTTestFinderStrategy
-								or: [ method methodClass = SmTBasicCacheStrategy or: [ method methodClass = HDTestCoverage ]] ] ] ]
+								or: [ method methodClass = SmTBasicCacheStrategy or: [ method methodClass = HDTestCoverage or: [ method methodClass = SmTTestFinderDynamicStrategy] ] ] ] ] ]
