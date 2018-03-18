@@ -19,8 +19,9 @@ sf cacheValues ] timeToRun
 	wrappers at: aTestSuite put: (methodToWrap asOrderedCollection collect: [ :each | (SmTTestCoverage on: each methodReference) finder: self ]).
 	(wrappers at: aTestSuite) do: [ :each | each install ] displayingProgress: [ :aClass | 'Installing ' , aClass asString ] every: 1.
 	aTestSuite tests
-		do: [ :aTest | 
-			self currentTestExecution: aTest.
-			aTest run.
+		do: [ :aTestCase | 
+			self currentTestExecution: aTestCase.
+			self addATest: aTestCase toMethodReference: aTestCase methodReference.
+			aTestCase run.
 			(wrappers at: aTestSuite) do: [ :each | each unmark ] ].
 	(wrappers at: aTestSuite) do: [ :each | each uninstall ]

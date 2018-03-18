@@ -7,7 +7,7 @@ testRunningTestMethod2ToBuildCache
 	self assert: smartFinder cacheValues isNotEmpty.
 	self
 		assert: smartFinder cacheValues size
-		equals: 4. 
+		equals: 5. 
 	self
 		assert:
 			(smartFinder cacheValues
