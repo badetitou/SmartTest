@@ -17,4 +17,6 @@ initCache
 			(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod3 isMetaSide: false).
 			(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod4 isMetaSide: false)} asSet).
 	((RGMethodDefinition className: 'SmTClass2' selector: #initialize isMetaSide: false)
-		-> {(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod5 isMetaSide: false)} asSet)} asDictionary
+		-> {(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod5 isMetaSide: false)} asSet).
+	((RGMethodDefinition className: 'SmTClassTest' selector: #testMethod4 isMetaSide: false)
+		-> {(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod4 isMetaSide: false)} asSet).} asDictionary
