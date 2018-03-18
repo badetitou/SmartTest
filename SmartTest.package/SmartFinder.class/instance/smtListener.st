@@ -1,3 +1,3 @@
 accessing
 smtListener
-	^ SmTTestListener uniqueInstance
+	^ SmTTestListener new

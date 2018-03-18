@@ -1,0 +1,3 @@
+accessing
+shouldAnnounce
+	^ SmTTestListener activated

@@ -1,6 +1,6 @@
 private - search
 recursiveSearchForAStandardMethod: aRGMethodDefinition withFilter: aFilter foundMethods: aCollection
-	aRGMethodDefinition senders
+	(self collectSenderOfRGMethodeDefintion: 	aRGMethodDefinition)
 		reject: [ :aSenderMethod | (aFilter shouldEntityBeFiltered: aSenderMethod) or: [ aCollection includes: aSenderMethod ] ]
 		thenDo: [ :aSenderRGMethodDefinition | 
 			aCollection add: aSenderRGMethodDefinition.
