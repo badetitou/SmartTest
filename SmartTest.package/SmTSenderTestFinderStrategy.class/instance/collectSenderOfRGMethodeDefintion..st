@@ -1,6 +1,6 @@
 private - search
 collectSenderOfRGMethodeDefintion: aRGMethodDefinition
 	^ aRGMethodDefinition isInitializer
-		ifTrue: [ {#new senders.
+		ifTrue: [ { SystemNavigation default allReferencesTo: aRGMethodDefinition methodClass binding.
 			aRGMethodDefinition senders} asSet flattened  ]
 		ifFalse: [ aRGMethodDefinition senders ]
