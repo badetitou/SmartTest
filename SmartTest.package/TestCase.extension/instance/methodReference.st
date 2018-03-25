@@ -1,4 +1,3 @@
 *SmartTest
 methodReference
-	^ RGMethodDefinition realClass: self class selector: self selector.
-	 
+	^ RGMethodDefinition class: self class selector: self selector
