@@ -1,5 +1,5 @@
-helpers
+running
 tearDown
-	"rest the cache"
+	"reset the cache"
 	smartFinder resetCache.
 	super tearDown
