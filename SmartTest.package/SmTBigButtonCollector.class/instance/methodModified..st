@@ -1,7 +1,7 @@
 accessing
 methodModified: anAnnouncement
 	| listOfTest |
-	listOfTest := (SmTRules finder new methodsFor: anAnnouncement newMethod).
+	listOfTest := (SmTRules testFinder findTestsForMethod: anAnnouncement newMethod) collect: #methodReference. 
 	self collector
 		addAll: listOfTest.
 	self updateUIAfterAddingMethod: listOfTest.
