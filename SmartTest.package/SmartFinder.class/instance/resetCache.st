@@ -1,3 +1,3 @@
 api
 resetCache
-	cache removeAll
+	self cacheClass resetCache 
