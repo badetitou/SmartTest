@@ -1,6 +1,5 @@
 SystemOrganization addCategory: #SmartTest!
 SystemOrganization addCategory: #'SmartTest-Cache'!
-SystemOrganization addCategory: #'SmartTest-CalypsoExtension'!
 SystemOrganization addCategory: #'SmartTest-Collector'!
 SystemOrganization addCategory: #'SmartTest-Critiques'!
 SystemOrganization addCategory: #'SmartTest-Event'!

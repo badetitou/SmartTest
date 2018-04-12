@@ -59,4 +59,17 @@ settingsOn: aBuilder
 						actionSelector: #fillCache;
 						themeChanged;
 						yourself ];
-				description: 'Fill the cache with selected package' ]
+				description: 'Fill the cache with selected package' ].
+	(aBuilder group: #reset)
+		label: 'Reset Cache';
+		target: self;
+		parent: #SmartTest;
+		dialog: [ SimpleButtonMorph new
+				target: self testFinder;
+				label: 'Reset Current SmartTest Cache';
+				actionSelector: #resetCache;
+				themeChanged;
+				yourself ];
+		description:
+			'Reset the cache of SmartTest
+		SmTTestFinderStrategy methodToTest'
