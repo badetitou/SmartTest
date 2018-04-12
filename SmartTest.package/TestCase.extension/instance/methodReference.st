@@ -1,3 +1,3 @@
 *SmartTest
 methodReference
-	^ self  compiledMethod methodReference 
+	^ RGMethodDefinition class: self class selector: self selector

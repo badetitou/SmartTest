@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SelectBrowser",
+	"category" : "SmartTest-Tools",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"smartFinder"
+	],
+	"name" : "SmTSelectPackageBrowser",
+	"type" : "normal"
+}

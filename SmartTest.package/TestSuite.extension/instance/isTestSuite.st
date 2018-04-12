@@ -1,0 +1,3 @@
+*SmartTest
+isTestSuite
+	^ true

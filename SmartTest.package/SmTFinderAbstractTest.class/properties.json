@@ -11,7 +11,9 @@
 		"testMethod2",
 		"testMethod1",
 		"testMethod3",
-		"testMethod4"
+		"testMethod4",
+		"testMethod5",
+		"testInheritedMethod1"
 	],
 	"name" : "SmTFinderAbstractTest",
 	"type" : "normal"

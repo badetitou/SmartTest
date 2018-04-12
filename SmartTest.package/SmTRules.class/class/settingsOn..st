@@ -48,4 +48,15 @@ settingsOn: aBuilder
 				label: 'Try to find for Dynamic ';
 				description:
 					'When you click in a method, and have selected a Dynamix finder, we''''are updating the cache for it execution
-	(BETA)' ]
+	(BETA)'.
+			(aBuilder group: #reset)
+				label: 'Fill cache';
+				target: self;
+				parent: #SmartTest;
+				dialog: [ SimpleButtonMorph new
+						target: self;
+						label: 'Fill cache';
+						actionSelector: #fillCache;
+						themeChanged;
+						yourself ];
+				description: 'Fill the cache with selected package' ]

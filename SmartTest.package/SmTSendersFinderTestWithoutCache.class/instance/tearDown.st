@@ -1,4 +1,4 @@
 initialization
 tearDown
 	super tearDown.
-	smartFinder resetCache.
+	smartFinder resetCache
