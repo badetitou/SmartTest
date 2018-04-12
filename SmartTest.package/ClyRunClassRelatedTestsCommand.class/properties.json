@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "BenoitVerhaeghe 7/3/2017 16:36",
 	"super" : "ClyCritiqueCommand",
-	"category" : "SmartTest-Calypso",
+	"category" : "SmartTest-CalypsoExtension",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
