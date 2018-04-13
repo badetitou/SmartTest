@@ -1,6 +1,4 @@
 execution
 canBeExecutedInContext: aCriticContext
 
-	(super canBeExecutedInDropContext: aCriticContext) ifFalse: [ ^false ].
-	
-	^SmTRelativeTestsCritique subclasses includes: aCriticContext class
+	^ (self canBeExecutedInDropContext: aCriticContext) and: [ SmTRelativeTestsCritique subclasses includes: aCriticContext class ]
