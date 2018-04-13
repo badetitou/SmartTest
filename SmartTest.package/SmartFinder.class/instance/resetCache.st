@@ -1,3 +1,3 @@
 api
 resetCache
-	self cacheClass resetCache 
+	self cacheStrategy resetCache 

@@ -1,3 +1,3 @@
 announcement handling
-cacheClass
+cacheStrategy
 	^ cacheClass

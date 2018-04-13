@@ -9,7 +9,7 @@ settingsOn: aBuilder
 						parent: #SmartFinder;
 						domainValues: (SmTTestFinderStrategy allSubclasses select: #isConcreteFinder);
 						description: 'The finder defines how CORA searchs the relative test of a method'.
-					(aBuilder pickOne: #cacheClass)
+					(aBuilder pickOne: #cacheStrategy)
 						label: 'SmartTest Cache';
 						target: self;
 						parent: #SmartFinder;

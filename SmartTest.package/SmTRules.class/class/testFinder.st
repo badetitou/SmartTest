@@ -1,7 +1,7 @@
 instance creation
 testFinder
 	^ SmTSmartFinder ifNil: [ SmTSmartFinder := SmartFinder new
-		cacheClass: self cacheClass new;
+		cacheStrategy: self cacheStrategy new;
 		filter: self filter new;
 		testRunner: self runner;
 		smtFinder: self finder new;

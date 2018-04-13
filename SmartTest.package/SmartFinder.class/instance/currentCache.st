@@ -1,3 +1,3 @@
 api
 currentCache
-	^ self cacheClass currentCache 
+	^ self cacheStrategy currentCache 

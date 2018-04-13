@@ -1,3 +1,3 @@
 announcement handling
-cacheClass: aCacheClass
+cacheStrategy: aCacheClass
 	cacheClass := aCacheClass 

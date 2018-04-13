@@ -10,11 +10,10 @@
 		"testRunner",
 		"testingStrategy",
 		"smtFinder",
-		"cacheClass",
+		"cacheStrategy",
 		"shouldTryToFindTestForDynamic",
 		"autoUpdateCache",
-		"smtListener",
-		"cache"
+		"smtListener"
 	],
 	"name" : "SmartFinder",
 	"type" : "normal"
