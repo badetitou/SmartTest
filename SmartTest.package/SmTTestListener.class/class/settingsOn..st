@@ -2,7 +2,7 @@ initialization
 settingsOn: aBuilder
 	<systemsettings>
 	(aBuilder setting: #activated)
-		parent: 'SmartTest';
+		parent: #Beta;
 		target: self;
 		order: 0.04;
 		label: 'AutoUpdate Cache';
