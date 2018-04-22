@@ -7,8 +7,3 @@ os:
 
 smalltalk:
   - Pharo-7.0
-  - Pharo-6.1
-  
-matrix:
-  allow_failures:
-    - smalltalk: Pharo-7.0
