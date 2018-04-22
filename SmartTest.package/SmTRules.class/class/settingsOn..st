@@ -39,7 +39,7 @@ settingsOn: aBuilder
 						label: 'SmartTest filter';
 						target: self;
 						parent: #SmartFinder;
-						domainValues: SmTDefaultPackagesFilter withAllSubclasses;
+						domainValues: SmTFilterStrategy allSubclasses;
 						description: 'The testing strategy defines when SmartTest will run the test it has found.' ].
 			(aBuilder group: #SmTActivationRenrakuOption)
 				order: 6;
