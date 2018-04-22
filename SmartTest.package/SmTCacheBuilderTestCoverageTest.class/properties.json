@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SmTCacheBuilderTest",
+	"category" : "SmartTest-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTCacheBuilderTestCoverageTest",
+	"type" : "normal"
+}

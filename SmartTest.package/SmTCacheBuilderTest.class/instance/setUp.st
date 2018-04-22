@@ -6,5 +6,5 @@ setUp
 	smartFinder autoUpdateCache: false.
 	smartFinder cacheStrategy: SmTBasicCacheStrategy new.
 	smartFinder resetCache.
-	smartFinder smtFinder: SmTTestCoverageTestFinderStrategy new.
+	smartFinder smtFinder: self dynamiqueFinder.
 	smartFinder autoUpdateCache: true
