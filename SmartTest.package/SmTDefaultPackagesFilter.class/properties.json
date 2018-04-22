@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "BenoitVerhaeghe 7/3/2017 16:30",
-	"super" : "Object",
+	"super" : "SmTFilterStrategy",
 	"category" : "SmartTest-Filter",
 	"classinstvars" : [ ],
 	"pools" : [ ],

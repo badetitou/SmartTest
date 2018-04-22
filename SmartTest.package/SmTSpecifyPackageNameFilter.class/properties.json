@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SmTDefaultPackagesFilter",
+	"super" : "SmTFilterStrategy",
 	"category" : "SmartTest-Filter",
 	"classinstvars" : [
 		"collectionOfRegex"
