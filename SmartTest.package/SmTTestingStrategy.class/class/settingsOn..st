@@ -8,4 +8,6 @@ settingsOn: aBuilder
 				target: self;
 				parent: #TestingStrategy;
 				label: 'Size of the queue for the research of element';
-				description: '' ]
+				description: 'SmartTest has a queue to keep a list of all the research it has to do.
+But not launch them directly.
+This is important to not freeze the image quickly.' ]
