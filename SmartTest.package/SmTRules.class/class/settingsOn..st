@@ -80,7 +80,7 @@ settingsOn: aBuilder
 				yourself ];
 		description:
 			'Reset the cache of SmartTest
-		SmTTestFinderStrategy methodToTest'.
+		SmTRules testFinder currentCache'.
 	(aBuilder group: #Beta)
 		parent: #SmartTest;
 		order: 10
