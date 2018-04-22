@@ -1,3 +1,3 @@
 protocol
 disable
-	self queue flush.
+	"can be override"
