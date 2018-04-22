@@ -3,5 +3,5 @@ testsForAStandardMethod: aCompiledMethod
 	| dependencies |
 	filter := self filter extractPackagesFrom: {aCompiledMethod}.
 	dependencies := Set new.
-	self recursiveSearchForAStandardMethod: aCompiledMethod methodReference withFilter: filter foundMethods: dependencies.
+	self recursiveSearchForAStandardMethod: aCompiledMethod methodReference foundMethods: dependencies.
 	^ dependencies select: #isTestMethod
