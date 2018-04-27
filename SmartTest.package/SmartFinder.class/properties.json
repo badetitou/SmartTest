@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "BenoitVerhaeghe 2/28/2018 22:42",
 	"super" : "Object",
-	"category" : "SmartTest",
+	"category" : "SmartTest-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
