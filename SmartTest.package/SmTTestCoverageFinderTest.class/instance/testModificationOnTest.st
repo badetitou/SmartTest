@@ -1,5 +1,6 @@
 helpers
 testModificationOnTest
+"this method is redundant with the abstract method"
 	<CORATestBlacklisted>
 	| testsFound |
 	testsFound := self searchTestMethodsFor: SmTClassTest >> #testMethod4.

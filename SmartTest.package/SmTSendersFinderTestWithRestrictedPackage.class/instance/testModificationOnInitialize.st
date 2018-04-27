@@ -1,5 +1,6 @@
 initialization
 testModificationOnInitialize
+"this method is redundant with the abstract method"
 	<CORATestBlacklisted>
 	| testsFound |
 	testsFound := self searchTestMethodsFor: SmTClass2 >> #initialize.
