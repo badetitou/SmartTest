@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "EleonoreWALD 5/2/2018 10:20",
 	"super" : "SmTFilterStrategy",
 	"category" : "SmartTest-Filter",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTIcebergLoadedPackageFilter",
+	"name" : "SmTIcebergLoadedPackagesFilter",
 	"type" : "normal"
 }

@@ -1,0 +1,1 @@
+The search is limited to the packages whose names matches the regex.

@@ -1,3 +1,3 @@
 settings
 filter
-	^ smTFilter ifNil: [ smTFilter := SmTIcebergLoadedPackageFilter  ]
+	^ smTFilter ifNil: [ smTFilter := SmTIcebergLoadedPackagesFilter  ]

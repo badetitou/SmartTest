@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "EleonoreWALD 5/2/2018 10:21",
 	"super" : "SmTFilterStrategy",
 	"category" : "SmartTest-Filter",
 	"classinstvars" : [
@@ -8,6 +8,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTSpecifyPackageNameFilter",
+	"name" : "SmTSpecifyPackagesNameFilter",
 	"type" : "normal"
 }
