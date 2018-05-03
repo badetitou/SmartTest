@@ -1,4 +1,4 @@
-as yet unclassified
+api
 methodsInSimilarPackageAs: aCompiledMethod
 		
 	| packageBaseName packages |

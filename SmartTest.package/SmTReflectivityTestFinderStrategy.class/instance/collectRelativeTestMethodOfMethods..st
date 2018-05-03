@@ -1,4 +1,4 @@
-as yet unclassified
+search
 collectRelativeTestMethodOfMethods: methods
 	^ (((methods collect: [ :aMethod | aMethod asTestMethod ])
 		select: [ :aTestMethod | aTestMethod isNotNil ])

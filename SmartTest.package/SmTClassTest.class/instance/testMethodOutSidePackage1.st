@@ -1,5 +1,5 @@
 test data
 testMethodOutSidePackage1
 	"this is data for SmTFinderAbstractTest tests"
-	^ SmTClassOutSide new method1 
+	^ SmTClassOutside new method1 
 	

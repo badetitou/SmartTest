@@ -1,1 +1,1 @@
-I filter the entities thanks to their package base ( Potato-Hello -> Potato )
+This filter only looks in the package owning the changed entity (method or class)

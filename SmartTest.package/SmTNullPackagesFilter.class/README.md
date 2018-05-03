@@ -1,1 +1,1 @@
-I'm the useless filter because I filter nothing
+This filter is "useless" because it does not filter anything: it looks everywhere in the image

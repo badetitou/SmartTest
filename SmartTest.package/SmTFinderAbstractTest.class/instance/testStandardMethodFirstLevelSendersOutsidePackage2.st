@@ -2,7 +2,7 @@ tests
 testStandardMethodFirstLevelSendersOutsidePackage2
 	<CORATestBlacklisted>
 	| testsFound |
-	testsFound := self searchTestMethodsFor: SmTClassOutSide >> #method2.
+	testsFound := self searchTestMethodsFor: SmTClassOutside >> #method2.
 	self deny: (testsFound includes: testMethod1).
 	self deny: (testsFound includes: testMethod2).
 	self deny: (testsFound includes: testMethod3).

@@ -1,1 +1,1 @@
-The search is limited to the packages whose names matches the regex.
+This filter only looks in the packages whose names match a given regex

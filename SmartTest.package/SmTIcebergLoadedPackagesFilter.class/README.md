@@ -1,1 +1,1 @@
-I filter the packages and I block the packages if they are not loaded with Iceberg.
+This filter only looks in the packages that are loaded with Iceberg
