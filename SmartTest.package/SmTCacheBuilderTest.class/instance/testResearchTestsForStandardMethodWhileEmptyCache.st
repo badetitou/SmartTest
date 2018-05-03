@@ -1,5 +1,5 @@
 tests
-testResarchTestsForStandardMethodWhileEmptyCache
+testResearchTestsForStandardMethodWhileEmptyCache
 	<CORATestBlacklisted>
 	| testsFound |
 	self assert: smartFinder currentCache isEmpty.
