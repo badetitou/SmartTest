@@ -1,0 +1,1 @@
+In this class, the research is limited to the SmartTest-Tests-Data package, the research is static (it is using teh SenderStrategy finder) and no cache is used.
