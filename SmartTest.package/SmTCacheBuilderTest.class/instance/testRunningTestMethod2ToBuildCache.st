@@ -11,30 +11,30 @@ testRunningTestMethod2ToBuildCache
 	self
 		assert:
 			(smartFinder currentCache
-				at: (RGMethodDefinition className: 'SmTClass' selector: #method1 isMetaSide: false))
+				at: (SmTClass >> #method1) asRingDefinition)
 		equals:
-			{(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod2 isMetaSide: false)}
+			{( SmTClassTest >> #testMethod2) asRingDefinition}
 				asSet.
 
 	"Not sure about the format of the dictionnary."
 	self
 		assert:
 			(smartFinder currentCache
-				at: (RGMethodDefinition className: 'SmTClass' selector: #method2 isMetaSide: false))
+				at: (SmTClass >> #method2 )asRingDefinition)
 		equals:
-			{(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod2 isMetaSide: false)}
+			{(SmTClassTest >> #testMethod2) asRingDefinition}
 				asSet.
 	self
 		assert:
 			(smartFinder currentCache
-				at: (RGMethodDefinition className: 'SmTClass' selector: #method3: isMetaSide: false))
+				at: (SmTClass >> #method3: )asRingDefinition)
 		equals:
-			{(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod2 isMetaSide: false)}
+			{(SmTClassTest >> #testMethod2 )asRingDefinition}
 				asSet.
 	self
 		assert:
 			(smartFinder currentCache
-				at: (RGMethodDefinition className: 'SmTClass' selector: #method4 isMetaSide: false))
+				at: (SmTClass >> #method4 )asRingDefinition)
 		equals:
-			{(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod2 isMetaSide: false)}
+			{(SmTClassTest >> #testMethod2 )asRingDefinition}
 				asSet

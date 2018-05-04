@@ -1,5 +1,6 @@
 tests
 testModificationOnTest
+"asserts that if a test method is modified, the tests founds includes itself."
 	<CORATestBlacklisted>
 	| testsFound |
 	testsFound := self searchTestMethodsFor: SmTClassTest >> #testMethod4.

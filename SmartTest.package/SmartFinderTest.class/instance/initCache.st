@@ -1,34 +1,31 @@
 initialization
 initCache
-	^ {((RGMethodDefinition className: 'SmTClass' selector: #method1 isMetaSide: false)
+	^ {((SmTClass >> #method1 )asRingDefinition
 		->
-			{(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod1 isMetaSide: false).
-			(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod2 isMetaSide: false).
-			(RGMethodDefinition
-				className: 'SmTInheritClassTest'
-				selector: #testMethod1
-				isMetaSide: false)} asSet).
-	((RGMethodDefinition className: 'SmTClass' selector: #method2 isMetaSide: false)
+			{(SmTClassTest >> #testMethod1 )asRingDefinition.
+			(SmTClassTest >> #testMethod2 )asRingDefinition.
+			(RGMethodDefinition className: 'SmTInheritClassTest' selector: #testMethod1 isMetaSide: false)} asSet).
+	((SmTClass >> #method2 )asRingDefinition
 		->
-			{(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod2 isMetaSide: false)}
+			{(SmTClassTest >> #testMethod2 )asRingDefinition}
 				asSet).
-	((RGMethodDefinition className: 'SmTClass' selector: #method3: isMetaSide: false)
+	((SmTClass >> #method3: )asRingDefinition
 		->
-			{(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod1 isMetaSide: false).
-			(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod2 isMetaSide: false).
-			(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod3 isMetaSide: false)}
+			{(SmTClassTest >> #testMethod1 )asRingDefinition.
+			(SmTClassTest >> #testMethod2 )asRingDefinition.
+			(SmTClassTest >> #testMethod3 )asRingDefinition}
 				asSet).
-	((RGMethodDefinition className: 'SmTClass' selector: #method4 isMetaSide: false)
+	((SmTClass >> #method4 )asRingDefinition
 		->
-			{(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod2 isMetaSide: false).
-			(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod3 isMetaSide: false).
-			(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod4 isMetaSide: false)}
+			{(SmTClassTest >> #testMethod2 )asRingDefinition.
+			(SmTClassTest >> #testMethod3 )asRingDefinition.
+			(SmTClassTest >> #testMethod4 )asRingDefinition}
 				asSet).
-	((RGMethodDefinition className: 'SmTClass2' selector: #initialize isMetaSide: false)
+	((SmTClass2 >> #initialize )asRingDefinition
 		->
-			{(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod5 isMetaSide: false)}
+			{(SmTClassTest >> #testMethod5 )asRingDefinition}
 				asSet).
-	((RGMethodDefinition className: 'SmTClassTest' selector: #testMethod4 isMetaSide: false)
+	((SmTClassTest >> #testMethod4 )asRingDefinition
 		->
-			{(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod4 isMetaSide: false)}
+			{(SmTClassTest >> #testMethod4 )asRingDefinition}
 				asSet)} asDictionary
