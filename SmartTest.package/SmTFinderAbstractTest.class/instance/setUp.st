@@ -12,4 +12,4 @@ setUp
 				className: 'SmTInheritClassTest'
 				selector: #testMethod1
 				isMetaSide: false) .
-	testMethodOutSidePackage1 := (SmTClassTest >> #testMethodOutSidePackage1) asRingDefinition.
+	testMethodOutsidePackage1 := (SmTClassTest >> #testMethodOutsidePackage1) asRingDefinition.

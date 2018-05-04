@@ -8,4 +8,4 @@ testStandardMethodFirstLevelSendersOutsidePackage
 	self assert: (testsFound includes: testMethod2).
 	self deny: (testsFound includes: testMethod3).
 	self deny: (testsFound includes: testMethod4).
-	self deny: (testsFound includes: testMethodOutSidePackage1)
+	self deny: (testsFound includes: testMethodOutsidePackage1)
