@@ -1,4 +1,4 @@
-tests
+test-filter
 testStandardMethodFirstLevelSendersOutsidePackage
 	<CORATestBlacklisted>
 	| testsFound |

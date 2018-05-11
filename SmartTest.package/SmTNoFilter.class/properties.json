@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTNullPackagesFilter",
+	"name" : "SmTNoFilter",
 	"type" : "normal"
 }

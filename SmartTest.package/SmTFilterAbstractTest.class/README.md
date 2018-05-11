@@ -1,0 +1,1 @@
+I test the strategy SendersFinder with different filters.

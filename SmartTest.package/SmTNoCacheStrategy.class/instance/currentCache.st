@@ -1,3 +1,3 @@
-private
+accessing
 currentCache
 	^ Dictionary new

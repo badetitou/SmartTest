@@ -20,4 +20,6 @@ initCache
 	((SmTClass2 >> #initialize )asRingDefinition
 		-> {(SmTClassTest >> #testMethod5 )asRingDefinition} asSet).
 	((SmTClassTest >> #testMethod4 )asRingDefinition
-		-> {(SmTClassTest >> #testMethod4 )asRingDefinition} asSet)} asDictionary
+		-> {(SmTClassTest >> #testMethod4 )asRingDefinition} asSet).
+	((SmTClassOutside >> #method2 )asRingDefinition
+		-> {(SmTClassOutsideTest >> #testMethodOutsidePackage1 ) asRingDefinition.} asSet).} asDictionary

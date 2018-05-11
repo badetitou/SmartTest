@@ -8,8 +8,10 @@ setUp
 	testMethod3 := (SmTClassTest >> #testMethod3) asRingDefinition.
 	testMethod4 := (SmTClassTest >> #testMethod4) asRingDefinition.
 	testMethod5 := (SmTClassTest >> #testMethod5) asRingDefinition.
+	
 	testInheritedMethod1 := (RGMethodDefinition
 				className: 'SmTInheritClassTest'
 				selector: #testMethod1
 				isMetaSide: false) .
-	testMethodOutsidePackage1 := (SmTClassTest >> #testMethodOutsidePackage1) asRingDefinition.
+	testMethodOutsidePackage1 := (SmTClassOutsideTest >> #testMethodOutsidePackage1) asRingDefinition.
+	testMethod1OutsidePackage := (SmTClassOutsideTest >> #testMethod1OutsidePackage) asRingDefinition.

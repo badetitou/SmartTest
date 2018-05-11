@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "EleonoreWALD 5/9/2018 16:06",
+	"super" : "TestCase",
+	"category" : "SmartTest-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"smartFinder"
+	],
+	"name" : "SmTFilterAbstractTest",
+	"type" : "normal"
+}

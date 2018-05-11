@@ -14,7 +14,8 @@
 		"testMethod4",
 		"testMethod5",
 		"testInheritedMethod1",
-		"testMethodOutsidePackage1"
+		"testMethodOutsidePackage1",
+		"testMethod1OutsidePackage"
 	],
 	"name" : "SmTFinderAbstractTest",
 	"type" : "normal"

@@ -1,4 +1,4 @@
-initialization
+tests
 testStandardMethodSecondLevelSenders
 	<CORATestBlacklisted>
 	| testsFound |

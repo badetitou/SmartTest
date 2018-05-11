@@ -7,3 +7,4 @@ testAdd
 	onModif add: el. 
 	self assert: onModif bag size equals: 1.
 	self assert:( onModif bag includes: el)
+	
