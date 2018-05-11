@@ -1,0 +1,3 @@
+tests
+test_p2_MyMethod1_FirstLevelSendersOutsidePackage
+	^ SmTClassDefaultPackageP1 new p1_myMethod1_FirstLevelSendersOutsidePackage.

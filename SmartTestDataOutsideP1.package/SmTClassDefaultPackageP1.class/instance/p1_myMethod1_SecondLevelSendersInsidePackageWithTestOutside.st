@@ -1,0 +1,3 @@
+myMethod1
+p1_myMethod1_SecondLevelSendersInsidePackageWithTestOutside
+	"Data for tests"

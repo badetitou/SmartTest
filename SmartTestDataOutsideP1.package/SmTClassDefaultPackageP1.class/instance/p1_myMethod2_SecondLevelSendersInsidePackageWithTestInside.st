@@ -1,0 +1,3 @@
+myMethod2
+p1_myMethod2_SecondLevelSendersInsidePackageWithTestInside
+^SmTClassDefaultPackageP1  new p1_myMethod1_SecondLevelSendersInsidePackageWithTestInside.
