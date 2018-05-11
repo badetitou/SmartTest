@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "EleonoreWALD 5/11/2018 13:29",
+	"commentStamp" : "EleonoreWALD 5/11/2018 11:00",
 	"super" : "SmTFilterAbstractTest",
 	"category" : "SmartTest-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTSendersFilterTestDefaultPackage",
+	"name" : "SmTSendersFilterTestWithRestrictedPackage",
 	"type" : "normal"
 }

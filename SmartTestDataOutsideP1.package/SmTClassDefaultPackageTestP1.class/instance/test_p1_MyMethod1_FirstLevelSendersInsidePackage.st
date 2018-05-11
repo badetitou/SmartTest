@@ -1,3 +1,0 @@
-tests
-test_p1_MyMethod1_FirstLevelSendersInsidePackage
-	^ SmTClassDefaultPackageP1 new p1_myMethod1_FirstLevelSendersInsidePackage.

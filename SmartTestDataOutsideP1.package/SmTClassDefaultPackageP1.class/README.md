@@ -1,1 +1,0 @@
-Data for DefaultPackageFilter tests.

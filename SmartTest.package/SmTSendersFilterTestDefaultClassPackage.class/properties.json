@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTSendersFilterTestDefaultPackage",
+	"name" : "SmTSendersFilterTestDefaultClassPackage",
 	"type" : "normal"
 }

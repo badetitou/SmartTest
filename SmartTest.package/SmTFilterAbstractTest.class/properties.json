@@ -6,7 +6,13 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"smartFinder"
+		"smartFinder",
+		"test_method1_FirstLevelSendersInsidePackage",
+		"test_method1_FirstLevelSendersOutsidePackage",
+		"test_method2_SecondLevelSendersInsidePackageWithTestInside",
+		"test_method2_SecondLevelSendersOutsidePackageWithTestInside",
+		"test_method2_SecondLevelSendersInsidePackageWithTestOutside",
+		"test_method2_SecondLevelSendersOutsidePackageWithTestOutside"
 	],
 	"name" : "SmTFilterAbstractTest",
 	"type" : "normal"

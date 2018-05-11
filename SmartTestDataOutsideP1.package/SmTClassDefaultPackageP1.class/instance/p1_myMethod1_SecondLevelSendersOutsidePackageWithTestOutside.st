@@ -1,3 +1,0 @@
-myMethod1
-p1_myMethod1_SecondLevelSendersOutsidePackageWithTestOutside
-	"Data for tests"

@@ -1,3 +1,0 @@
-as yet unclassified
-p2_myMethod2_SecondLevelSendersOutsidePackageWithTestOutside
-^SmTClassDefaultPackageP1  new p1_myMethod1_SecondLevelSendersOutsidePackageWithTestOutside
