@@ -1,4 +1,5 @@
 protocol
 disable
-	"Do not receiver any system change notification anymore"
+	super disable.
+	
 	SystemAnnouncer uniqueInstance unsubscribe: self

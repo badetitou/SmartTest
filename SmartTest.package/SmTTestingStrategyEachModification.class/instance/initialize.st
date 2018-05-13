@@ -1,3 +1,3 @@
 initialization
 initialize
-	SmTListener enable
+	bag := Bag new
