@@ -1,4 +1,4 @@
 meta-data
 preUnload
-	super preUnload.
-	SmTListener disable
+	super
+		preUnload.

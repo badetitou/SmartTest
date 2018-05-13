@@ -1,3 +1,3 @@
 accessing
 title
-	self subclassResponsibility 
+	^ 'You should run these tests'

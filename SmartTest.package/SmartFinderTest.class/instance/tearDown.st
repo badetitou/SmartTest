@@ -1,0 +1,3 @@
+initialization
+tearDown
+	smartFinder clean
