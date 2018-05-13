@@ -2,7 +2,7 @@ initialization
 setUp
 	smartFinder := SmartFinder new
 		cacheStrategy: SmTBasicCacheStrategy new;
-		filter: SmTNullPackagesFilter new;
+		filter: SmTNoFilter new;
 		testRunner: SmTRunnerStrategyDebug;
 		smtFinder: SmTSenderTestFinderStrategy new;
 		testingStrategy: SmTTestingStrategyEachModification new;

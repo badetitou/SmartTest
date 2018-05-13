@@ -1,4 +1,4 @@
-as yet unclassified
+api
 extractCurrentTestExecutionFromContext: ctxt
 	| aTestCase aCompiledTestCase |
  	aTestCase := ctxt arguments at: 1.

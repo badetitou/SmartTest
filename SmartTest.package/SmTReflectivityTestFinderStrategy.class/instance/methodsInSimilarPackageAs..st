@@ -1,4 +1,4 @@
-as yet unclassified
+private
 methodsInSimilarPackageAs: aCompiledMethod
 		
 	| packageBaseName packages |

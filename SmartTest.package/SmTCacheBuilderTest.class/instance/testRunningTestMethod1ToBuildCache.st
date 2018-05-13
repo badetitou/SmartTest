@@ -9,5 +9,5 @@ testRunningTestMethod1ToBuildCache
 
 	"Not sure about the format of the dictionnary."
 	self
-		assert: (smartFinder currentCache at: (RGMethodDefinition className: 'SmTClass' selector: #method1 isMetaSide: false))
-		equals: {(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod1 isMetaSide: false)} asSet
+		assert: (smartFinder currentCache at: (SmTClass >> #method1 ) asRingDefinition)
+		equals: {(SmTClassTest >> #testMethod1) asRingDefinition} asSet

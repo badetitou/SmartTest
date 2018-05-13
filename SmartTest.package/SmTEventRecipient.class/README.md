@@ -1,1 +1,1 @@
-I collect tests, run tests and notify the bug button of my work
+I collect tests, run tests and notify the big button of my work

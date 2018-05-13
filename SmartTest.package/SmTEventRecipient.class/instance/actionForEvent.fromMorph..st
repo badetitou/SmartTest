@@ -1,3 +1,3 @@
-as yet unclassified
+action
 actionForEvent: anEvent fromMorph: aMorph
 	self runTestAndShowProgressIn: aMorph

@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "EleonoreWALD 5/9/2018 16:06",
+	"super" : "TestCase",
+	"category" : "SmartTest-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"smartFinder",
+		"test_method1_FirstLevelSendersInsidePackage",
+		"test_method1_FirstLevelSendersOutsidePackage",
+		"test_method2_SecondLevelSendersInsidePackageWithTestInside",
+		"test_method2_SecondLevelSendersOutsidePackageWithTestInside",
+		"test_method2_SecondLevelSendersInsidePackageWithTestOutside",
+		"test_method2_SecondLevelSendersOutsidePackageWithTestOutside"
+	],
+	"name" : "SmTFilterAbstractTest",
+	"type" : "normal"
+}

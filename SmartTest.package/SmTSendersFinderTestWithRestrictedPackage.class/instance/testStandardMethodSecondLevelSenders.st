@@ -1,6 +1,9 @@
-initialization
+tests
 testStandardMethodSecondLevelSenders
 	"In class, the research is limited to the SmartTest-Tests-Data package and is static. So the assertions are different. There should be only one test found that call the method2 message"
+	"Here the test founds should not include the test 'testInheritedMethod1' because 
+	- it is not in the package SmartTest-Tests-Data 
+	- it makes a reference to SmTClassOutSide new method2 and NOT SmTClass >> method2"
 
 	<CORATestBlacklisted>
 	| testsFound |

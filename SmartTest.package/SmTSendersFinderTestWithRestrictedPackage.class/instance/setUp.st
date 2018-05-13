@@ -1,5 +1,5 @@
-initialization
+running
 setUp
 	super setUp.
-	self timeLimit: 15 seconds.
-	smartFinder filter: (SmTSpecifyPackageNameFilter packagesRegEx: 'SmartTest-Tests-Data') new
+	self timeLimit: 60 seconds.
+	smartFinder filter: (SmTSpecifyPackagesNameFilter packagesRegEx: 'SmartTest-Tests-Data') new
