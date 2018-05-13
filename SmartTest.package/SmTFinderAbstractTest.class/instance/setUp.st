@@ -1,11 +1,17 @@
-initialization
+running
 setUp
 	smartFinder := SmartFinder new.
 	smartFinder filter: SmTDefaultClassPackagesFilter new.
 	
-	testMethod1 := RGMethodDefinition className: 'SmTClassTest' selector: #testMethod1 isMetaSide: false.
-	testMethod2 := RGMethodDefinition className: 'SmTClassTest' selector: #testMethod2 isMetaSide: false.
-	testMethod3 := RGMethodDefinition className: 'SmTClassTest' selector: #testMethod3 isMetaSide: false.
-	testMethod4 := RGMethodDefinition className: 'SmTClassTest' selector: #testMethod4 isMetaSide: false.
-	testMethod5 := RGMethodDefinition className: 'SmTClassTest' selector: #testMethod5 isMetaSide: false.
-	testInheritedMethod1 := RGMethodDefinition className: 'SmTInheritClassTest' selector: #testMethod1 isMetaSide: false.
+	testMethod1 := (SmTClassTest >> #testMethod1) asRingDefinition.
+	testMethod2 := (SmTClassTest >> #testMethod2) asRingDefinition.
+	testMethod3 := (SmTClassTest >> #testMethod3) asRingDefinition.
+	testMethod4 := (SmTClassTest >> #testMethod4) asRingDefinition.
+	testMethod5 := (SmTClassTest >> #testMethod5) asRingDefinition.
+	
+	testInheritedMethod1 := (RGMethodDefinition
+				className: 'SmTInheritClassTest'
+				selector: #testMethod1
+				isMetaSide: false) .
+	testMethodOutsidePackage1 := (SmTClassOutsideTest >> #testMethodOutsidePackage1) asRingDefinition.
+	"testMethod1OutsidePackage := (SmTClassOutsideTest >> #testMethod1OutsidePackage) asRingDefinition."

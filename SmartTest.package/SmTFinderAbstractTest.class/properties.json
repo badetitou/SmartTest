@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 7/13/2017 16:52",
+	"commentStamp" : "EleonoreWALD 5/3/2018 14:21",
 	"super" : "TestCase",
 	"category" : "SmartTest-Tests",
 	"classinstvars" : [ ],
@@ -13,7 +13,9 @@
 		"testMethod3",
 		"testMethod4",
 		"testMethod5",
-		"testInheritedMethod1"
+		"testInheritedMethod1",
+		"testMethodOutsidePackage1",
+		"testMethod1OutsidePackage"
 	],
 	"name" : "SmTFinderAbstractTest",
 	"type" : "normal"

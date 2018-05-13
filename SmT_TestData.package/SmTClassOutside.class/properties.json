@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EleonoreWALD 5/2/2018 14:26",
+	"super" : "Object",
+	"category" : "SmT_TestData",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTClassOutside",
+	"type" : "normal"
+}

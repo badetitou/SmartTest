@@ -1,1 +1,1 @@
-A CORAFinderStrategyReflectivityTest is a test class for testing the behavior of CORAFinderStrategyReflectivity
+A SmTFinderStrategyReflectivityTest is a test class for testing the behavior of SmTFinderStrategyReflectivity

@@ -1,3 +1,3 @@
-private
+accessing
 at: aMethodReference put: aCacheElement
 	^ self 

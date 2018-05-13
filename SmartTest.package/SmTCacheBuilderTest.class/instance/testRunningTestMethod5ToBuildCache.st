@@ -3,15 +3,15 @@ testRunningTestMethod5ToBuildCache
 	"This test if SmTTestCoverage find the initialize call"
 
 	<CORATestBlacklisted>
-	self assert: smartFinder cacheValues isEmpty.
+	self assert: smartFinder currentCache isEmpty.
 	SmTClassTest run: #testMethod5.
-	"Running the test fill the cache that is then no more empty but contains only the association between SmTClass>>method1 and SmTClassTest>>testMethod1"
-	self assert: smartFinder cacheValues isNotEmpty.
-	self assert: smartFinder cacheValues size equals: 2.
+	"Running the test fill the cache that is then no more empty but contains only the association between SmTClass2>>initialize and SmTClassTest>>testMethod5"
+	self assert: smartFinder currentCache isNotEmpty.
+	self assert: smartFinder currentCache size equals: 2.
 
 	self
-		assert: (smartFinder cacheValues at: (RGMethodDefinition className: 'SmTClass2' selector: #initialize isMetaSide: false))
-		equals: {(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod5 isMetaSide: false)} asSet.
-			self
-		assert: (smartFinder cacheValues at: (RGMethodDefinition className: 'SmTClassTest' selector: #testMethod5 isMetaSide: false))
-		equals: {(RGMethodDefinition className: 'SmTClassTest' selector: #testMethod5 isMetaSide: false)} asSet
+		assert: (smartFinder currentCache at: (SmTClass2 >> #initialize ) asRingDefinition)
+		equals: {(SmTClassTest >> #testMethod5 )asRingDefinition} asSet.
+	self
+		assert: (smartFinder currentCache at: (SmTClassTest >> #testMethod5 )asRingDefinition)
+		equals: {(SmTClassTest >> #testMethod5 )asRingDefinition} asSet

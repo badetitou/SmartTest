@@ -1,4 +1,4 @@
 protocol
 enable
-	SmTFivesMinutesCollector start.
-		super enable
+	super enable.
+	SmTFivesMinutesCollector start

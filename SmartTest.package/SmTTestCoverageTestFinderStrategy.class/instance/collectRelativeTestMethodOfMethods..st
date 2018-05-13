@@ -1,4 +1,4 @@
-as yet unclassified
+search
 collectRelativeTestMethodOfMethods: methods
 	^ (self availableTestMethods
 		intersection:

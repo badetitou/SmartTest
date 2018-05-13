@@ -1,5 +1,6 @@
-initialization
+running
 setUp
 	super setUp.
-	smartFinder cacheClass: SmTNoCacheStrategy new.
+	self timeLimit: 15 seconds.
+	smartFinder cacheStrategy: SmTNoCacheStrategy new.
 	cache := SmTNoCacheStrategy new

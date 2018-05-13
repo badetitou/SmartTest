@@ -1,4 +1,4 @@
-as yet unclassified
+opening
 openWithSmartFinder: aSmartFinder
 	self new
 		smartFinder: aSmartFinder;
