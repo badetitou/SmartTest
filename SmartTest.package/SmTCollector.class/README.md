@@ -1,0 +1,1 @@
+This collector exists to describe all the ways the tests can be collected.

@@ -1,3 +1,0 @@
-testing
-hasEmptyCache
-	^ cacheClass isNil

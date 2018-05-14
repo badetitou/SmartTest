@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EleonoreWALD 5/2/2018 10:19",
+	"super" : "Object",
+	"category" : "SmartTest-Filter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTFilterStrategy",
+	"type" : "normal"
+}

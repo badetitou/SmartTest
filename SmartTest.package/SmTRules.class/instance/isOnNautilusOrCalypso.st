@@ -1,4 +1,6 @@
-testing
+accessing
 isOnNautilusOrCalypso
 	"20 items means at least Nautilus"
-	^thisContext contextStack size < 30.
+	| he |
+	he := thisContext stack collect: [ :c | c methodClass asString ] .
+	^ he anySatisfy: [:el | 'ClyNavigationEnvironment' match: el]

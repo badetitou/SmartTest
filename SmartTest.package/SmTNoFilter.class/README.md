@@ -1,0 +1,1 @@
+This filter is "useless" because it does not filter anything: it looks everywhere in the image

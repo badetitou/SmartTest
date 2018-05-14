@@ -1,0 +1,2 @@
+This class has test that calls SmTClassOutside >> method2, a method also present in the SmartTest package. 
+As SmTClassOutside, SmTClassOutSideTest aims to check that by default SmartTest does bot look for test outside the package.

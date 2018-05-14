@@ -1,3 +1,3 @@
-at
+accessing
 at: aMethodReference
 	self subclassResponsibility 

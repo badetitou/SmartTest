@@ -1,5 +1,6 @@
 tests
 testSetupMethodFindsTests
+"asserts that the method SmTClassTest>>setup is related to the testMethods 1 to 4 and that 'testsForASetupMethod' finds all the good tests related to a setup method."
 	<CORATestBlacklisted>
 	| testsFound |
 	testsFound := self testsForASetUpMethod: SmTClassTest >> #setUp.

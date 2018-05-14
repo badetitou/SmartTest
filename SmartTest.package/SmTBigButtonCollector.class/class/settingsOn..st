@@ -5,15 +5,16 @@ settingsOn: aBuilder
 		parent: 'SmartTest';
 		target: self;
 		order: 0.01;
-		label: 'SmartTest Collect ButtonActivated';
+		label: 'SmartTest Collect Button';
 		description: 'Toogle to activate/disable the Big Button'.
 	(aBuilder group: #reset)
 		label: 'Big Button Reset Cache';
 		target: self;
 		parent: #SmartTest;
+		order: 8;
 		dialog: [ SimpleButtonMorph new
 				target: self;
-				label: 'Reset Bg Button SmartTest Cache';
+				label: 'Reset Collect Button Cache';
 				actionSelector: #reset;
 				themeChanged;
 				yourself ];

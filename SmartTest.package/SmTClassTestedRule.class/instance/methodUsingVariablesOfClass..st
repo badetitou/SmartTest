@@ -1,4 +1,4 @@
-as yet unclassified
+running
 methodUsingVariablesOfClass: aClass
 	| aSet |
 	aSet := Set new.

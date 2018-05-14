@@ -1,0 +1,3 @@
+testMethod2
+test_method2_SecondLevelSendersOutsidePackageWithTestInside
+	^ ('SmTClass','P2') asClass new method2_SecondLevelSendersOutsidePackageWithTestInside.

@@ -1,4 +1,4 @@
-as yet unclassified
+api
 installLinkAndRunTest: aTestMethod
 	| testEnv |
 	self currentTestExecution: aTestMethod.

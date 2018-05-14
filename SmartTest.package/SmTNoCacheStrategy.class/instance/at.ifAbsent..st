@@ -1,3 +1,3 @@
-private
+accessing
 at: aCompiled ifAbsent: aBlock
 	^ aBlock value

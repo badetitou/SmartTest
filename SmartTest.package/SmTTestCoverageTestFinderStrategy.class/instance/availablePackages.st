@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 availablePackages
 	"Collect the packages that can be used with the wrapper to fill completely the methodToTest dictionnary"
 	| availablePackages |

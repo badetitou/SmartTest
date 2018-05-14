@@ -1,0 +1,1 @@
+This filter only looks in the packages whose names match a given regex

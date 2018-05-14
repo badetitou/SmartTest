@@ -1,0 +1,1 @@
+This class is used to define the filter used by SmartTest.

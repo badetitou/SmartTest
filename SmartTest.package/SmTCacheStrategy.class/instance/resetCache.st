@@ -1,0 +1,3 @@
+private
+resetCache
+	cache removeAll

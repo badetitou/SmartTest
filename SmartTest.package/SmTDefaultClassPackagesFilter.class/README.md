@@ -1,1 +1,1 @@
-The finder should provide only methods which are contain in the package of the last modification or in the packages which call the method class
+This filter looks in the packages of all methods that reference the class of the changed entity (method or class)
