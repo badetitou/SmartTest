@@ -3,4 +3,5 @@ setUp
 	"Here we want to test the SmTDefaultPackagesFilter with the static strategy 'sendersFinder' "
 	super setUp.
 	self timeLimit: 60 seconds.
-	smartFinder filter: (SmTSpecifyPackagesNameFilter packagesRegEx: 'SmartTestDataOutsideP1,SmartTestDataOutsideP2') new
+	self flag: 'Because the problem with the regex is not corrected yet, those tests will fail but we leave it as it to show that there is a problem'.
+	smartFinder filter: (SmTSpecifyPackagesNameFilter packagesRegEx: 'SmartTestDataOutsideP1|SmartTestDataOutsideP2') new

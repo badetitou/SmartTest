@@ -1,1 +1,2 @@
 I test the strategy SendersFinder with different filters.
+In order to be sure that those test are not considered as callers of the modified method and as references to its class, we don't use directly the class and the method but go through their name with a concatenation and then transform them into class or method.
