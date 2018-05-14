@@ -5,7 +5,7 @@ settingsOn: aBuilder
 		label: 'SmartTest filter Regex configuration';
 		target: self;
 		parent: #SmTFilter;
-		ghostHelp: 'SmartTe,Start*Wars';
+		ghostHelp: 'SmartTe|Start*Wars';
 		notInStyle;
 		default: '';
 		description:

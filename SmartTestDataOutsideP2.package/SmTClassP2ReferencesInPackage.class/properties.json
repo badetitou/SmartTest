@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTClassP2ThatMakesReferences",
+	"name" : "SmTClassP2ReferencesInPackage",
 	"type" : "normal"
 }
