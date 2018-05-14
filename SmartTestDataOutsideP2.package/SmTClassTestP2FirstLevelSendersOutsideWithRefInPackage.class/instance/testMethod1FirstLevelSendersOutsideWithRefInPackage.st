@@ -1,0 +1,3 @@
+tests
+testMethod1FirstLevelSendersOutsideWithRefInPackage
+^('SmTClassP1','FirstLevelSendersOutsideWithRefInPackage') asClass new method1FirstLevelSendersWithRefInPackage.

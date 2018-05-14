@@ -1,0 +1,4 @@
+testMethod1
+"testMethod1"
+testMethod1FirstLevelSendersOutsideWithRefInMethod
+^SmTClassP1FirstLevelSendersOutsideWithRefInMethod new method1FirstLevelSendersWithRefInMethod.

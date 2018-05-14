@@ -1,0 +1,4 @@
+ref
+"as yet unclassified"
+referenceToSmTClassP1FirstLevelSendersOutsideWithRefInPackage
+^SmTClassP1FirstLevelSendersOutsideWithRefInPackage
