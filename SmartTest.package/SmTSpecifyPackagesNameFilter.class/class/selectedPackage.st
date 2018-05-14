@@ -1,6 +1,6 @@
 accessing
 selectedPackage
-	^ ((self packagesRegEx substrings: ',')
+	^ ((self packagesRegex substrings: ',')
 		flatCollect: [ :packageRegex | 
 			RPackageOrganizer default packages
 				flatCollect: [ :package | 

@@ -1,8 +1,8 @@
 settings
 settingsOn: aBuilder
 	<systemsettings>
-	(aBuilder setting: #packagesRegEx)
-		label: 'SmartTest filter RegEx configuration';
+	(aBuilder setting: #packagesRegex)
+		label: 'SmartTest filter Regex configuration';
 		target: self;
 		parent: #SmTFilter;
 		ghostHelp: 'SmartTe,Start*Wars';

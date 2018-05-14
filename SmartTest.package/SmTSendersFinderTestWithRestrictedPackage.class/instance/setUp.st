@@ -2,4 +2,4 @@ running
 setUp
 	super setUp.
 	smartFinder
-		filter: (SmTSpecifyPackagesNameFilter packagesRegEx: 'SmartTest-Tests-Data') new
+		filter: (SmTSpecifyPackagesNameFilter packagesRegex: 'SmartTest-Tests-Data') new
