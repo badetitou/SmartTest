@@ -1,0 +1,3 @@
+as yet unclassified
+refToSmTClassP1SecondLevelSendersOutsideTestInsideWithRefInClass
+^ SmTClassP1SecondLevelSendersOutsideTestInsideWithRefInClass new.

@@ -1,0 +1,3 @@
+as yet unclassified
+method2SecondLevelSendersOutsideTestInsideWithRefInMethod
+^SmTClassP1SecondLevelSendersOutsideTestInsideWithRefInMethod new method1SecondLevelSendersOutsideTestInsideWithRefInMethod.

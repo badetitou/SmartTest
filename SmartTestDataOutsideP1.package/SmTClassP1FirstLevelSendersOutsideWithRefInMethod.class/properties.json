@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "EleonoreWALD 5/14/2018 15:35",
-	"super" : "SmTClassP1FirstLevelSendersWithRef",
+	"super" : "SmTClassP1FirstLevelSendersOutsideWithRef",
 	"category" : "SmartTestDataOutsideP1",
 	"classinstvars" : [ ],
 	"pools" : [ ],

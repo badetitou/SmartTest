@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "SmartTestDataOutsideP1",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTClassP1SecondLevelSenderOutsideWithTestInsideWithRef",
+	"type" : "normal"
+}
