@@ -1,3 +1,0 @@
-tests
-refInClass
-^ SmTClassP1FirstLevelSendersOutsideWithRefInClass.

@@ -1,4 +1,4 @@
-as yet unclassified
+method1
 method1SecondLevelSendersOutsideTestInsideWithRefInClass
 "Data for tests: method directly called by a test method not from the same package"
 	

@@ -1,0 +1,3 @@
+tests
+referenceToSmTClassP1FirstLevelSendersOutsideWithRefInClass
+^ SmTClassP1FirstLevelSendersOutsideWithRefInClass.

@@ -9,5 +9,5 @@ testStandardMethodSecondLevelSendersInsideTestOutsideWithRefInMethod
 	| testsFound |
 	testsFound := self searchTestMethodsFor: ( ('SmTClassP1SecondLevelSendersInsideTestOutsideWithRefIn','Method') asClass >> ('method1SecondLevelSendersInsideTestOutsideWithRefIn','Method') asSymbol).
 	self assert: testsFound size equals: 1.
-	self assert: (testsFound includes: (SmTClassTestP2SecondLevelSenderInsideTestOutsideWithRefInMethod >> #testMethod2SecondLevelSenderInsideTestOutsideWithRefInMethod) asRingDefinition ).
+	self assert: (testsFound includes: (('SmTClassTest','P2') asClass >> ('testMethod2SecondLevelSenderInsideTestOutsideWithRefIn','Method')asSymbol) asRingDefinition ).
 	

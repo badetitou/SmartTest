@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EleonoreWALD 5/16/2018 16:22",
-	"super" : "SmTClassP1SecondLevelSenderOutsideWithTestInsideWithRef",
-	"category" : "SmartTestDataOutsideP1",
+	"super" : "Object",
+	"category" : "SmartTestDataOutsideP1-SenderOutTestInWithRef",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,5 +1,4 @@
 method1
-"method1"
 method1FirstLevelSendersWithRefInClass
 "Data for tests: method directly called by a test method not from the same package"
 	
