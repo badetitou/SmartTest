@@ -1,7 +1,9 @@
 tests
 testStandardMethodSecondLevelSendersInsideTestOutsideWithRefInMethod
 	<CORATestBlacklisted>
-	"method1 is called by testMethod1, which is not in the same package but there is reference to method1's class in a method in the same package as testmethod1, thus testMethod1 should be found."
+	"method1 is called by method 2,itself called by testMethod1"
+	"P1 : method1 and method2
+	 P2 : testMethod2, the reference is made in testMethod2"
 	"In order to be sure that this test is not considered as a caller of the modified method and a reference to its class, we don't use directly the class and the method but go through their name with a concatenation and then transform them into class or method"
 	
 	| testsFound |

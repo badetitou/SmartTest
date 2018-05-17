@@ -1,0 +1,10 @@
+Data for SmartTest tests on the DefaultClassPackage filter.
+
+Methods of this class have long name in order to be unique and explicit.
+Being unique, the senders of each method are mastered and consequently the tests are independent the one from the others.
+
+In the tests, it is always the methods whose name contains 'method1' that are modified. If the name contains first level, the methods are directly called by a test. If the name contains SecondLevel, they are called by an another method (whose name contains 'method2').
+
+In this class, there the second level sender(the test) of the modified method (which contains 'testMethod2' in it's name). In another package, there is the modified method and its first level sender (the test itself,which contains 'method2' in it's name).
+
+In this class the second level sender references directly the class of the modified method, SmTClassP1SecondLevelSenderInsideTestOutsideWithRefInMethod, located in the package SmTDataOutsideP1.
