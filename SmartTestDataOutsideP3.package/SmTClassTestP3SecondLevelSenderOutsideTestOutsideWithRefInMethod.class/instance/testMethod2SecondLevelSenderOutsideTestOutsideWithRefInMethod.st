@@ -1,0 +1,4 @@
+testMethod2
+testMethod2SecondLevelSenderOutsideTestOutsideWithRefInMethod
+('SmTClassP2SecondLevelSendersOutsideTestOutsideWithRefIn','Method') asClass >> #method2SecondLevelSendersOutsideTestOutsideWithRefInMethod.
+SmTClassP1SecondLevelSendersOutsideTestOutsideWithRefInMethod new.

@@ -1,4 +1,0 @@
-testMethod2
-testMethod2SecondLevelSenderOutsideTestOutsideWithRefToP1InMethod
-('SmTClassP2SecondLevelSendersOutsideTestOutsideWithRefIn','Method') asClass >> #method2SecondLevelSendersOutsideTestOutsideWithRefToP1InMethod.
-SmTClassP1SecondLevelSendersOutsideTestOutsideWithRefInMethod new.

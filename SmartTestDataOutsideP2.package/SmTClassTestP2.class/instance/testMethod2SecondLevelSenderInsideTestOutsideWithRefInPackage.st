@@ -1,3 +1,3 @@
-tests
+testMethod2
 testMethod2SecondLevelSenderInsideTestOutsideWithRefInPackage
 SmTClassP1SecondLevelSendersInsideTestOutsideWithRefInPackage new method2SecondLevelSendersInsideTestOutsideWithRefInPackage.
