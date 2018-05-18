@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStandardMethodFirstLevelSendersOutsidePackageWithRefInMethod
 	<CORATestBlacklisted>
 	"method1 is called by testMethod1"
@@ -8,5 +8,5 @@ testStandardMethodFirstLevelSendersOutsidePackageWithRefInMethod
 	
 	| testsFound |
 	testsFound := self searchTestMethodsFor: ( ('SmTClassP1FirstLevelSendersOutsideWithRefIn','Method') asClass >> ('method1','FirstLevelSendersWithRefInMethod') asSymbol).
-	self assert: testsFound size equals: 1.
-	self assert: (testsFound includes: (('SmTClassTest','P2') asClass >> ('testMethod1FirstLevelSendersOutsideWithRefIn','Method') asSymbol) asRingDefinition ).
+	self assert: testsFound isEmpty.
+	self deny: (testsFound includes: (('SmTClassTest','P2') asClass >> ('testMethod1FirstLevelSendersOutsideWithRefIn','Method') asSymbol) asRingDefinition ).

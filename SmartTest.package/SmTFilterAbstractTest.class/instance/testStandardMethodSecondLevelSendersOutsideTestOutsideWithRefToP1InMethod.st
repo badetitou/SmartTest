@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStandardMethodSecondLevelSendersOutsideTestOutsideWithRefToP1InMethod
 	<CORATestBlacklisted>
 	"method1 is called by method 2,itself called by testMethod1"
@@ -9,6 +9,6 @@ testStandardMethodSecondLevelSendersOutsideTestOutsideWithRefToP1InMethod
 	
 	| testsFound |
 	testsFound := self searchTestMethodsFor: ( ('SmTClassP1SecondLevelSendersOutsideTestOutsideWithRefIn','Method') asClass >> ('method1SecondLevelSendersOutsideTestOutsideWithRefToP1In','Method') asSymbol).
-	self assert: testsFound size equals: 1.
-	self assert: (testsFound includes: (('SmTClassTestP3SecondLevelSenderOutsideTestOutsideWithRefIn','Method') asClass >> ('testMethod2SecondLevelSenderOutsideTestOutsideWithRefToP1In','Method') asSymbol) asRingDefinition ).
+	self assert: testsFound isEmpty.
+	self deny: (testsFound includes: (('SmTClassTestP3SecondLevelSenderOutsideTestOutsideWithRefIn','Method') asClass >> ('testMethod2SecondLevelSenderOutsideTestOutsideWithRefToP1In','Method') asSymbol) asRingDefinition ).
 	

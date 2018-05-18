@@ -2,7 +2,7 @@ running
 setUp
 	super setUp.
 	smartFinder := SmartFinder new.
-	smartFinder filter: SmTDefaultClassPackagesFilter new.
+	smartFinder filter: SmTDefaultPackagesFilter new.
 	testMethod1FirstLevelSendersInsidePackage := (('SmTClass' , 'TestP1') asClass
 		>> ('test' , 'Method1FirstLevelSendersInsidePackage') asSymbol) asRingDefinition.
 	testMethod1FirstLevelSendersOutsidePackage := (('SmTClass' , 'TestP2') asClass

@@ -13,18 +13,18 @@ Being unique, the senders of each method are controlled and consequently the tes
 If the name of a test contains « FirstLevelSender » then the corresponding method2 and testMethod2 do not exist.
 If the name of a test contains « SecondLevelSender » then the corresponding testMethod1 does not exist.
 
-
+We use the Classification Tree Method to represent the tests. 
 
 
 Simple tests (no references):
-TestMethod1 		Method2 			TestMethod2 	Test Identificator
-P1	P2				P1	P2				P1	P2
-•	|				|	|				|	|			FirstLevelSendersInside
-|	•				|	|				|	|			FirstLevelSendersInside
-|	|				•	|				•	|			SecondLevelSendersInsideTestInside
-|	|				•	|				|	•			SecondLevelSendersInsideTestOutside
-|	|				|	•				•	|			SecondLevelSendersOutsideTestInside
-|	|				|	•				|	•			SecondLevelSendersOutsideTestOutside
+Method: 	TestMethod1 		Method2 			TestMethod2 	Test Identificator
+Package: 	P1	P2				P1	P2				P1	P2
+			•	|				|	|				|	|			FirstLevelSendersInside
+			|	•				|	|				|	|			FirstLevelSendersInside
+			|	|				•	|				•	|			SecondLevelSendersInsideTestInside
+			|	|				•	|				|	•			SecondLevelSendersInsideTestOutside
+			|	|				|	•				•	|			SecondLevelSendersOutsideTestInside
+			|	|				|	•				|	•			SecondLevelSendersOutsideTestOutside
 
 
 Simple tests (no references):
@@ -40,6 +40,3 @@ Reference: 		Class 	Method Package 			|		Class 	Method Package 		Class 	Method P
 					|		|		 |					|		|		•		 |				|		|		 |					•		|		|		|		 |					SecondLevelSendersOutsidesideTestInsideWithRefInMethod
 					|		|		 |					|		|		|		 •				|		|		 |					•		|		|		|		 |					SecondLevelSendersOutsidesideTestInsideWithRefInPackage
 					|		|		 |					|		|		|		 |				|		•		 |					|		|		|		•		 |					SecondLevelSendersOutsidesideTestOutsideWithRefInMethod
-
-
-
