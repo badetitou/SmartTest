@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStandardMethodSecondLevelSendersInsideTestOutsideWithRefInClass
 	<CORATestBlacklisted>
 	"method1 is called by method 2,itself called by testMethod1"

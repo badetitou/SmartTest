@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStandardMethodFirstLevelSendersOutsidePackageWithRefInMethod
 	<CORATestBlacklisted>
 	"method1 is called by testMethod1"
