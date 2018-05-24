@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "SmartTestDataOutsideP2-extensionMethod",
+	"super" : "Object",
+	"category" : "SmartTestDataOutsideP3",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTExtension",
+	"name" : "SmTExtensionP3",
 	"type" : "normal"
 }

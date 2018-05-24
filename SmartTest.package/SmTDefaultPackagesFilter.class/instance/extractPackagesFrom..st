@@ -1,3 +1,4 @@
 accessing
 extractPackagesFrom: aCollectionOfCompiledMethod
-	packages := aCollectionOfCompiledMethod collect: [:aCompiledMethod | self extractCompiledMethodPackageBaseName: aCompiledMethod ]
+	packages := self extractPackagesWithoutExtensionFrom: aCollectionOfCompiledMethod.
+	packages addAll: (aCollectionOfCompiledMethod select: #isExtension thenCollect: [ :aCompiledMethod |  (aCompiledMethod package extendedClasses collect: [ :aClass | aClass package name ] ) asSet] ) flattened
