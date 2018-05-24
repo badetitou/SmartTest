@@ -22,4 +22,11 @@ initCache
 	((SmTClassTest >> #testMethod4 )asRingDefinition
 		-> {(SmTClassTest >> #testMethod4 )asRingDefinition} asSet).
 	((SmTClassOutside >> #method2 )asRingDefinition
-		-> {(SmTClassOutsideTest >> #testMethodOutsidePackage1 ) asRingDefinition.} asSet).} asDictionary
+		-> {(SmTClassOutsideTest >> #testMethodOutsidePackage1 ) asRingDefinition.} asSet).
+		
+		((SmTP1Inheritance>> #method1Inheritance)asRingDefinition
+		->{(SmTP1InheritanceSubClass1Test >> #testMethod1Inheritance) asRingDefinition.
+			(SmTP1InheritanceSubClass2Test >> #testMethod1Inheritance) asRingDefinition.} asSet)
+		
+		
+		} asDictionary
