@@ -5,5 +5,12 @@ SmalltalkCISpec {
       #directory : '',
       #platforms : [ #pharo ]
     }
-  ]
+  ],
+  #testing : {
+    #coverage : {
+      #packages : [ 'SmartTest' ],
+      #onWarningLog : true,
+      #useLatestMetacello : true
+    }
+  }
 }
