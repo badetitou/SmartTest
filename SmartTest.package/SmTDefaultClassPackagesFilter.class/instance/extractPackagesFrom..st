@@ -6,6 +6,6 @@ extractPackagesFrom: aCompiledMethod
 
 	| packages |
 	packages := super extractPackagesFrom: aCompiledMethod.
-	packages addAll: (aCompiledMethod methodClass allCallsOn collect: [ :rgMethod | super extractCompiledMethodPackageBaseName: rgMethod compiledMethod ]).
-	packages addAll: (aCompiledMethod methodClass extendingPackages collect: [ :aPackage | self extractCompiledMethodPackageBaseName: aPackage ]).
+	aCompiledMethod methodClass allCallsOn do: [ :rgMethod | packages add: (self extractCompiledMethodPackageBaseName: rgMethod compiledMethod) ].
+	aCompiledMethod methodClass extendingPackages do: [ :aPackage | packages add: (self extractCompiledMethodPackageBaseName: aPackage) ].
 	^ packages

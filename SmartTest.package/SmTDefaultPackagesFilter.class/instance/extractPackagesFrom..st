@@ -7,5 +7,5 @@ extractPackagesFrom: aCompiledMethod
 	| packages |
 	packages := {(self extractCompiledMethodPackageBaseName: aCompiledMethod)} asOrderedCollection.
 	aCompiledMethod isExtension
-		ifTrue: [ packages addAll: (aCompiledMethod package extendedClasses flatCollect: [ :aClass | aClass package name ]) ].
+		ifTrue: [  (aCompiledMethod package extendedClasses do: [ :aClass | packages add: aClass package name ]) ].
 	^ packages
