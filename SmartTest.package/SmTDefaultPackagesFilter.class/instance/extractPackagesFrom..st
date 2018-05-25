@@ -1,4 +1,10 @@
 accessing
-extractPackagesFrom: aCollectionOfCompiledMethod
-	packages := self extractPackagesWithoutExtensionFrom: aCollectionOfCompiledMethod.
-	packages addAll: (aCollectionOfCompiledMethod select: #isExtension thenCollect: [ :aCompiledMethod |  (aCompiledMethod package extendedClasses collect: [ :aClass | aClass package name ] ) asSet] ) flattened
+extractPackagesFrom: aCompiledMethod
+	"Thid method find:
+		- the package of the classes that owned the method
+		- the package that contains the method if its an extension"
+
+	packages := {(self extractCompiledMethodPackageBaseName: aCompiledMethod)} asOrderedCollection.
+	aCompiledMethod isExtension
+		ifTrue: [ packages addAll: (aCompiledMethod package extendedClasses flatCollect: [ :aClass | aClass package name ]) ].
+	^ packages
