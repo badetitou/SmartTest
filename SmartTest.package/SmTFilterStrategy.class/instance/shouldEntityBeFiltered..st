@@ -1,3 +1,0 @@
-asserting
-shouldEntityBeFiltered: anEntity
-	self subclassResponsibility 

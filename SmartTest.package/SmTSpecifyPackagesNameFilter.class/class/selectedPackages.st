@@ -1,5 +1,5 @@
 accessing
-selectedPackage
+selectedPackages
 	^ (RPackageOrganizer default packages
 		flatCollect: [ :package | 
 			package classTags
