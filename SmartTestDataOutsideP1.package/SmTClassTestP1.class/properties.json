@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EleonoreWALD 5/11/2018 11:54",
 	"super" : "TestCase",
-	"category" : "SmartTestDataOutsideP1",
+	"category" : "SmartTestDataOutsideP1-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

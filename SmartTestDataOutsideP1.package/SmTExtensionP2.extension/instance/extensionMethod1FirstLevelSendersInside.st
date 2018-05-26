@@ -1,0 +1,3 @@
+*SmartTestDataOutsideP1
+extensionMethod1FirstLevelSendersInside
+"an extension"

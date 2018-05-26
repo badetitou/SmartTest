@@ -1,17 +1,26 @@
 api
 methodsFor: aCompiledMethod
-	| finalFoundMethod |
 	^ self cache
 		at: aCompiledMethod methodReference
-		ifAbsent: [ #(testsForATestMethod: testsForASetUpMethod: testsForATearDownMethod: testsForAStandardMethod:)
-				do: [ :heuristic | 
-					| methods |
-					methods := [ self perform: heuristic with: aCompiledMethod ]
-						on: MessageNotUnderstood
-						do: [ #() ].
-					methods isEmpty
-						ifFalse: [ finalFoundMethod := self testsForMethod: aCompiledMethod.
-							finalFoundMethod addAll: (self computeInheritedTestFromDiscoveredTest: methods) asOrderedCollection.
-							^ finalFoundMethod ] ].
+		ifAbsent: [ (self testsForATestMethod: aCompiledMethod)
+				ifNotEmpty: [ :methods | 
+					^ (self testsForMethod: aCompiledMethod)
+						addAll: (self computeInheritedTestFromDiscoveredTest: methods);
+						yourself ].
+			(self testsForASetUpMethod: aCompiledMethod)
+				ifNotEmpty: [ :methods | 
+					^ (self testsForMethod: aCompiledMethod)
+						addAll: (self computeInheritedTestFromDiscoveredTest: methods);
+						yourself ].
+			(self testsForATearDownMethod: aCompiledMethod)
+				ifNotEmpty: [ :methods | 
+					^ (self testsForMethod: aCompiledMethod)
+						addAll: (self computeInheritedTestFromDiscoveredTest: methods);
+						yourself ].
+			(self testsForAStandardMethod: aCompiledMethod)
+				ifNotEmpty: [ :methods | 
+					^ (self testsForMethod: aCompiledMethod)
+						addAll: (self computeInheritedTestFromDiscoveredTest: methods);
+						yourself ].
 			self cache at: aCompiledMethod methodReference put: Set new.
 			^ {} ]
