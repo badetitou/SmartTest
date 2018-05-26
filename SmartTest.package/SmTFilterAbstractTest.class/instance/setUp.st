@@ -2,23 +2,21 @@ running
 setUp
 	super setUp.
 	smartFinder := SmartFinder new.
-	smartFinder filter: SmTDefaultClassPackagesFilter new.
-	smartFinder
-		filter: (SmTSpecifyPackagesNameFilter packagesRegEx: 'SmartTestDataOutsideP1') new.
-	test_method1_FirstLevelSendersInsidePackage := (('SmTClass' , 'TestP1') asClass
-		>> ('test_' , 'method1_FirstLevelSendersInsidePackage') asSymbol) asRingDefinition.
-	test_method1_FirstLevelSendersOutsidePackage := (('SmTClass' , 'TestP2') asClass
-		>> ('test_' , 'method1_FirstLevelSendersOutsidePackage') asSymbol) asRingDefinition.
-	test_method2_SecondLevelSendersInsidePackageWithTestInside := (('SmTClass' , 'TestP1')
-		asClass >> ('test_' , 'method2_SecondLevelSendersInsidePackageWithTestInside') asSymbol)
+	smartFinder filter: SmTDefaultPackagesFilter new.
+	testMethod1FirstLevelSendersInsidePackage := (('SmTClass' , 'TestP1') asClass
+		>> ('test' , 'Method1FirstLevelSendersInsidePackage') asSymbol) asRingDefinition.
+	testMethod1FirstLevelSendersOutsidePackage := (('SmTClass' , 'TestP2') asClass
+		>> ('test' , 'Method1FirstLevelSendersOutsidePackage') asSymbol) asRingDefinition.
+	testMethod2SecondLevelSendersInsidePackageWithTestInside := (('SmTClass' , 'TestP1')
+		asClass >> ('test' , 'Method2SecondLevelSendersInsidePackageWithTestInside') asSymbol)
 		asRingDefinition.
-	test_method2_SecondLevelSendersOutsidePackageWithTestInside := (('SmTClass' , 'TestP1')
-		asClass >> ('test_' , 'method2_SecondLevelSendersOutsidePackageWithTestInside') asSymbol)
+	testMethod2SecondLevelSendersOutsidePackageWithTestInside := (('SmTClass' , 'TestP1')
+		asClass >> ('test' , 'Method2SecondLevelSendersOutsidePackageWithTestInside') asSymbol)
 		asRingDefinition.
-	test_method2_SecondLevelSendersInsidePackageWithTestOutside := (('SmTClass' , 'TestP2')
-		asClass >> ('test_' , 'method2_SecondLevelSendersInsidePackageWithTestOutside') asSymbol)
+	testMethod2SecondLevelSendersInsidePackageWithTestOutside := (('SmTClass' , 'TestP2')
+		asClass >> ('test' , 'Method2SecondLevelSendersInsidePackageWithTestOutside') asSymbol)
 		asRingDefinition.
-	test_method2_SecondLevelSendersOutsidePackageWithTestOutside := (('SmTClass' , 'TestP2')
+	testMethod2SecondLevelSendersOutsidePackageWithTestOutside := (('SmTClass' , 'TestP2')
 		asClass
-		>> ('test_' , 'method2_SecondLevelSendersOutsidePackageWithTestOutside') asSymbol)
+		>> ('test' , 'Method2SecondLevelSendersOutsidePackageWithTestOutside') asSymbol)
 		asRingDefinition

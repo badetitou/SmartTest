@@ -1,0 +1,3 @@
+testMethod1
+testExtensionMethod1FirstLevelSendersOutside
+SmTExtensionP2 >> #extensionMethod1FirstLevelSendersOutside.

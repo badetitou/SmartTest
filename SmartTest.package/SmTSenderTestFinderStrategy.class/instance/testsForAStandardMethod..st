@@ -1,7 +1,7 @@
 API
 testsForAStandardMethod: aCompiledMethod
-	| dependencies |
-	filter := self filter extractPackagesFrom: {aCompiledMethod}.
-	dependencies := Set new.
-	self recursiveSearchForAStandardMethod: aCompiledMethod methodReference foundMethods: dependencies.
-	^ dependencies select: #isTestMethod
+	| packagesToLookAt |
+	packagesToLookAt := self filter extractPackagesFrom: aCompiledMethod.
+	^ (self
+		recursiveSearchForAStandardMethod: aCompiledMethod methodReference
+		inPackages: packagesToLookAt ) select: #isTestMethod
