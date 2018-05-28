@@ -1,7 +1,12 @@
 tests
 testModificationOnInitialize
 	<CORATestBlacklisted>
-	| testsFound |
+	| testsFound |self
+		timeLimit:
+			35
+				seconds.	
+					"this one needs more time than the other"
+					self flag: 'Takes a very long time'.
 	testsFound := self searchTestMethodsFor: SmTClass2 >> #initialize.
 
 	self deny: (testsFound includes: testMethod1).

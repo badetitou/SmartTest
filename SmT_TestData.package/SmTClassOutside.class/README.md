@@ -1,1 +1,0 @@
-This class has method with the same name than SmTClass in SmartTest package. SmTClassOutSide aims to check that by default SmartTest does not look for test outside the package.

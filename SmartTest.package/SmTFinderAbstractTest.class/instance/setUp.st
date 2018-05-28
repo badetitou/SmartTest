@@ -39,8 +39,3 @@ setUp
 			#testMethod1
 		isMetaSide:
 			false.
-	testMethodOutsidePackage1 := (SmTClassOutsideTest
-		>>
-			#testMethodOutsidePackage1)
-		asRingDefinition
-	"testMethod1OutsidePackage := (SmTClassOutsideTest >> #testMethod1OutsidePackage) asRingDefinition."

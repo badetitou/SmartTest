@@ -1,2 +1,2 @@
 *SmartTestDataOutsideP3
-extensionMethodP1_2
+extensionMethodP4

@@ -24,12 +24,10 @@ initCache
 		-> {(SmTClassTest >> #testMethod5) asRingDefinition} asSet).
 	((SmTClassTest >> #testMethod4) asRingDefinition
 		-> {(SmTClassTest >> #testMethod4) asRingDefinition} asSet).
-	((SmTClassOutside >> #method2) asRingDefinition
-		-> {(SmTClassOutsideTest >> #testMethodOutsidePackage1) asRingDefinition} asSet).
 	((('SmTP1' , 'Inheritance') asClass >> ('method1' , 'Inheritance') asSymbol)
 		asRingDefinition
 		->
 			{(('SmTP1' , 'InheritanceSubClass1Test') asClass >> 'testMethod1Inheritance' asSymbol)
 				asRingDefinition.
-			(('SmTP1' , 'InheritanceSubClass2Test') asClass >> 'testMethod1Inheritance' asSymbol)
+			(RGMethodDefinition className: 'SmTP1InheritanceSubClass2Test' selector:	#testMethod1Inheritance isMetaSide:	false)
 				asRingDefinition} asSet)} asDictionary
