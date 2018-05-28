@@ -7,4 +7,4 @@ testInheritance
 
 	self assert: testsFound isEmpty.
 	self deny: (testsFound includes: ((SmTP1InheritanceSubClass1Test >> #testMethod1Inheritance) asRingDefinition  )).
-	self deny: (testsFound includes: ( (SmTP1InheritanceSubClass2Test >> #testMethod1Inheritance) asRingDefinition  )).
+	self deny: (testsFound includes: ( (RGMethodDefinition className: 'SmTP1InheritanceSubClass2Test' selector:	#testMethod1Inheritance isMetaSide:	false) asRingDefinition  )).

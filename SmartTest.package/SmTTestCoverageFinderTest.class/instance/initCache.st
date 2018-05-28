@@ -31,5 +31,5 @@ initCache
 		->
 			{(('SmTP1' , 'InheritanceSubClass1Test') asClass >> 'testMethod1Inheritance' asSymbol)
 				asRingDefinition.
-			(('SmTP1' , 'InheritanceSubClass2Test') asClass >> 'testMethod1Inheritance' asSymbol)
+			(RGMethodDefinition className: 'SmTP1InheritanceSubClass2Test' selector:	#testMethod1Inheritance isMetaSide:	false)
 				asRingDefinition} asSet)} asDictionary
