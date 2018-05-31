@@ -12,5 +12,5 @@ testsForAClass: aClass
 			(aClass allTestSelectors) do:[:each| testsFound add: (RGMethodDefinition className: (aClass name) selector: each  isMetaSide:false).].
 			].
 	aClass subclasses do: [ :aSubClass | testsFound addAll: (self testsForAClass: aSubClass)].
-	aClass allCallsOn do: [ :aRGMethodDefinition | testsFound addAll: (self methodsFor: aRGMethodDefinition method).].
+	testsFound addAll: (aClass allCallsOn do: [ :aRGMethodDefinition | testsFound addAll: (self methodsFor: aRGMethodDefinition compiledMethod).]).
 	^ testsFound
