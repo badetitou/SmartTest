@@ -8,7 +8,9 @@ testsForAClass: aClass
 	| testsFound |
 	testsFound := Set new.
 	aClass isTestCase
-		ifTrue: [ (aClass methods select: [ :aMethod | aMethod isTestMethod ]) do: [ :eachTestMethod | testsFound addAll: (self methodsFor: eachTestMethod) ] ].
-	aClass subclasses do: [ :aSubClass | testsFound addAll: (self testsForAClass: aSubClass) ].
-	aClass allCallsOn do: [ :aRGMethodDefinition | testsFound addAll: (self methodsFor: aRGMethodDefinition method) ].
+		ifTrue: [ (aClass methods select: [ :aMethod | aMethod isTestMethod ]) do: [ :eachTestMethod | testsFound addAll: (self methodsFor: eachTestMethod) ].
+			(aClass allTestSelectors) do:[:each| testsFound add: (RGMethodDefinition className: (aClass name) selector: each  isMetaSide:false).].
+			].
+	aClass subclasses do: [ :aSubClass | testsFound addAll: (self testsForAClass: aSubClass)].
+	aClass allCallsOn do: [ :aRGMethodDefinition | testsFound addAll: (self methodsFor: aRGMethodDefinition method).].
 	^ testsFound

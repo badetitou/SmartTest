@@ -7,16 +7,13 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"smartFinder",
-		"testMethod1FirstLevelSendersInsidePackage",
 		"testMethod1FirstLevelSendersOutsidePackage",
 		"testMethod2SecondLevelSendersInsidePackageWithTestInside",
-		"testMethod2SecondLevelSendersOutsidePackageWithTestInside",
 		"testMethod2SecondLevelSendersInsidePackageWithTestOutside",
 		"testMethod2SecondLevelSendersOutsidePackageWithTestOutside",
 		"testmethod1FirstLevelSendersInsidePackage",
-		"testmethod1FirstLevelSendersOutsidePackage",
-		"testmethod2SecondLevelSendersInsidePackageWithTestInside",
-		"testmethod2SecondLevelSendersOutsidePackageWithTestInside"
+		"testMethod1FirstLevelSendersInsidePackage",
+		"testMethod2SecondLevelSendersOutsidePackageWithTestInside"
 	],
 	"name" : "SmTFilterAbstractTest",
 	"type" : "normal"
