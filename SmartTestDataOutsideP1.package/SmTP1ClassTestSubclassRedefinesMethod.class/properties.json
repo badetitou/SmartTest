@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SmTP1ClassTestAbstractTestCase",
+	"category" : "SmartTestDataOutsideP1-ModificationOnClass-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTP1ClassTestSubclassRedefinesMethod",
+	"type" : "normal"
+}

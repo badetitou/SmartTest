@@ -1,4 +1,5 @@
 SystemOrganization addCategory: #SmartTestDataOutsideP2!
+SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnClass-Tests'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-References'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-SenderOutTestInWithRef'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-SenderOutTestOutWithRef'!
