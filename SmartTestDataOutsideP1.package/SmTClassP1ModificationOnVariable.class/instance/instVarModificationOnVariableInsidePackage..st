@@ -1,0 +1,3 @@
+accessing
+instVarModificationOnVariableInsidePackage: anObject
+	instVarModificationOnVariableInsidePackage := anObject

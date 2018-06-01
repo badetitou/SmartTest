@@ -4,4 +4,5 @@ testClassInsidePackageWithRef
 	<CORATestBlacklisted>
 	| testsFound  |
 	testsFound := self searchTestMethodsForAClass: ('SmTClassModificationOnClass','InsidePackageWithRef') asClass.
+	self assert: testsFound size equals: 1.
 	self assert: (testsFound includes: ((('RefToSmTClassModificationOnClass','InsidePackageWithRef') asClass  >> ('testRefToSmTClassModificationOnClassInsidePackageWithRef') asSymbol) asRingDefinition )).

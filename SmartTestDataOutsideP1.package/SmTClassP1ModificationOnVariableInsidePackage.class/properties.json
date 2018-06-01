@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "eleonoreW 6/1/2018 14:13",
+	"super" : "TestCase",
+	"category" : "SmartTestDataOutsideP1-ModificationOnVariable",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"instVarModificationOnVariable"
+	],
+	"name" : "SmTClassP1ModificationOnVariableInsidePackage",
+	"type" : "normal"
+}
