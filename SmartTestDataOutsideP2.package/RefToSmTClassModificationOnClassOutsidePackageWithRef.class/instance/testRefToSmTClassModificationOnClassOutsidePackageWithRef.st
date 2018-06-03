@@ -1,0 +1,3 @@
+tests
+testRefToSmTClassModificationOnClassOutsidePackageWithRef
+SmTClassModificationOnClassOutsidePackageWithRef new.

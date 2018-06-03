@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "SmartTestDataOutsideP1-Inheritance",
+	"category" : "SmartTestDataOutsideP1-ModificationOnMethod-Inheritance",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

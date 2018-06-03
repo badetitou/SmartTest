@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "SmartTestDataOutsideP1-ModificationOnMethod-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTP1ClassTestFirstLevelSendersInsideWithRefInMethod",
+	"type" : "normal"
+}

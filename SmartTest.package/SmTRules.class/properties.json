@@ -9,7 +9,8 @@
 		"smTClassTestingStrategy",
 		"smTFilter",
 		"smTFinder",
-		"smTTestRunner"
+		"smTTestRunner",
+		"collectionOfRegex"
 	],
 	"pools" : [ ],
 	"classvars" : [

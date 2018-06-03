@@ -1,0 +1,3 @@
+tests
+testMethod1FirstLevelSendersInsideWithRefInMethod
+SmTClassP1FirstLevelSendersInsideWithRefInMethod >> #method1FirstLevelSendersInsideWithRefInMethod

@@ -38,9 +38,20 @@ settingsOn: aBuilder
 						order: 0.5;
 						label: 'SmartTest filter';
 						target: self;
-						parent: #SmartFinder;
+						parent: #SmTFilter;
 						domainValues: SmTFilterStrategy allSubclasses;
 						description: 'The testing strategy defines when SmartTest will run the test it has found.' ].
+					(aBuilder setting: #packagesRegex)
+		label: 'SmartTest filter Regex configuration';
+		target: self;
+		parent: #SmTFilter;
+		ghostHelp: 'SmartTe|Star*Wnrs';
+		notInStyle;
+		default: '';
+		description:
+			'Change the value to scope the package you want to explore.
+If you want to check the packages are well detected,run 
+	SmTFilterSpecifyPackageSettings selectedPackage'.
 			(aBuilder group: #SmTActivationRenrakuOption)
 				order: 6;
 				with: [ (aBuilder setting: #activated)

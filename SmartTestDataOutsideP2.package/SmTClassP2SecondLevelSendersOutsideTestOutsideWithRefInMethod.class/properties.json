@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EleonoreWALD 5/17/2018 10:51",
 	"super" : "Object",
-	"category" : "SmartTestDataOutsideP2-SenderOutTestOutWithRef",
+	"category" : "SmartTestDataOutsideP2-ModificationOnMethod-SenderOutTestOutWithRef",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
