@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SmTSettingsRunnerTest",
+	"category" : "SmartTest-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTSettingsRunnerDebugTest",
+	"type" : "normal"
+}

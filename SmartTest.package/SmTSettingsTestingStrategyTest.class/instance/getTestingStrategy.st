@@ -1,0 +1,3 @@
+running
+getTestingStrategy
+	 self subclassResponsibility 

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "SmartTest-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"oldSettings"
+	],
+	"name" : "SmTSettingsTest",
+	"type" : "normal"
+}

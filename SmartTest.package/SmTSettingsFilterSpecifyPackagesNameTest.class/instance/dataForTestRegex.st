@@ -1,0 +1,3 @@
+running
+dataForTestRegex
+	^ 'SmartTes*|StarWars'
