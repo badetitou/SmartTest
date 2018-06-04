@@ -1,3 +1,4 @@
 settings
 packagesRegex: aRegexStringCollection
-	collectionOfRegex := aRegexStringCollection
+	collectionOfRegex := aRegexStringCollection.
+	self propagateRegexToTestFinder.
