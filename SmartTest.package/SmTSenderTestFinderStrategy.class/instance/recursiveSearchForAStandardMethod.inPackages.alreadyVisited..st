@@ -1,7 +1,7 @@
 private - search
 recursiveSearchForAStandardMethod: aRGMethodDefinition inPackages: packages alreadyVisited: alreadyVisitedMethods
 	| foundMethods |
-	foundMethods := OrderedCollection new.
+	foundMethods := Set new.
 	(self collectSenderOfRGMethodeDefintion: aRGMethodDefinition)
 		reject: [ :aSenderMethod | 
 			| reject |
