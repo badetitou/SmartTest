@@ -5,5 +5,5 @@ testInstVarOutsidePackage
 	| testsFound aInstVar|
 	aInstVar := self instanceVariableNamed: 'instVarModificationOnVariableOutsidePackage' fromClass: ('SmTClassP1ModificationOnVariable') asClass .
 	testsFound := self searchTestsForInstVar: aInstVar ofClass: ('SmTClassP1ModificationOnVariable') asClass.
-	self assert: (testsFound includes: (('SmTClassP1ModificationOnVariable','OutsidePackage') asClass >> ('testModificationOnVariable','OutsidePackage')asSymbol)asRingDefinition ).
+	self assert: testsFound size equals: 0.
 	
