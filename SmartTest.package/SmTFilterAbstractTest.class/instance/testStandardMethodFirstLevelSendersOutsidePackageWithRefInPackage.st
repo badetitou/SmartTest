@@ -9,5 +9,5 @@ testStandardMethodFirstLevelSendersOutsidePackageWithRefInPackage
 	| testsFound |
 	testsFound := self searchTestMethodsFor: ( ('SmTClassP1FirstLevelSendersOutsideWithRefIn','Package') asClass >> ('method1FirstLevelSendersWithRefIn','Package') asSymbol).
 	self assert: testsFound isEmpty.
-	self deny: (testsFound includes: (('SmTClassTest','P2') asClass >> ('testMethod1FirstLevelSendersOutsideWithRefIn','Package') asSymbol) asRingDefinition ).
+	self deny: (testsFound includes: (('SmTClassTest','P2Test') asClass >> ('testMethod1FirstLevelSendersOutsideWithRefIn','Package') asSymbol) asRingDefinition ).
 	
