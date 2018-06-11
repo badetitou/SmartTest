@@ -1,3 +1,3 @@
 tests
 testModificationOnClassAbstractTestCase
-	('SmTP1ModificationOnClassAbstract','TestCase') asClass new.
+"the behaviour of this test is irrelevant"
