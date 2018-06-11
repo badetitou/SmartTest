@@ -1,4 +1,4 @@
-tests
+test - standard method - second level sender - with references
 testStandardMethodSecondLevelSendersOutsideTestInsideWithRefInClass
 	<CORATestBlacklisted>
 	"method1 is called by method 2,itself called by testMethod1"

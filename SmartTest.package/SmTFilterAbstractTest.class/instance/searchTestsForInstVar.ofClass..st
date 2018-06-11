@@ -1,3 +1,3 @@
-helper
+helpers
 searchTestsForInstVar: aInstanceVariable ofClass: aClass
 	^ smartFinder smtFinder testsForAInstVar: aInstanceVariable OfClass: aClass

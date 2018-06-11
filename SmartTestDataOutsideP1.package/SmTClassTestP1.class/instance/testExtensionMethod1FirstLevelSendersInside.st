@@ -1,3 +1,3 @@
 testMethod1
 testExtensionMethod1FirstLevelSendersInside
-SmTExtensionP2 >> #extensionMethod1FirstLevelSendersInside
+SmTExtensionP2Test >> #extensionMethod1FirstLevelSendersInside

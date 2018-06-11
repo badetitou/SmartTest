@@ -1,4 +1,4 @@
-tests
+test -modification on class
 testClassInheritanceSubClass1
 	<CORATestBlacklisted>
 	| testsFound testMethodSubClass2 |

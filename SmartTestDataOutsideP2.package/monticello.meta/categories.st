@@ -1,9 +1,9 @@
 SystemOrganization addCategory: #SmartTestDataOutsideP2!
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnClass-Tests'!
-SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnMethod-ExtensionMethod'!
+SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnMethod-ExtensionMethod-Test'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnMethod-References'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnMethod-SenderOutTestInWithRef'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnMethod-SenderOutTestOutWithRef'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnMethod-Tests'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnMethod-WithoutRef'!
-SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnVariable'!
+SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnVariable-Tests'!

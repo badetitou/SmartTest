@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "SmartTestDataOutsideP2-ModificationOnVariable",
+	"category" : "SmartTestDataOutsideP2-ModificationOnVariable-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"instVarModificationOnVariableOutsidePackage"
 	],
-	"name" : "SmTClassP1ModificationOnVariableOutsidePackage",
+	"name" : "SmTClassP1ModificationOnVariableOutsidePackageTest",
 	"type" : "normal"
 }

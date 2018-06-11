@@ -1,4 +1,4 @@
-tests
+test - standard method - first level sender
 testStandardMethodFirstLevelSendersOutsidePackageWithRefInMethod
 	<CORATestBlacklisted>
 	"method1 is called by testMethod1"

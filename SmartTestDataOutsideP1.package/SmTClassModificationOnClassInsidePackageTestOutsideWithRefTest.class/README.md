@@ -5,4 +5,4 @@ Being unique, the senders of each method are mastered and consequently the tests
 
 We will use this that to assert that SmartTest behaves correctly when dealing with inherited methods ans class.
 
-This class inherits one test from its superior class and doesn't redefine it.
+This class has a test that references the class SmTClassModificationOnClassInsidePackageWithRef 

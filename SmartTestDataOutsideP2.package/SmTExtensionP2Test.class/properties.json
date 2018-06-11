@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "SmartTestDataOutsideP2-ModificationOnMethod-ExtensionMethod",
+	"category" : "SmartTestDataOutsideP2-ModificationOnMethod-ExtensionMethod-Test",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTExtensionP2",
+	"name" : "SmTExtensionP2Test",
 	"type" : "normal"
 }

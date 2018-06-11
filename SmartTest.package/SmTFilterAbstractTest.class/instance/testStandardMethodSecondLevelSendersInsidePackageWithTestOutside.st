@@ -1,4 +1,4 @@
-tests
+test - standard method - second level sender
 testStandardMethodSecondLevelSendersInsidePackageWithTestOutside
 	<CORATestBlacklisted>
 	"method1 is called by method2, which itself is called by testMethod2, a test not owned by the same package as method1, thus testMethod2 should not be found. 

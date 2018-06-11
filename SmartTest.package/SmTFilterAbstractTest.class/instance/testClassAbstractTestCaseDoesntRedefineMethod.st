@@ -1,5 +1,5 @@
-tests
-testClassAbstractTestCase
+test -modification on class
+testClassAbstractTestCaseDoesntRedefineMethod
 "In this test we want to assert that if the modified class has subclasses, SmartTest finds all the inherited methods (implemented or not)"
 	<CORATestBlacklisted>
 	| testsFound testMethodSubClass1 testMethodSubClass2 |

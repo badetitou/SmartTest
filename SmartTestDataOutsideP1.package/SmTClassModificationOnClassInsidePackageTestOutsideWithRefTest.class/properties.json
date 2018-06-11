@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "eleonoreW 6/11/2018 11:21",
 	"super" : "TestCase",
 	"category" : "SmartTestDataOutsideP1-ModificationOnClass-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "RefToSmTClassModificationOnClassInsidePackageWithRef",
+	"name" : "SmTClassModificationOnClassInsidePackageTestOutsideWithRefTest",
 	"type" : "normal"
 }

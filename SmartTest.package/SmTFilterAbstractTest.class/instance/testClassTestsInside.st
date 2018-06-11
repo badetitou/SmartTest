@@ -1,4 +1,4 @@
-tests
+test -modification on class
 testClassTestsInside
 "In this test we want to assert that SmartTest finds the test owned directly by a class."
 	<CORATestBlacklisted>

@@ -5,4 +5,4 @@ Being unique, the senders of each method are mastered and consequently the tests
 
 We will use this that to assert that SmartTest behaves correctly when dealing with modifications on instance variables.
 
-It contains different instance variables that are used in tests. Each variable has only one test that calls them.
+This class has an instance variable used inside the class in a test.

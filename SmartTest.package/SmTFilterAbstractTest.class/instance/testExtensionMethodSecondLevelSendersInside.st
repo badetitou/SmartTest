@@ -1,4 +1,4 @@
-tests
+test - extension method
 testExtensionMethodSecondLevelSendersInside
 	<CORATestBlacklisted>
 	| testsFound |
