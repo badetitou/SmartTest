@@ -5,4 +5,4 @@ testClassOutsidePackageWithRef
 	| testsFound  |
 	testsFound := self searchTestMethodsForAClass: ('SmTClassModificationOnClass','OutsidePackageWithRef') asClass.
 	self assert: testsFound size equals: 1.
-	self assert: (testsFound includes: ((('RefToSmTClassModificationOnClassOutsidePackageWithRef') asClass  >> ('testRefToSmTClassModificationOnClass','OutsidePackageWithRef') asSymbol) asRingDefinition )).
+	self assert: (testsFound includes: ((('SmTClassModificationOnClassOutsidePackageWith','RefTest') asClass  >> ('testRefToSmTClassModificationOnClass','OutsidePackageWithRef') asSymbol) asRingDefinition )).

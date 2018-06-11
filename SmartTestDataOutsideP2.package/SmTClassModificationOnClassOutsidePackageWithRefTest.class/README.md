@@ -5,4 +5,4 @@ Being unique, the senders of each method are mastered and consequently the tests
 
 We will use this that to assert that SmartTest behaves correctly when dealing with modifications on instance variables.
 
-This class uses an instance variable contained inside a class in a different package.
+This class has an instance variable used inside the class in a test the instance variable is located outside of this package (in "SmartTestDataOutsideP1").
