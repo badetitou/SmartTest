@@ -1,4 +1,4 @@
 helpers
 searchTestMethodsFor: aCompiledMethod
 	
-	^ smartFinder resarchTestsForMethod: aCompiledMethod .
+	^ smartFinder researchTestsForMethod: aCompiledMethod .

@@ -1,4 +1,4 @@
 api
-resarchTestsForMethod: aCompiledMethod 
+researchTestsForMethod: aCompiledMethod 
 
 	^ self smtFinder methodsFor: aCompiledMethod.

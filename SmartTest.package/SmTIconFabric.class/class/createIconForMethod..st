@@ -8,7 +8,9 @@ createIconForMethod: testMethod
 		arguments:
 			{testMethod.
 			ib};
-		labelGraphic: (SmTRules runner iconForTestFromTestCaseHistory: testMethod) asIcon;
+		labelGraphic:
+			(self
+				iconNamed: (SmTRules runner iconForTestFromTestCaseHistory: testMethod));
 		color: Color transparent;
 		borderColor: Color transparent;
 		helpText: 'Run the test'.
