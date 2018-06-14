@@ -1,0 +1,1 @@
+This trait was created to test the behaviour of SmartTest to assert that SmartTest finds the correct tests for a modified trait.
