@@ -13,14 +13,18 @@ Being unique, the senders of each method are controlled and consequently the tes
 If the name of a test contains « FirstLevelSender » then the corresponding method2 and testMethod2 do not exist.
 If the name of a test contains « SecondLevelSender » then the corresponding testMethod1 does not exist.
 
-We use the Classification Tree Method to represent the tests. 
+We use the Classification Tree Method to represent the tests (see https://en.wikipedia.org/wiki/Classification_Tree_Method) . 
+
+We will use the Classification Tree Method for the description of the tests.
+Exemple for the first line of the following description: 
+Test FirstLevelSendersInside : the modified method "method1FirstLevelSendersInside" is located in package P1 and testMethod1FirstLevelSendersInside calls method1FirstLevelSendersInside and is located inside the package P1.
 
 
 Simple tests (no references):
 Method: 	TestMethod1 		Method2 			TestMethod2 	Test Identificator
 Package: 	P1	P2				P1	P2				P1	P2
 			•	|				|	|				|	|			FirstLevelSendersInside
-			|	•				|	|				|	|			FirstLevelSendersInside
+			|	•				|	|				|	|			FirstLevelSendersOutside
 			|	|				•	|				•	|			SecondLevelSendersInsideTestInside
 			|	|				•	|				|	•			SecondLevelSendersInsideTestOutside
 			|	|				|	•				•	|			SecondLevelSendersOutsideTestInside
