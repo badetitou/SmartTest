@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EleonoreWALD 4/27/2018 16:02",
 	"super" : "SmTFinderAbstractTest",
-	"category" : "SmartTest-Tests",
+	"category" : "SmartTest-Tests-Finder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

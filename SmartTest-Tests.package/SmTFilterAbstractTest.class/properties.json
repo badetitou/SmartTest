@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "eleonoreW 6/15/2018 10:07",
 	"super" : "TestCase",
-	"category" : "SmartTest-Tests",
+	"category" : "SmartTest-Tests-Filter",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
