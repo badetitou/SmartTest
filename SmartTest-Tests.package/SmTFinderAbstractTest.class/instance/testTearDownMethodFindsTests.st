@@ -2,7 +2,7 @@ tests
 testTearDownMethodFindsTests
 	<CORATestBlacklisted>
 	| testsFound |
-	testsFound := self testsForATearDownMethod: SmTClassTest >> #tearDown.
+	testsFound := self searchTestsForATearDownMethod: SmTClassTest >> #tearDown.
 
 	self assert: testsFound isNotEmpty.
 	self assert: (testsFound includes: testMethod1).

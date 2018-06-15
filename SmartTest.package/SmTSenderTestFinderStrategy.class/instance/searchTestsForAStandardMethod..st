@@ -1,5 +1,5 @@
 API
-testsForAStandardMethod: aCompiledMethod
+searchTestsForAStandardMethod: aCompiledMethod
 	| packagesToLookAt |
 	packagesToLookAt := self filter extractPackagesFrom: aCompiledMethod.
 	^ (self

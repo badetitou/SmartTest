@@ -2,24 +2,24 @@ api
 methodsFor: aCompiledMethod
 	^ self cache
 		at: aCompiledMethod methodReference
-		ifAbsent: [ (self testsForATestMethod: aCompiledMethod)
+		ifAbsent: [ (self searchTestsForATestMethod: aCompiledMethod)
 				ifNotEmpty: [ :methods | 
-					^ (self testsForMethod: aCompiledMethod)
+					^ (self searchTestsForMethod: aCompiledMethod)
 						addAll: (self computeInheritedTestFromDiscoveredTest: methods);
 						yourself ].
-			(self testsForASetUpMethod: aCompiledMethod)
+			(self searchTestsForASetUpMethod: aCompiledMethod)
 				ifNotEmpty: [ :methods | 
-					^ (self testsForMethod: aCompiledMethod)
+					^ (self searchTestsForMethod: aCompiledMethod)
 						addAll: (self computeInheritedTestFromDiscoveredTest: methods);
 						yourself ].
-			(self testsForATearDownMethod: aCompiledMethod)
+			(self searchTestsForATearDownMethod: aCompiledMethod)
 				ifNotEmpty: [ :methods | 
-					^ (self testsForMethod: aCompiledMethod)
+					^ (self searchTestsForMethod: aCompiledMethod)
 						addAll: (self computeInheritedTestFromDiscoveredTest: methods);
 						yourself ].
-			(self testsForAStandardMethod: aCompiledMethod)
+			(self searchTestsForAStandardMethod: aCompiledMethod)
 				ifNotEmpty: [ :methods | 
-					^ (self testsForMethod: aCompiledMethod)
+					^ (self searchTestsForMethod: aCompiledMethod)
 						addAll: (self computeInheritedTestFromDiscoveredTest: methods);
 						yourself ].
 			self cache at: aCompiledMethod methodReference put: Set new.

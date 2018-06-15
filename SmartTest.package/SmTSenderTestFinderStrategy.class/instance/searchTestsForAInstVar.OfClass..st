@@ -1,5 +1,5 @@
 accessing
-testsForAInstVar: aInstanceVariable OfClass: aClass
+searchTestsForAInstVar: aInstanceVariable OfClass: aClass
 	"This method returns all the tests related to a instance variable."
 
 	| testsFound senders |

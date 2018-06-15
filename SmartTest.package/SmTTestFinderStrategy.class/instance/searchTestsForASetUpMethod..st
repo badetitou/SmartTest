@@ -1,5 +1,5 @@
 private
-testsForASetUpMethod: aCompiledMethod
+searchTestsForASetUpMethod: aCompiledMethod
 	"If the method is a TestCase setUp, returns all the tests of this TestCase and its subclasses"
 	^ (aCompiledMethod isTestSetUpMethod) 
 				ifTrue: [|result|

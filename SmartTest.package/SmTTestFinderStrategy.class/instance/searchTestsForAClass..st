@@ -1,4 +1,4 @@
 accessing
-testsForAClass: aClass
+searchTestsForAClass: aClass
 	self subclassResponsibility 
 	

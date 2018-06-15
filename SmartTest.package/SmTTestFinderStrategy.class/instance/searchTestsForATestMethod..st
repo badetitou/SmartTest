@@ -1,5 +1,5 @@
 private
-testsForATestMethod: aCompiledMethod
+searchTestsForATestMethod: aCompiledMethod
 	^ aCompiledMethod isTestMethod
 				ifTrue: [{aCompiledMethod methodReference}]
 				ifFalse: [{}].

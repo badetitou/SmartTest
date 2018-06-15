@@ -1,6 +1,6 @@
 private
-testsForAStandardMethod: aCompiledMethod
+searchTestsForAStandardMethod: aCompiledMethod
 	self cache
 		at: aCompiledMethod methodReference
 		ifAbsent: [ self searchRelativeTestForMethod: aCompiledMethod ].
-	^ (self testsForMethod: aCompiledMethod) collect: #compiledMethod
+	^ (self searchTestsForMethod: aCompiledMethod) collect: #compiledMethod

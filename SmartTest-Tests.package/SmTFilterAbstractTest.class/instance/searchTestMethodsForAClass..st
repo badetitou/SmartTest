@@ -1,4 +1,4 @@
 helpers
 searchTestMethodsForAClass: aClass
 	
-	^ smartFinder smtFinder testsForAClass: aClass.
+	^ smartFinder smtFinder searchTestsForAClass: aClass.
