@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "BenoitVerhaeghe 7/18/2017 10:40",
 	"super" : "CircleMorph",
-	"category" : "SmartTest-Morph",
+	"category" : "SmartTest-UI-Collector",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EleonoreWALD 4/26/2018 09:36",
 	"super" : "ClyCritiqueCommand",
-	"category" : "SmartTest-CalypsoExtension",
+	"category" : "SmartTest-UI-CalypsoExtension",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

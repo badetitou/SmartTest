@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 6/28/2017 15:45",
+	"commentStamp" : "EleonoreWALD 5/3/2018 17:39",
 	"super" : "Object",
-	"category" : "SmartTest-Tools",
+	"category" : "SmartTest-UI-Collector",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTIconFabric",
+	"name" : "SmTCollector",
 	"type" : "normal"
 }

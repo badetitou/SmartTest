@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EleonoreWALD 5/2/2018 10:22",
 	"super" : "ComposableModel",
-	"category" : "SmartTest-Morph",
+	"category" : "SmartTest-UI-Morph",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
