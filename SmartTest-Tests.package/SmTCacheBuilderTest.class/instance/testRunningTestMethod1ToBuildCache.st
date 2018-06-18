@@ -8,6 +8,4 @@ testRunningTestMethod1ToBuildCache
 	self assert: smartFinder currentCache size equals: 2.
 
 	"Not sure about the format of the dictionnary."
-	self
-		assert: (smartFinder currentCache at: (SmTClass >> #method1 ) asRingDefinition)
-		equals: {(SmTClassTest >> #testMethod1) asRingDefinition} asSet
+	self assert: (smartFinder currentCache at: (SmTClass >> #method1) asRingDefinition) equals: {(SmTClassTest >> #testMethod1) asRingDefinition} asSet
