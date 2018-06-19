@@ -11,4 +11,3 @@ SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnMethod-Te
 SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnMethod-WithoutRef'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnVariable'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnVariable-Tests'!
-anization addCategory: #'SmartTestDataOutsideP1-ModificationOnVariable-Tests'!

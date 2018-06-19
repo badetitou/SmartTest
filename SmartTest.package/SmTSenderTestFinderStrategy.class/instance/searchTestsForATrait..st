@@ -1,5 +1,7 @@
 accessing
 searchTestsForATrait: aTrait
-	| packagesToLookAt |
-	packagesToLookAt := self filter extractPackagesFromTrait: aTrait.
-	^ self recursiveSearchForAClass: aTrait inPackages: packagesToLookAt
+	| packagesToLookAt testsFound|
+	testsFound := Set new.
+	packagesToLookAt := self filter extractPackagesFrom: aTrait.
+	aTrait users do: [:eachClass | ].
+	^testsFound 
