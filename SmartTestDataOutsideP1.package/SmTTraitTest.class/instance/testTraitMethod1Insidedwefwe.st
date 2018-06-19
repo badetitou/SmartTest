@@ -1,0 +1,3 @@
+tests
+testTraitMethod1Insidedwefwe
+SmTClassUsesTrait >> #traitMethod1Inside

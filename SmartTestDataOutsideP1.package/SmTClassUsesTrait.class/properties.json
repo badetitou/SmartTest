@@ -1,0 +1,13 @@
+{
+	"classtraitcomposition" : "SmTTrait classTrait",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTClassUsesTrait",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "SmTTrait",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "SmartTestDataOutsideP1-ModificationOnTrait"
+}
