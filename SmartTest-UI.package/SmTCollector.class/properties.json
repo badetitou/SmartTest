@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EleonoreWALD 5/3/2018 17:39",
+	"super" : "Object",
+	"category" : "SmartTest-UI-Collector",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTCollector",
+	"type" : "normal"
+}

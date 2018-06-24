@@ -1,4 +1,4 @@
 adding
 addATest: aTestCase toMethodReference: aMethodReference
-	(self testsForMethodReference: aMethodReference)
+	(self searchTestsForMethodReference: aMethodReference)
 		add: aTestCase methodReference

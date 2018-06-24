@@ -1,0 +1,3 @@
+accessing
+searchTestsForMethodReference: aMethodReference
+	^ self cache searchTestsForMethodReference: aMethodReference 

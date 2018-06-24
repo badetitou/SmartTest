@@ -4,10 +4,9 @@ installProxyFor: aTestCase
 	self currentTestExecution: aTestCase.
 	self addATest: aTestCase toMethodReference: aTestCase methodReference.
 	listOfPackage := OrderedCollection new.
-	listOfPackage add: aTestCase methodReference compiledMethod package name.
+	listOfPackage add: (self extractPackageBaseName: (aTestCase methodReference compiledMethod package name)).
 	methodToWrap := Set new.
 	methodToWrap addAll: (self collectMethodToTestForPackagesNamed: listOfPackage).
-	"methodToWrap addAll: (self collectClassToTestForPackagesNamed: listOfPackage)."
 	methodToWrap := methodToWrap intersection: self availableMethods.
 	wrappers
 		at: aTestCase

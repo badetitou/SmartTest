@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "EleonoreWALD 5/2/2018 10:22",
+	"super" : "ComposableModel",
+	"category" : "SmartTest-UI-Morph",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"testList",
+		"button",
+		"icons",
+		"controler",
+		"buttonText"
+	],
+	"name" : "SmTButtonResultWindow",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+tests
+testTraitMethod1Inside
+SmTClassUsesTrait >> #traitMethod1Inside

@@ -1,4 +1,4 @@
 api
 addATest: aTestCase toMethod: aCompiledMethod
-	(self testsForMethod: aCompiledMethod)
+	(self searchTestsForMethod: aCompiledMethod)
 		add: aTestCase methodReference

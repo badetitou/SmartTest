@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 6/30/2017 14:48",
+	"super" : "TestCase",
+	"category" : "SmartTest-Tests-Runner",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"runner"
+	],
+	"name" : "SmTRunnerTest",
+	"type" : "normal"
+}

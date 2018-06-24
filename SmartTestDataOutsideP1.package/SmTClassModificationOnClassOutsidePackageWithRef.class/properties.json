@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "eleonoreW 6/11/2018 11:48",
 	"super" : "Object",
-	"category" : "SmartTestDataOutsideP1-ModificationOnClass-Tests",
+	"category" : "SmartTestDataOutsideP1-ModificationOnClass",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -3,6 +3,7 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'SmartTest',
       #directory : '',
+      #load : [ 'test' ],
       #platforms : [ #pharo ]
     }
   ]

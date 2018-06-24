@@ -1,6 +1,6 @@
 SystemOrganization addCategory: #SmartTestDataOutsideP1!
+SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnClass'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnClass-Tests'!
-SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnMethod'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnMethod-FirstLevelWithRef'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnMethod-Inheritance'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnMethod-SenderExtensionMethod'!
@@ -9,4 +9,7 @@ SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnMethod-Se
 SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnMethod-SenderOutTestOutWithRef'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnMethod-Tests'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnMethod-WithoutRef'!
+SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnTrait'!
+SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnTrait-Test'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnVariable'!
+SystemOrganization addCategory: #'SmartTestDataOutsideP1-ModificationOnVariable-Tests'!
