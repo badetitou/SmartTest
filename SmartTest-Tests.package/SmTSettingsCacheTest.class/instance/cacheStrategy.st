@@ -1,0 +1,3 @@
+settings
+cacheStrategy
+	self subclassResponsibility 

@@ -1,0 +1,3 @@
+running
+runnerStrategy
+	self subclassResponsibility

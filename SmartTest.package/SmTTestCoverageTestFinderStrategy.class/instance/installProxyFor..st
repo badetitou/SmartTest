@@ -4,9 +4,9 @@ installProxyFor: aTestCase
 	self currentTestExecution: aTestCase.
 	self addATest: aTestCase toMethodReference: aTestCase methodReference.
 	listOfPackage := OrderedCollection new.
-	listOfPackage add: (self extractPackageBaseName: (aTestCase methodReference compiledMethod package name)).
+	listOfPackage addAll: (SmalltalkImage current packages select: [ :package | package name beginsWith: (self extractPackageBaseName: (aTestCase methodReference compiledMethod package name)) ] ).
 	methodToWrap := Set new.
-	methodToWrap addAll: (self collectMethodToTestForPackagesNamed: listOfPackage).
+	methodToWrap addAll: (self collectMethodToTestForPackagesNamed: (listOfPackage collect: #name)).
 	methodToWrap := methodToWrap intersection: self availableMethods.
 	wrappers
 		at: aTestCase

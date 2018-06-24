@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SmTSettingsTestingStrategyTest",
+	"category" : "SmartTest-Tests-Settings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTSettingsTestingStrategyFiveMinutesTest",
+	"type" : "normal"
+}

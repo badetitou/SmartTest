@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SmTSettingsFilterTest",
+	"category" : "SmartTest-Tests-Settings",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTSettingsFilterIcebergTest",
+	"type" : "normal"
+}
