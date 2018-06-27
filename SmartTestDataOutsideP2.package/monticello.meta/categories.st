@@ -7,5 +7,4 @@ SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnMethod-Se
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnMethod-Tests'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnMethod-WithoutRef'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnVariable-Tests'!
-anization addCategory: #'SmartTestDataOutsideP2-ModificationOnTrait-Test'!
 SystemOrganization addCategory: #'SmartTestDataOutsideP2-ModificationOnVariable-Tests'!
