@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTTraitTest",
+	"name" : "SmTTraitInsideTest",
 	"type" : "normal"
 }
