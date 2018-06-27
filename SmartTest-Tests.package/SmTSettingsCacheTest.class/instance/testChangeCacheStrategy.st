@@ -1,4 +1,4 @@
-running
+tests
 testChangeCacheStrategy
 	"Test changement of the runner in the setting (throught SmTRules methods)"
 
