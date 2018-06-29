@@ -1,6 +1,6 @@
 tests
 testStandardMethodFirstLevelSenders
-	"In class, the research is limited to the SmartTest-Tests-Data package and is static. So the assertions are different. There should be only one test found that call the method2 message"
+	"Same test as in the superclass, but here there should be only one test found (there are many in the superclass)"
 
 	<CORATestBlacklisted>
 	| testsFound |
