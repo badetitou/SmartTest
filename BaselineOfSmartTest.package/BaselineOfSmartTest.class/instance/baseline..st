@@ -14,4 +14,4 @@ baseline: spec
 				package: 'SmartTest-Tests-Data' with: [ spec requires: #('SmartTest') ];
 				package: 'SmartTest-UI' with: [ spec requires: #('SmartTest') ];
 				group: 'default' with: #('SmartTest' 'SmartTest-UI');
-				group: 'test' with: #('SmartTest' 'SmartTest-Tests') ]
+				group: 'test' with: #('SmartTest' 'SmartTest-Tests' 'SmartTest-UI') ]
