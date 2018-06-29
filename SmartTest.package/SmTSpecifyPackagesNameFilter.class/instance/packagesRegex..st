@@ -1,3 +1,4 @@
 accessing
 packagesRegex: anObject
-	packagesRegex := anObject
+	packagesRegex := anObject.
+	selectedPackages  := nil

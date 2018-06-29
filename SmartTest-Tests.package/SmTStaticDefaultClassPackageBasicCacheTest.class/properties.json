@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "EleonoreWALD 5/3/2018 16:17",
+	"commentStamp" : "eleonoreW 6/29/2018 16:19",
 	"super" : "SmTFinderAbstractTest",
 	"category" : "SmartTest-Tests-Finder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTSendersFinderTestWithRestrictedPackage",
+	"name" : "SmTStaticDefaultClassPackageBasicCacheTest",
 	"type" : "normal"
 }

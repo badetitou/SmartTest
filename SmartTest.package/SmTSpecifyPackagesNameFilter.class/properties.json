@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"packagesRegex"
+		"packagesRegex",
+		"selectedPackages"
 	],
 	"name" : "SmTSpecifyPackagesNameFilter",
 	"type" : "normal"

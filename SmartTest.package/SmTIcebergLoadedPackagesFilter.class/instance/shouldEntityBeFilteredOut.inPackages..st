@@ -1,3 +1,3 @@
 asserting
-shouldEntityBeFiltered: anEntity inPackages: packages
+shouldEntityBeFilteredOut: anEntity inPackages: packages
 	^ ((packages collect: #name) includes: anEntity package name) not

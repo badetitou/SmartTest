@@ -7,12 +7,12 @@ recursiveSearchForAClass: aClass inPackages: packagesToLookAt alreadyVisited: al
 			aClass allTestSelectors do: [ :each | testsFound add: (RGMethodDefinition className: aClass name selector: each isMetaSide: false) ] ].
 	testsFound
 		addAll:
-			((aClass allCallsOn select: [ :aCallOn | (filter shouldEntityBeFiltered: aCallOn inPackages: packagesToLookAt) not ])
+			((aClass allCallsOn select: [ :aCallOn | (filter shouldEntityBeFilteredOut: aCallOn inPackages: packagesToLookAt) not ])
 				flatCollect: [ :aRGMethodDefinition | self methodsFor: aRGMethodDefinition compiledMethod forThePackage: packagesToLookAt ]).
 	aClass subclasses
 		reject: [ :aSubClass | 
 			| reject |
-			reject := (filter shouldEntityBeFiltered: aSubClass inPackages: packagesToLookAt) or: [ alreadyVisitedClass includes: aSubClass ].
+			reject := (filter shouldEntityBeFilteredOut: aSubClass inPackages: packagesToLookAt) or: [ alreadyVisitedClass includes: aSubClass ].
 			alreadyVisitedClass add: aSubClass.
 			reject ]
 		thenDo: [ :aSubClass | 
