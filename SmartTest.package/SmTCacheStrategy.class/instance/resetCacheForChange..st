@@ -1,3 +1,3 @@
 private
 resetCacheForChange: aChange
-	cache removeAll
+self resetCache 

@@ -1,3 +1,3 @@
 private
-resetCacheForChange: aChange
+resetCache
 	"Never reset the cache for this strategy."

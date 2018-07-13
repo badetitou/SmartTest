@@ -1,4 +1,4 @@
 private
 resetCacheForChange: aChange
-	(aChange isKindOf: EpMonticelloVersionSave) ifTrue:[cache removeAll].
+	(aChange isKindOf: EpMonticelloVersionSave) ifTrue:[self resetCache].
 	
