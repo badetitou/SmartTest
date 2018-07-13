@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "EleonoreWALD 4/27/2018 16:00",
 	"super" : "SmTCacheBuilderTest",
-	"category" : "SmartTest-Tests-Builder",
+	"category" : "SmartTest-Tests-CacheBuilder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

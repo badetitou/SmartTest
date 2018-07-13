@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "AnneEtien 3/2/2018 15:34",
+	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "SmartTest-Tests-CacheBuilder",
+	"category" : "SmartTest-Tests-Cache",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -9,6 +9,6 @@
 		"cache",
 		"smartFinder"
 	],
-	"name" : "SmTCacheBuilderTest",
+	"name" : "SmTCacheTest",
 	"type" : "normal"
 }

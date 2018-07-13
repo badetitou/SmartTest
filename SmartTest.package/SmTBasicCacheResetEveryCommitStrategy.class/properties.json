@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTCacheResetEveryCommit",
+	"name" : "SmTBasicCacheResetEveryCommitStrategy",
 	"type" : "normal"
 }
