@@ -8,5 +8,5 @@ searchTestsForAInstVar: aInstanceVariable OfClass: aClass
 	senders
 		addAll: ((aClass classLayout allVisibleSlots select: [ :eachSlot | eachSlot name = aInstanceVariable ]) flatCollect: #usingMethods).
 	testsFound
-		addAll: (senders flatCollect: [ :each | self methodsFor: each forThePackage: (filter extractPackagesFrom: aClass) ]).
+		addAll: (senders flatCollect: [ :each | self methodsFor: each ]).
 	^ testsFound

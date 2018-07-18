@@ -8,7 +8,7 @@ recursiveSearchForAClass: aClass inPackages: packagesToLookAt alreadyVisited: al
 	testsFound
 		addAll:
 			((aClass allCallsOn select: [ :aCallOn | (filter shouldEntityBeFilteredOut: aCallOn inPackages: packagesToLookAt) not ])
-				flatCollect: [ :aRGMethodDefinition | self methodsFor: aRGMethodDefinition compiledMethod forThePackage: packagesToLookAt ]).
+				flatCollect: [ :aRGMethodDefinition | self methodsFor: aRGMethodDefinition compiledMethod]).
 	aClass subclasses
 		reject: [ :aSubClass | 
 			| reject |
