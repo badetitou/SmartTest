@@ -1,3 +1,0 @@
-private
-hardReset
-cache removeAll
