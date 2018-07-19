@@ -1,3 +1,4 @@
 accessing
 collector: anObject
-	collector := anObject 
+
+	collector := anObject

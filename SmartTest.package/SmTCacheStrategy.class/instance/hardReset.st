@@ -1,0 +1,3 @@
+private
+hardReset
+cache removeAll
