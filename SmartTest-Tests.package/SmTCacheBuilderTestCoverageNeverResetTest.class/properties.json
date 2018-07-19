@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "SmTCacheBuilderTest",
+	"commentStamp" : "",
+	"super" : "SmTCacheBuilderTestCoverageTest",
 	"category" : "SmartTest-Tests-CacheBuilder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTCacheBuilderTestCoverageTest",
+	"name" : "SmTCacheBuilderTestCoverageNeverResetTest",
 	"type" : "normal"
 }

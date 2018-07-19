@@ -1,3 +1,3 @@
-initialization
-dynamiqueFinder
+tests
+dynamicFinder
 	^ SmTReflectivityTestFinderStrategy new

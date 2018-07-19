@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SmTCacheBuilderReflectivityTest",
+	"category" : "SmartTest-Tests-CacheBuilder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTCacheBuilderReflectivityBasicCacheStrategyResetEvery5ChangesTest",
+	"type" : "normal"
+}
