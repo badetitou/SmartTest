@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTBasicCacheNeverResetTest",
+	"name" : "SmTCacheResetOnDemandTest",
 	"type" : "normal"
 }

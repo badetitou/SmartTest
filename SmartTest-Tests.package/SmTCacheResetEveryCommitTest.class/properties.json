@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SmTBasicCacheTest",
+	"name" : "SmTCacheResetEveryCommitTest",
 	"type" : "normal"
 }

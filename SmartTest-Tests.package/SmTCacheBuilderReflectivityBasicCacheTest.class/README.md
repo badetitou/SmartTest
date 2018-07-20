@@ -1,1 +1,0 @@
-This class aims to test the construction of the cache in the context of dynamic method analysis using the Reflectivity strategy.
