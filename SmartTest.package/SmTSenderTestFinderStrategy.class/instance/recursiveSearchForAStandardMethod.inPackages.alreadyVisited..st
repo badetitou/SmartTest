@@ -5,7 +5,7 @@ recursiveSearchForAStandardMethod: aRGMethodDefinition inPackages: packages alre
 	(self collectSenderOfRGMethodeDefintion: aRGMethodDefinition)
 		reject: [ :aSenderMethod | 
 			| reject |
-			reject := (filter shouldEntityBeFiltered: aSenderMethod inPackages: packages) or: [ alreadyVisitedMethods includes: aSenderMethod ].
+			reject := (filter shouldEntityBeFilteredOut: aSenderMethod inPackages: packages) or: [ alreadyVisitedMethods includes: aSenderMethod ].
 			alreadyVisitedMethods add: aSenderMethod.
 			reject ]
 		thenDo: [ :aSenderRGMethodDefinition | 

@@ -1,5 +1,6 @@
 SystemOrganization addCategory: #'SmartTest-Tests'!
-SystemOrganization addCategory: #'SmartTest-Tests-Builder'!
+SystemOrganization addCategory: #'SmartTest-Tests-Cache'!
+SystemOrganization addCategory: #'SmartTest-Tests-CacheBuilder'!
 SystemOrganization addCategory: #'SmartTest-Tests-Filter'!
 SystemOrganization addCategory: #'SmartTest-Tests-Finder'!
 SystemOrganization addCategory: #'SmartTest-Tests-OnModification'!

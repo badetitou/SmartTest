@@ -1,4 +1,4 @@
-initialization
+tests
 testRunningTestMethod2ToBuildCache
 	<CORATestBlacklisted>
 	self assert: smartFinder currentCache isEmpty.

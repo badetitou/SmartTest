@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "AnneEtien 3/2/2018 15:34",
+	"commentStamp" : "eleonoreW 7/20/2018 09:25",
 	"super" : "TestCase",
-	"category" : "SmartTest-Tests-Builder",
+	"category" : "SmartTest-Tests-CacheBuilder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

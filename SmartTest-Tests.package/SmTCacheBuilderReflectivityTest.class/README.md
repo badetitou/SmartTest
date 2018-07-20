@@ -1,1 +1,1 @@
-This class aims to test the construction of the cache in the context of dynamic method analysis using the Reflectivity strategy.
+These tests are here to assert that the build cache methods are correct when dealing with different cache strategies and the Reflectivity strategy.

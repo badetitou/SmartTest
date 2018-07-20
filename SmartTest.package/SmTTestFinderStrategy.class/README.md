@@ -1,1 +1,1 @@
-I represent the strategy used by the soft
+I represent an abstract strategy to find tests exercising some method

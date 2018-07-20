@@ -1,0 +1,3 @@
+running
+strategyTested
+^ SmTBasicCacheNeverResetStrategy  

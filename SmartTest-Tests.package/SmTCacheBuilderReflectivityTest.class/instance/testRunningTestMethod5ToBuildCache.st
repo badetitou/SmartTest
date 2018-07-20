@@ -1,4 +1,4 @@
-initialization
+tests
 testRunningTestMethod5ToBuildCache
 	"This test if SmTTestCoverage find the initialize call"
 

@@ -1,3 +1,0 @@
-initialization
-dynamiqueFinder
-	self subclassResponsibility 

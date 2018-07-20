@@ -1,4 +1,5 @@
 accessing
 searchTestsForAClass: aClass
-	self subclassResponsibility 
-	
+	| packagesToLookAt |
+	packagesToLookAt := self filter extractPackagesFrom: aClass.
+	^ self recursiveSearchForAClass: aClass inPackages: packagesToLookAt

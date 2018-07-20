@@ -1,0 +1,3 @@
+tests
+dynamicFinder
+	^ SmTReflectivityTestFinderStrategy new
