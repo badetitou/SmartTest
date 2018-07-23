@@ -1,6 +1,7 @@
 action
 runCase: aTestMethod notifyIcon: anIcon
 	| aTestResult |
+
 	aTestResult := TestResult new.
 	[ aTestResult runCaseForDebug: aTestMethod ]
 		ensure: [ anIcon labelGraphic: (self iconForTestResultOf: aTestResult) ].
