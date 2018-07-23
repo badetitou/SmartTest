@@ -1,7 +1,7 @@
 running
 setUp
 	super setUp.
-	self timeLimit: 30 seconds.	"super long time for travis CI"
+	self timeLimit: 45 seconds.	"super super long time for travis CI"
 	smartFinder := SmartFinder new.
 	smartFinder filter: SmTDefaultClassPackagesFilter new.
 	testMethod1 := (SmTClassTest >> #testMethod1) asRingDefinition.
