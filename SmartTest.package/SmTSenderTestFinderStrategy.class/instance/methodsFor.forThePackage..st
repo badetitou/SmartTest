@@ -1,5 +1,7 @@
 api
 methodsFor: aCompiledMethod forThePackage: packages
+	self flag: '24 july 2018 - What is this method ? If useless i or from another project i will remove it'.
+
 	^ self cache
 		at: aCompiledMethod methodReference
 		ifAbsent: [ (self searchTestsForATestMethod: aCompiledMethod)
