@@ -2,7 +2,6 @@
 
 Master: [![Master](https://travis-ci.org/badetitou/SmartTest.svg?branch=master)](https://travis-ci.org/badetitou/SmartTest/branches)
 Development: [![development](https://travis-ci.org/badetitou/SmartTest.svg?branch=development)](https://travis-ci.org/badetitou/SmartTest/branches)
- [![Coverage Status](https://coveralls.io/repos/github/badetitou/SmartTest/badge.svg?branch=development)](https://coveralls.io/github/badetitou/SmartTest?branch=development)
 
 ## What is SmartTest ?
 
