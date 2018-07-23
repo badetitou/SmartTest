@@ -1,3 +1,3 @@
 accessing
 currentCache
-	^ cache 
+	^ cache
