@@ -7,4 +7,4 @@ testAdd
 	onModif addToElementBag: el.
 	self assert: onModif bag size equals: 1.
 	self assert: (onModif bag includes: el).
-	onModif disable 
+	onModif disable
