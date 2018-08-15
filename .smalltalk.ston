@@ -2,7 +2,7 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'SmartTest',
-      #directory : '',
+      #directory : 'src',
       #load : [ 'test' ],
       #platforms : [ #pharo ]
     }
