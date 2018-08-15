@@ -1,3 +1,0 @@
-initialization
-cacheStrategy
-^ SmTBasicCacheResetEveryCommitStrategy 

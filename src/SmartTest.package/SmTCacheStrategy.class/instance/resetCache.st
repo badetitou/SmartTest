@@ -1,3 +1,0 @@
-private
-resetCache
-	cache removeAll

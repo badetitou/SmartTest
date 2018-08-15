@@ -1,3 +1,0 @@
-initialization
-dynamicFinder
-	^ SmTTestCoverageTestFinderStrategy new

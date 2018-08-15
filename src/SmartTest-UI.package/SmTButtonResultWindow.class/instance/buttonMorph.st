@@ -1,3 +1,0 @@
-accessing
-buttonMorph
-	^ button morph

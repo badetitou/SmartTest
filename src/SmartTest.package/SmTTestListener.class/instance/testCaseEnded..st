@@ -1,3 +1,0 @@
-protocol
-testCaseEnded: aTestAnnouncement
-	self smtDynamicFinder analyseAndRemoveProxyFor: aTestAnnouncement testCase

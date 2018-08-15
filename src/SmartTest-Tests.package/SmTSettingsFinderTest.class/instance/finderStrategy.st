@@ -1,3 +1,0 @@
-running
-finderStrategy
-	self subclassResponsibility 

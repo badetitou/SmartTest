@@ -1,3 +1,0 @@
-accessing
-currentCache
-	self subclassResponsibility 

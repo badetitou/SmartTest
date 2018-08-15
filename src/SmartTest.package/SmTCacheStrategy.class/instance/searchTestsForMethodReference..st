@@ -1,3 +1,0 @@
-private
-searchTestsForMethodReference: aMethodReference
-	self subclassResponsibility 

@@ -1,3 +1,0 @@
-accessing
-shouldTryToFindTestForDynamic: aBoolean
-	shouldTryToFindTestForDynamic := aBoolean

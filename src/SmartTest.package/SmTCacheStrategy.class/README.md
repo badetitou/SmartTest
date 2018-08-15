@@ -1,1 +1,0 @@
-This setting defines how the cache should behave.

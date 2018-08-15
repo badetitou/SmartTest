@@ -1,1 +1,0 @@
-The critique that explains you need to write tests for this class

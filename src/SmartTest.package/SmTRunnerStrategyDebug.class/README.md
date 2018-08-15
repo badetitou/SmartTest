@@ -1,1 +1,0 @@
-When a test is run by CORA. If it failled, the debugger will open.

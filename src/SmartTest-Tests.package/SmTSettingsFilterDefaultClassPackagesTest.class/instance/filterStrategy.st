@@ -1,3 +1,0 @@
-running
-filterStrategy
-	^ SmTDefaultClassPackagesFilter 

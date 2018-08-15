@@ -1,3 +1,0 @@
-method2
-method2SecondLevelSendersOutsideTestInsideWithRefInMethod
-^SmTClassP1SecondLevelSendersOutsideTestInsideWithRefInMethod new method1SecondLevelSendersOutsideTestInsideWithRefInMethod.

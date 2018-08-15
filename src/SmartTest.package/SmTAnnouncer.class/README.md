@@ -1,1 +1,0 @@
-The announcer process announces that some event has occurred and disseminates it to all the listeners that are interested in the event. 

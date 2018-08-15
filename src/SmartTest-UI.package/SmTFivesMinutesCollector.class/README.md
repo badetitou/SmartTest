@@ -1,1 +1,0 @@
-I collect all the tests and run it each 5 minutes

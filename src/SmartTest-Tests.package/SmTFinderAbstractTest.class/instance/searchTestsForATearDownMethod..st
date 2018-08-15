@@ -1,3 +1,0 @@
-helpers
-searchTestsForATearDownMethod: aCompiledMethod
-	^ smartFinder searchTestsForATearDownMethod: aCompiledMethod

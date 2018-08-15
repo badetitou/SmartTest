@@ -1,3 +1,0 @@
-running
-strategyTested
-self subclassResponsibility 

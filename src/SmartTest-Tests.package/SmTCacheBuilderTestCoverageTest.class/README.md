@@ -1,1 +1,0 @@
-These tests are here to assert that the build cache methods are correct when dealing with different cache strategies.

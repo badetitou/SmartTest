@@ -1,3 +1,0 @@
-development support
-isMetacelloConfig
-	^ true

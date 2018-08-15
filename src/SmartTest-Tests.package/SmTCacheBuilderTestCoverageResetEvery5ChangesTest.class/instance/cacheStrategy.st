@@ -1,3 +1,0 @@
-initialization
-cacheStrategy
-^ SmTBasicCacheResetEvery5ChangesStrategy 

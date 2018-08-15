@@ -1,3 +1,0 @@
-running
-runnerStrategy
-	^ SmTRunnerStrategySmart

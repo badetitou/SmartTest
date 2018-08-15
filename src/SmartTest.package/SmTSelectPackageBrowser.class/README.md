@@ -1,1 +1,0 @@
-I'm a tool that helps in selecting the packages that are going to be searched.

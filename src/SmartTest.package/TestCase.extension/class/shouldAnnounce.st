@@ -1,3 +1,0 @@
-*SmartTest
-shouldAnnounce
-	^ SmTAnnouncer shouldAnnounce 

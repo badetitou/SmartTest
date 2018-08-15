@@ -1,3 +1,0 @@
-helpers
-searchTestsForATestMethod: aCompiledMethod
-	^ smartFinder searchTestsForATestMethod: aCompiledMethod
