@@ -1,3 +1,0 @@
-api
-installProxyFor: aTestCase
-	self subclassResponsibility

@@ -1,1 +1,0 @@
-A CORAFinderStrategyReflectivityTest is a test class for testing the behavior of CORAFinderStrategyReflectivity

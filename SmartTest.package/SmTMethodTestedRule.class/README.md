@@ -1,1 +1,0 @@
-I check method tests

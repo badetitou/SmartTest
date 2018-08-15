@@ -1,3 +1,0 @@
-*SmartTest
-generalAnnouncer
-	^ SmTAnnouncer announcer

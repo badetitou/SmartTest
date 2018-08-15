@@ -1,3 +1,0 @@
-api
-resetCache
-	cache removeAll

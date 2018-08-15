@@ -1,1 +1,0 @@
-The finder should provide only methods which are contain in the package of the last modification or in the packages which call the method class

@@ -1,3 +1,0 @@
-protocol
-testCaseStarted: aTestAnnouncement
-	self smtDynamicFinder installProxyFor: aTestAnnouncement testCase 

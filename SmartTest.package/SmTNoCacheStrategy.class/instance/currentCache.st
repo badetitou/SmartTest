@@ -1,3 +1,0 @@
-private
-currentCache
-	^ Dictionary new
