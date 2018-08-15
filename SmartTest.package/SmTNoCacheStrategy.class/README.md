@@ -1,1 +1,0 @@
-This strategy never adds the tests found to the cache.

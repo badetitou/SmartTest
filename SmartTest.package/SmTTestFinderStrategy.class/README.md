@@ -1,1 +1,0 @@
-I represent an abstract strategy to find tests exercising some method

@@ -1,3 +1,0 @@
-accessing
-instVarModificationOnVariableOutsidePackage: anObject
-	instVarModificationOnVariableOutsidePackage := anObject

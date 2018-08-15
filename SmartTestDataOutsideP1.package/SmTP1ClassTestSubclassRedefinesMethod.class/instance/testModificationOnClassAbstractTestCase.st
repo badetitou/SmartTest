@@ -1,3 +1,0 @@
-tests
-testModificationOnClassAbstractTestCase
-^super testModificationOnClassAbstractTestCase.

@@ -1,1 +1,0 @@
-In this class, the research is dynamic and it uses the finder TestCoverage.

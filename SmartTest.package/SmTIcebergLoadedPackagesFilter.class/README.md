@@ -1,1 +1,0 @@
-This filter only looks in the packages that are loaded with Iceberg

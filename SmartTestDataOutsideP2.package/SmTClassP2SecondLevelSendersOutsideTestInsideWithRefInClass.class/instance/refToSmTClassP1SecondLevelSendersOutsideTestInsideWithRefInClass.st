@@ -1,3 +1,0 @@
-references
-refToSmTClassP1SecondLevelSendersOutsideTestInsideWithRefInClass
-^ SmTClassP1SecondLevelSendersOutsideTestInsideWithRefInClass new.

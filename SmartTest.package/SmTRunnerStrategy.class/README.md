@@ -1,1 +1,0 @@
-I'm a tool which help the plugin to run tests and return the result of them

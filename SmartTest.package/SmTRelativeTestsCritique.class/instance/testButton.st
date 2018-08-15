@@ -1,3 +1,0 @@
-accessing
-testButton
-	^ testButton

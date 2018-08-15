@@ -1,3 +1,0 @@
-instance creation
-findTestsForMethod: aCompiledMethod
-	self subclassResponsibility 

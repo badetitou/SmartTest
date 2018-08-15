@@ -1,1 +1,0 @@
-I show all the results in a window.

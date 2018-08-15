@@ -1,3 +1,0 @@
-*SmartTestDataOutsideP1
-extensionMethod1FirstLevelSendersOutside
-"an extension"

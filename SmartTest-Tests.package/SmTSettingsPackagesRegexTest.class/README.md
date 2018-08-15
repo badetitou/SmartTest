@@ -1,1 +1,0 @@
-We test if we correctly changed the regex when we changed it (or not) in the settings.

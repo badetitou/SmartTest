@@ -1,1 +1,0 @@
-These tests are here to assert that when we change the settings of SmartTest in the environnement, they are indeed changed.

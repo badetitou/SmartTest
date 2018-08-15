@@ -1,3 +1,0 @@
-initialization
-cacheStrategy 
-self subclassResponsibility.

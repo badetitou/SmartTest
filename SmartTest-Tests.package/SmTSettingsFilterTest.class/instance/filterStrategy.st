@@ -1,3 +1,0 @@
-running
-filterStrategy
-	self subclassResponsibility 

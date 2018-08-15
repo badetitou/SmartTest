@@ -1,3 +1,0 @@
-testing
-canBeExecutedInContext: aCriticContext
-	^ SmTRelativeTestsCritique subclasses includes: aCriticContext selectedCritique class

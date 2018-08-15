@@ -1,3 +1,0 @@
-running
-runnerStrategy
-	^ SmTRunnerStrategyNotice
