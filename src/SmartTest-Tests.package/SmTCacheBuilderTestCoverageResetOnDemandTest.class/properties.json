@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "eleonoreW 7/20/2018 09:28",
+	"super" : "SmTCacheBuilderTestCoverageTest",
+	"category" : "SmartTest-Tests-CacheBuilder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTCacheBuilderTestCoverageResetOnDemandTest",
+	"type" : "normal"
+}

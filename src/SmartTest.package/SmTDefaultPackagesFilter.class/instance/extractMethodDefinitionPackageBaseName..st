@@ -1,0 +1,3 @@
+parsing
+extractMethodDefinitionPackageBaseName: aRGMethodDefinition
+	^ self extractPackageBaseName: aRGMethodDefinition package realPackage packageName 

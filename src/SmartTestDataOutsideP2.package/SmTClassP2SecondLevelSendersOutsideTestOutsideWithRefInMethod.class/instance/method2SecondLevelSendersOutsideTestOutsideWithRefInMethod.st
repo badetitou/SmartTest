@@ -1,0 +1,3 @@
+method2
+method2SecondLevelSendersOutsideTestOutsideWithRefInMethod
+SmTClassP1SecondLevelSendersOutsideTestOutsideWithRefInMethod >> #method1SecondLevelSendersOutsideTestOutsideWithRefInMethod.

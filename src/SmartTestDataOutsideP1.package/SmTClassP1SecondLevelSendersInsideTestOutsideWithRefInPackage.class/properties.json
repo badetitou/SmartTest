@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EleonoreWALD 5/16/2018 16:22",
+	"super" : "Object",
+	"category" : "SmartTestDataOutsideP1-ModificationOnMethod-SenderInTestOutWithRef",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTClassP1SecondLevelSendersInsideTestOutsideWithRefInPackage",
+	"type" : "normal"
+}

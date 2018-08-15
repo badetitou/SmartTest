@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EleonoreWALD 5/3/2018 17:48",
+	"super" : "PackageManifest",
+	"category" : "SmartTest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ManifestSmartTest",
+	"type" : "normal"
+}

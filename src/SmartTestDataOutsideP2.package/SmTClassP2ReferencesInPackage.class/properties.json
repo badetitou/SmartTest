@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EleonoreWALD 5/17/2018 08:45",
+	"super" : "Object",
+	"category" : "SmartTestDataOutsideP2-ModificationOnMethod-References",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTClassP2ReferencesInPackage",
+	"type" : "normal"
+}

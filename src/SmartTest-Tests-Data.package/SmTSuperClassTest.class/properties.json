@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "EleonoreWALD 5/2/2018 14:04",
+	"super" : "TestCase",
+	"category" : "SmartTest-Tests-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"smTtestClass"
+	],
+	"name" : "SmTSuperClassTest",
+	"type" : "normal"
+}

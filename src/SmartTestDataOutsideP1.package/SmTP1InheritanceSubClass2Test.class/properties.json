@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EleonoreWALD 5/17/2018 11:51",
+	"super" : "SmTP1InheritanceTest",
+	"category" : "SmartTestDataOutsideP1-ModificationOnMethod-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTP1InheritanceSubClass2Test",
+	"type" : "normal"
+}

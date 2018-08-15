@@ -1,0 +1,1 @@
+I'm a tool that help configure the finder for the TestCoverage strategy.

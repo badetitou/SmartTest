@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "SmartTest-Tests-OnModification",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"onModif"
+	],
+	"name" : "SmTOnModificationTest",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "EleonoreWALD 5/3/2018 10:01",
+	"super" : "SmTCacheStrategy",
+	"category" : "SmartTest-Cache",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTNoCacheStrategy",
+	"type" : "normal"
+}

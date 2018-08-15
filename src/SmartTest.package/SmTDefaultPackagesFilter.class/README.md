@@ -1,0 +1,1 @@
+This filter only looks in the package owning the changed entity (method or class)

@@ -1,0 +1,3 @@
+api
+buildCacheFromTestSuite: aTestSuite
+	self subclassResponsibility

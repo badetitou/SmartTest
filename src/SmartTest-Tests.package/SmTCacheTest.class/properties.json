@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "eleonoreW 7/18/2018 09:37",
+	"super" : "TestCase",
+	"category" : "SmartTest-Tests-Cache",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cache",
+		"smartFinder"
+	],
+	"name" : "SmTCacheTest",
+	"type" : "normal"
+}

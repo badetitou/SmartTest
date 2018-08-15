@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 7/13/2017 14:18",
+	"super" : "SmTTestingStrategy",
+	"category" : "SmartTest-Testing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bag"
+	],
+	"name" : "SmTTestingStrategyEachModification",
+	"type" : "normal"
+}

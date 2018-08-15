@@ -1,0 +1,1 @@
+I represent the button that open details of tests you should run from SmartTest (for a class)

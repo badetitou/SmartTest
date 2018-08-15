@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "SmTMethodTestedRule",
+	"category" : "SmartTest-Rules",
+	"classinstvars" : [
+		"bag"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bag"
+	],
+	"name" : "SmTMethodTestedOnModificationRule",
+	"type" : "normal"
+}

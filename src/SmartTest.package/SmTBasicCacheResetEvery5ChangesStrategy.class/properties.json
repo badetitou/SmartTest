@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "eleonoreW 7/12/2018 11:38",
+	"super" : "SmTBasicCacheStrategy",
+	"category" : "SmartTest-Cache",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"numberOfChange"
+	],
+	"name" : "SmTBasicCacheResetEvery5ChangesStrategy",
+	"type" : "normal"
+}

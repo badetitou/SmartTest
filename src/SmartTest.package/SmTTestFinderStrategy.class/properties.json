@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "eleonoreW 6/29/2018 15:25",
+	"super" : "Object",
+	"category" : "SmartTest-Finder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"filter",
+		"cache",
+		"shouldTryToFindTestForDynamic"
+	],
+	"name" : "SmTTestFinderStrategy",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+tests
+setUp
+	runner := SmTRunnerStrategySmart.

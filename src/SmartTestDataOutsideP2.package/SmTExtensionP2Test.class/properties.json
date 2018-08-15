@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "eleonoreW 6/11/2018 14:43",
+	"super" : "TestCase",
+	"category" : "SmartTestDataOutsideP2-ModificationOnMethod-ExtensionMethod-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTExtensionP2Test",
+	"type" : "normal"
+}

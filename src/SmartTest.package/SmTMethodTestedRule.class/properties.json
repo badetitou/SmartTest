@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 6/28/2017 11:57",
+	"super" : "SmTRules",
+	"category" : "SmartTest-Rules",
+	"classinstvars" : [
+		"methodRuleStrategy"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"MethodActivated"
+	],
+	"instvars" : [ ],
+	"name" : "SmTMethodTestedRule",
+	"type" : "normal"
+}

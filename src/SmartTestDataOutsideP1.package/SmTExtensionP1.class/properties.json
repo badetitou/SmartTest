@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "eleonoreW 6/11/2018 10:56",
+	"super" : "Object",
+	"category" : "SmartTestDataOutsideP1-ModificationOnMethod-SenderExtensionMethod",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTExtensionP1",
+	"type" : "normal"
+}

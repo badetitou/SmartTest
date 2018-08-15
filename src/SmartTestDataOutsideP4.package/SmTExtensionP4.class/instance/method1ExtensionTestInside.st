@@ -1,0 +1,2 @@
+method1
+method1ExtensionTestInside

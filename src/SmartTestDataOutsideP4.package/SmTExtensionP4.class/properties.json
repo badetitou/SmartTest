@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "eleonoreW 6/11/2018 15:47",
+	"super" : "Object",
+	"category" : "SmartTestDataOutsideP4",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SmTExtensionP4",
+	"type" : "normal"
+}

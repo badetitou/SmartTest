@@ -1,0 +1,3 @@
+accessing
+instVarModificationOnVariableInsideClass: anObject
+	instVarModificationOnVariableInsideClass := anObject
