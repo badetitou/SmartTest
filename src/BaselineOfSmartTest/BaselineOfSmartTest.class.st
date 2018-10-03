@@ -21,7 +21,7 @@ BaselineOfSmartTest >> defineDependencies: spec [
 { #category : #baselines }
 BaselineOfSmartTest >> defineGroups: spec [
 	spec
-		group: 'code' with: #('SmartTest');
+		group: 'core' with: #('SmartTest');
 		group: 'default' with: #('core' 'SmartTest-Reneraku');
 		group: 'test' with: #('SmartTest-Tests');
 		group: 'all' with: #('default' 'test')
