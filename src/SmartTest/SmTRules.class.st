@@ -19,9 +19,10 @@ Class {
 		'smTFilter',
 		'smTFinder',
 		'smTTestRunner',
-		'collectionOfRegex'
+		'collectionOfRegex',
+		'limitNumberOfConcurentProcess'
 	],
-	#category : 'SmartTest-Rules'
+	#category : #'SmartTest-Rules'
 }
 
 { #category : #settings }
@@ -43,6 +44,16 @@ SmTRules class >> cacheStrategy [
 SmTRules class >> cacheStrategy: aSelector [
 	self testFinder cacheStrategy: aSelector new.
 	^ smTCache := aSelector
+]
+
+{ #category : #accesing }
+SmTRules class >> canBeRun [
+	^ self activated
+		and: [ (Process allSubInstances
+				select: [ :each | 
+					each isTerminated not
+						and: [ each name beginsWith: 'Build result of a ClyAllBasisCritiques' ] ]) size
+				< self limitNumberOfConcurentProcess ]
 ]
 
 { #category : #'instance creation' }
@@ -74,6 +85,16 @@ SmTRules class >> finder: aSelector [
 	smTFinder := aSelector.
 	self testFinder smtFinder: aSelector new.
 	^ smTFinder
+]
+
+{ #category : #settings }
+SmTRules class >> limitNumberOfConcurentProcess [
+	^ limitNumberOfConcurentProcess ifNil: [ limitNumberOfConcurentProcess := 2 ]
+]
+
+{ #category : #settings }
+SmTRules class >> limitNumberOfConcurentProcess: anObject [
+	limitNumberOfConcurentProcess := anObject
 ]
 
 { #category : #settings }
@@ -147,15 +168,15 @@ SmTRules class >> settingsOn: aBuilder [
 						parent: #SmTFilter;
 						domainValues: SmTFilterStrategy allSubclasses;
 						description: 'The testing strategy defines when SmartTest will run the test it has found.' ].
-					(aBuilder setting: #packagesRegex)
-		label: 'SmartTest filter Regex configuration';
-		target: self;
-		parent: #SmTFilter;
-		ghostHelp: 'SmartTe|Star*Wnrs';
-		notInStyle;
-		default: '';
-		description:
-			'Change the value to scope the package you want to explore.
+			(aBuilder setting: #packagesRegex)
+				label: 'SmartTest filter Regex configuration';
+				target: self;
+				parent: #SmTFilter;
+				ghostHelp: 'SmartTe|Star*Wnrs';
+				notInStyle;
+				default: '';
+				description:
+					'Change the value to scope the package you want to explore.
 If you want to check the packages are well detected,run 
 	SmTFilterSpecifyPackageSettings selectedPackage'.
 			(aBuilder group: #SmTActivationRenrakuOption)
@@ -164,7 +185,12 @@ If you want to check the packages are well detected,run
 						target: self;
 						order: 0.01;
 						label: 'SmartTest Reneraku Integration Activated';
-						description: 'Toogle to activate/disable the reneraku integration of the plugin' ].
+						description: 'Toogle to activate/disable the reneraku integration of the plugin'.
+					(aBuilder setting: #limitNumberOfConcurentProcess)
+						target: self;
+						order: 0.02;
+						label: 'Limit Concurent SmT processes for Calypso';
+						description: 'Choose the limit of concurent process' ].
 			(aBuilder setting: #shouldTryToFindTestForDynamic)
 				parent: 'Beta';
 				target: self;
@@ -250,7 +276,7 @@ SmTRules class >> unload [
 
 { #category : #accessing }
 SmTRules >> activated [
-	^ self class activated
+	^ self class canBeRun
 ]
 
 { #category : #accessing }
