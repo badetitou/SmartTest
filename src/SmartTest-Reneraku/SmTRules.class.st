@@ -46,9 +46,7 @@ SmTRules class >> canBeRun [
 
 { #category : #'instance creation' }
 SmTRules class >> fillCache [
-	SmTSelectPackageBrowser openWithSmartFinder: self testFinder
-
-	
+	SmTSelectPackageBrowser openWithSmartFinder: SmartFinder settingInstance 
 ]
 
 { #category : #settings }
@@ -96,7 +94,7 @@ SmTRules >> basicCheck: anEntity [
 
 { #category : #'initialize-release' }
 SmTRules >> findTestsForMethod: aCompiledMethod [
-	^ tests := self class testFinder findTestsForMethod: aCompiledMethod
+	^ tests := SmartFinder settingInstance findTestsForMethod: aCompiledMethod
 ]
 
 { #category : #accessing }
