@@ -22,11 +22,9 @@ Class {
 		'testingStrategy',
 		'smtFinder',
 		'cacheStrategy',
-		'shouldTryToFindTestForDynamic',
-		'autoUpdateCache',
-		'smtListener'
+		'shouldTryToFindTestForDynamic'
 	],
-	#category : 'SmartTest-Core'
+	#category : #'SmartTest-Core'
 }
 
 { #category : #accessing }
@@ -84,7 +82,7 @@ SmartFinder >> findTestsForMethod: aCompiledMethod [
 	"This is the api for QA (use the testing strategy, the rule strategy etc.)
 	If you only want to find the tests, please consider using #researchTestsForMethod:"
 
-	^ self testingStrategy findTestsForMethod: aCompiledMethod
+	^ [self testingStrategy findTestsForMethod: aCompiledMethod] on: Exception do: [ "oups" ^ {  } ]
 ]
 
 { #category : #initialization }
@@ -95,7 +93,7 @@ SmartFinder >> initialize [
 { #category : #api }
 SmartFinder >> researchTestsForMethod: aCompiledMethod [ 
 	"If you only want to find the tests"
-	^ self smtFinder methodsFor: aCompiledMethod.
+	^ [ self smtFinder methodsFor: aCompiledMethod ] on: Exception do: [ "oups" ^ {  } ]
 ]
 
 { #category : #api }
