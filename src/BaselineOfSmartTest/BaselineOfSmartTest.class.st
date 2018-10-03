@@ -22,7 +22,7 @@ BaselineOfSmartTest >> defineDependencies: spec [
 BaselineOfSmartTest >> defineGroups: spec [
 	spec
 		group: 'core' with: #('SmartTest');
-		group: 'default';
+		group: 'default' with: #('reneraku');
 		group: 'reneraku' with: #('SmartTest-Reneraku');
 		group: 'bigbutton' with: #('SmartTest-BigButton');
 		group: 'test' with: #('SmartTest-Tests');
