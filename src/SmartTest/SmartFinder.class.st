@@ -82,7 +82,7 @@ SmartFinder >> findTestsForMethod: aCompiledMethod [
 	"This is the api for QA (use the testing strategy, the rule strategy etc.)
 	If you only want to find the tests, please consider using #researchTestsForMethod:"
 
-	^ [self testingStrategy findTestsForMethod: aCompiledMethod] on: Exception do: [ "oups" ^ {  } ]
+	^ [self testingStrategy findTestsForMethod: aCompiledMethod] on: Exception do: [ "oups" MetaLink uninstallAll.^ {  } ]
 ]
 
 { #category : #initialization }
@@ -93,7 +93,7 @@ SmartFinder >> initialize [
 { #category : #api }
 SmartFinder >> researchTestsForMethod: aCompiledMethod [ 
 	"If you only want to find the tests"
-	^ [ self smtFinder methodsFor: aCompiledMethod ] on: Exception do: [ "oups" ^ {  } ]
+	^ [ self smtFinder methodsFor: aCompiledMethod ] on: Exception do: [ "oups" MetaLink uninstallAll. ^ {  } ]
 ]
 
 { #category : #api }
