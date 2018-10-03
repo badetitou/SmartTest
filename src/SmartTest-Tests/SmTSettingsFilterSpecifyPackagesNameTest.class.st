@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'oldRegex'
 	],
-	#category : 'SmartTest-Tests-Settings'
+	#category : #'SmartTest-Tests-Settings'
 }
 
 { #category : #running }
@@ -20,19 +20,19 @@ SmTSettingsFilterSpecifyPackagesNameTest >> filterStrategy [
 { #category : #running }
 SmTSettingsFilterSpecifyPackagesNameTest >> setUp [
 	super setUp.
-	oldRegex := SmTRules packagesRegex.
-	SmTRules packagesRegex: self dataForTestRegex 
+	oldRegex := SmartFinder packagesRegex.
+	SmartFinder packagesRegex: self dataForTestRegex 
 ]
 
 { #category : #running }
 SmTSettingsFilterSpecifyPackagesNameTest >> tearDown [
 	
-	SmTRules packagesRegex: oldRegex.
+	SmartFinder packagesRegex: oldRegex.
 	super tearDown 
 ]
 
 { #category : #running }
 SmTSettingsFilterSpecifyPackagesNameTest >> testChangeRegexWhenChanged [
-	SmTRules filter: self filterStrategy.
-	self assert: SmTRules testFinder filter packagesRegex equals: self dataForTestRegex 
+	SmartFinder filter: self filterStrategy.
+	self assert: SmartFinder settingInstance filter packagesRegex equals: self dataForTestRegex 
 ]

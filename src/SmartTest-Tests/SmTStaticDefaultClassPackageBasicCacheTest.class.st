@@ -4,7 +4,7 @@ I test the static finder with DefaultClassPackageFilter and BasicCache
 Class {
 	#name : #SmTStaticDefaultClassPackageBasicCacheTest,
 	#superclass : #SmTFinderAbstractTest,
-	#category : 'SmartTest-Tests-Finder'
+	#category : #'SmartTest-Tests-Finder'
 }
 
 { #category : #running }

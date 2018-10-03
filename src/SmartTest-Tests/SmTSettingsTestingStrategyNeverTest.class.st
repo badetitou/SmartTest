@@ -1,7 +1,7 @@
 Class {
 	#name : #SmTSettingsTestingStrategyNeverTest,
 	#superclass : #SmTSettingsTestingStrategyTest,
-	#category : 'SmartTest-Tests-Settings'
+	#category : #'SmartTest-Tests-Settings'
 }
 
 { #category : #running }

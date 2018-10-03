@@ -1,7 +1,7 @@
 Class {
 	#name : #SmTSettingsFilterDefaultPackagesTest,
 	#superclass : #SmTSettingsFilterTest,
-	#category : 'SmartTest-Tests-Settings'
+	#category : #'SmartTest-Tests-Settings'
 }
 
 { #category : #running }

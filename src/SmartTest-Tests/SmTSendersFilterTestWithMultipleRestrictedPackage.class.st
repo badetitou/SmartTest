@@ -10,7 +10,7 @@ In order to be sure that those test are not considered as callers of the modifie
 Class {
 	#name : #SmTSendersFilterTestWithMultipleRestrictedPackage,
 	#superclass : #SmTFilterAbstractTest,
-	#category : 'SmartTest-Tests-Filter'
+	#category : #'SmartTest-Tests-Filter'
 }
 
 { #category : #running }

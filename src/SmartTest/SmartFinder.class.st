@@ -86,7 +86,7 @@ SmartFinder class >> packagesRegex: aRegexStringCollection [
 { #category : #settings }
 SmartFinder class >> propagateRegexToTestFinder [
 	self settingInstance filter class = SmTSpecifyPackagesNameFilter
-		ifTrue: [ self testFinder filter packagesRegex: self packagesRegex ]
+		ifTrue: [ self settingInstance filter packagesRegex: self packagesRegex ]
 ]
 
 { #category : #settings }

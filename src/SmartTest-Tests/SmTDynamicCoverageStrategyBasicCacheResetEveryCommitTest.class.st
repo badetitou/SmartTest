@@ -1,7 +1,7 @@
 Class {
 	#name : #SmTDynamicCoverageStrategyBasicCacheResetEveryCommitTest,
 	#superclass : #SmTFinderAbstractTest,
-	#category : 'SmartTest-Tests-Finder'
+	#category : #'SmartTest-Tests-Finder'
 }
 
 { #category : #running }

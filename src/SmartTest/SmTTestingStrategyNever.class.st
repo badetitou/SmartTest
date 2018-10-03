@@ -4,7 +4,7 @@ CORA never run test automatically
 Class {
 	#name : #SmTTestingStrategyNever,
 	#superclass : #SmTTestingStrategy,
-	#category : 'SmartTest-Testing'
+	#category : #'SmartTest-Testing'
 }
 
 { #category : #'instance creation' }

@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'oldSettings'
 	],
-	#category : 'SmartTest-Tests-Settings'
+	#category : #'SmartTest-Tests-Settings'
 }
 
 { #category : #testing }

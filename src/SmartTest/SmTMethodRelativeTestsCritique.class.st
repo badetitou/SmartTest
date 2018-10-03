@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'entity'
 	],
-	#category : 'SmartTest-Critiques'
+	#category : #'SmartTest-Critiques'
 }
 
 { #category : #'instance creation' }

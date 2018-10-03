@@ -4,7 +4,7 @@ This filter only looks in the package owning the changed entity (method or class
 Class {
 	#name : #SmTDefaultPackagesFilter,
 	#superclass : #SmTFilterStrategy,
-	#category : 'SmartTest-Filter'
+	#category : #'SmartTest-Filter'
 }
 
 { #category : #settings }

@@ -1,7 +1,7 @@
 Class {
 	#name : #SmTSettingsFinderTest,
 	#superclass : #SmTSettingsTest,
-	#category : 'SmartTest-Tests-Settings'
+	#category : #'SmartTest-Tests-Settings'
 }
 
 { #category : #testing }

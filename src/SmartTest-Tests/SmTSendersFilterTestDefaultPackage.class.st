@@ -8,7 +8,7 @@ In order to be sure that those test are not considered as callers of the modifie
 Class {
 	#name : #SmTSendersFilterTestDefaultPackage,
 	#superclass : #SmTFilterAbstractTest,
-	#category : 'SmartTest-Tests-Filter'
+	#category : #'SmartTest-Tests-Filter'
 }
 
 { #category : #tests }

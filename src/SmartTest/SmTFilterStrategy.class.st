@@ -4,7 +4,7 @@ This class is used to define the filter used by SmartTest.
 Class {
 	#name : #SmTFilterStrategy,
 	#superclass : #Object,
-	#category : 'SmartTest-Filter'
+	#category : #'SmartTest-Filter'
 }
 
 { #category : #asserting }

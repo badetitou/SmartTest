@@ -4,7 +4,7 @@ This strategy never adds the tests found to the cache.
 Class {
 	#name : #SmTNoCacheStrategy,
 	#superclass : #SmTCacheStrategy,
-	#category : 'SmartTest-Cache'
+	#category : #'SmartTest-Cache'
 }
 
 { #category : #accessing }

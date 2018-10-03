@@ -4,7 +4,7 @@ Tool easy to use by everyone to generate test from a Compiled Method
 Class {
 	#name : #SmTTestGenerator,
 	#superclass : #Object,
-	#category : 'SmartTest-Tools'
+	#category : #'SmartTest-Tools'
 }
 
 { #category : #'widget method' }

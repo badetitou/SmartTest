@@ -5,7 +5,7 @@ This filter looks in the packages of all methods that reference the class of the
 Class {
 	#name : #SmTDefaultClassPackagesFilter,
 	#superclass : #SmTDefaultPackagesFilter,
-	#category : 'SmartTest-Filter'
+	#category : #'SmartTest-Filter'
 }
 
 { #category : #accessing }
