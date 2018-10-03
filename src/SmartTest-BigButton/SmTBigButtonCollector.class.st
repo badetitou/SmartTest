@@ -148,7 +148,7 @@ SmTBigButtonCollector >> methodModified: anAnnouncement [
 { #category : #accessing }
 SmTBigButtonCollector >> notify [
 	| aTestResult |
-	aTestResult := SmartFinder settingInstance runner
+	aTestResult := SmartFinder settingInstance testRunner
 		runCases:
 			(self collector
 				collect: [ :aMethodReference | aMethodReference methodClass selector: aMethodReference selector ]).
