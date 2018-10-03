@@ -22,36 +22,6 @@ SmTSenderTestFinderStrategy >> collectSenderOfRGMethodeDefintion: aRGMethodDefin
 		ifFalse: [ aRGMethodDefinition senders ]
 ]
 
-{ #category : #api }
-SmTSenderTestFinderStrategy >> methodsFor: aCompiledMethod forThePackage: packages [
-	self flag: '24 july 2018 - What is this method ? If useless i or from another project i will remove it'.
-
-	^ self cache
-		at: aCompiledMethod methodReference
-		ifAbsent: [ (self searchTestsForATestMethod: aCompiledMethod)
-				ifNotEmpty: [ :methods | 
-					^ (self searchTestsForMethod: aCompiledMethod)
-						addAll: (self computeInheritedTestFromDiscoveredTest: methods);
-						yourself ].
-			(self searchTestsForASetUpMethod: aCompiledMethod)
-				ifNotEmpty: [ :methods | 
-					^ (self searchTestsForMethod: aCompiledMethod)
-						addAll: (self computeInheritedTestFromDiscoveredTest: methods);
-						yourself ].
-			(self searchTestsForATearDownMethod: aCompiledMethod)
-				ifNotEmpty: [ :methods | 
-					^ (self searchTestsForMethod: aCompiledMethod)
-						addAll: (self computeInheritedTestFromDiscoveredTest: methods);
-						yourself ].
-			(self recursiveSearchForAStandardMethod: (aCompiledMethod asRingDefinition)  inPackages: packages )
-				ifNotEmpty: [ :methods | 
-					^ (self searchTestsForMethod: aCompiledMethod)
-						addAll: (self computeInheritedTestFromDiscoveredTest: methods);
-						yourself ].
-			self cache at: aCompiledMethod methodReference put: Set new.
-			^ {} ]
-]
-
 { #category : #'private - search' }
 SmTSenderTestFinderStrategy >> recursiveSearchForAStandardMethod: aRGMethodDefinition inPackages: packages [
 	^ self recursiveSearchForAStandardMethod: aRGMethodDefinition inPackages: packages alreadyVisited: Set new
@@ -59,8 +29,17 @@ SmTSenderTestFinderStrategy >> recursiveSearchForAStandardMethod: aRGMethodDefin
 
 { #category : #'private - search' }
 SmTSenderTestFinderStrategy >> recursiveSearchForAStandardMethod: aRGMethodDefinition inPackages: packages alreadyVisited: alreadyVisitedMethods [
+	^ self recursiveSearchForAStandardMethod: aRGMethodDefinition inPackages: packages alreadyVisited: alreadyVisitedMethods withDepthLimit: self researchDepthLimit
+]
+
+{ #category : #'private - search' }
+SmTSenderTestFinderStrategy >> recursiveSearchForAStandardMethod: aRGMethodDefinition inPackages: packages alreadyVisited: alreadyVisitedMethods withDepthLimit: aDepthLimit [
 	| foundMethods |
+	"case we have already do the reasearch for this method"
 	self cache at: aRGMethodDefinition ifPresent: [ :a | ^ a ].
+	"case the research is too long"
+	(aDepthLimit = 0) ifTrue: [ ^ Set new ].
+	"recursive case"
 	foundMethods := Set new.
 	(self collectSenderOfRGMethodeDefintion: aRGMethodDefinition)
 		reject: [ :aSenderMethod | 
@@ -70,7 +49,7 @@ SmTSenderTestFinderStrategy >> recursiveSearchForAStandardMethod: aRGMethodDefin
 			reject ]
 		thenDo: [ :aSenderRGMethodDefinition | 
 			foundMethods add: aSenderRGMethodDefinition.
-			foundMethods addAll: (self recursiveSearchForAStandardMethod: aSenderRGMethodDefinition inPackages: packages alreadyVisited: alreadyVisitedMethods) ].
+			foundMethods addAll: (self recursiveSearchForAStandardMethod: aSenderRGMethodDefinition inPackages: packages alreadyVisited: alreadyVisitedMethods withDepthLimit: aDepthLimit -1) ].
 	^ foundMethods
 ]
 
