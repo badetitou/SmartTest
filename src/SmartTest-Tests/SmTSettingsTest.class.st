@@ -18,11 +18,11 @@ SmTSettingsTest class >> isAbstract [
 { #category : #running }
 SmTSettingsTest >> setUp [
 	super setUp.
-	oldSettings := SmTRules testFinder
+	oldSettings := SmartFinder settingInstance
 ]
 
 { #category : #running }
 SmTSettingsTest >> tearDown [
-	SmTRules testFinder: oldSettings.
-	super tearDown 
+	SmartFinder settingInstance:  oldSettings.
+	super tearDown
 ]

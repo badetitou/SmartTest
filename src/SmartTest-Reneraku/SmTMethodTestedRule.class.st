@@ -10,7 +10,7 @@ Class {
 	#classInstVars : [
 		'methodRuleStrategy'
 	],
-	#category : 'SmartTest-Rules'
+	#category : #'SmartTest-Reneraku'
 }
 
 { #category : #'testing-interest' }
