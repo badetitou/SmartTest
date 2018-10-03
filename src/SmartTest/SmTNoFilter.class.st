@@ -4,7 +4,7 @@ This filter is ""useless"" because it does not filter anything: it looks everywh
 Class {
 	#name : #SmTNoFilter,
 	#superclass : #SmTFilterStrategy,
-	#category : 'SmartTest-Filter'
+	#category : #'SmartTest-Filter'
 }
 
 { #category : #asserting }

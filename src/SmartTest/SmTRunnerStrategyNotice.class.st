@@ -4,7 +4,7 @@ When a test is run by CORA. If it failled, nothing happen
 Class {
 	#name : #SmTRunnerStrategyNotice,
 	#superclass : #SmTRunnerStrategy,
-	#category : 'SmartTest-Runner'
+	#category : #'SmartTest-Runner'
 }
 
 { #category : #action }

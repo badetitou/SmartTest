@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'finder'
 	],
-	#category : 'SmartTest-Tools'
+	#category : #'SmartTest-Tools'
 }
 
 { #category : #accessing }

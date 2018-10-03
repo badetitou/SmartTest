@@ -9,7 +9,7 @@ Class {
 	#instVars : [
 		'numberOfChange'
 	],
-	#category : 'SmartTest-Cache'
+	#category : #'SmartTest-Cache'
 }
 
 { #category : #initialization }

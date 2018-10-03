@@ -1,7 +1,7 @@
 Class {
 	#name : #SmTSettingsFilterTest,
 	#superclass : #SmTSettingsTest,
-	#category : 'SmartTest-Tests-Settings'
+	#category : #'SmartTest-Tests-Settings'
 }
 
 { #category : #testing }
@@ -18,7 +18,7 @@ SmTSettingsFilterTest >> filterStrategy [
 SmTSettingsFilterTest >> testChangeFilterStrategy [
 	"Test changement of the runner in the setting (throught SmTRules methods)"
 
-	SmTRules filter: self filterStrategy.
-	self assert: (SmTRules testFinder filter isKindOf: self filterStrategy).
-	self assert: (SmTRules testFinder smtFinder filter isKindOf: self filterStrategy)
+	SmartFinder filter: self filterStrategy.
+	self assert: (SmartFinder settingInstance filter isKindOf: self filterStrategy).
+	self assert: (SmartFinder settingInstance smtFinder filter isKindOf: self filterStrategy)
 ]

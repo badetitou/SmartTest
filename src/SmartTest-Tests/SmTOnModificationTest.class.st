@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'onModif'
 	],
-	#category : 'SmartTest-Tests-OnModification'
+	#category : #'SmartTest-Tests-OnModification'
 }
 
 { #category : #'tests-adding' }

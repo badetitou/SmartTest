@@ -12,7 +12,7 @@ Class {
 		'uniqueInstance',
 		'activated'
 	],
-	#category : 'SmartTest-Listener'
+	#category : #'SmartTest-Listener'
 }
 
 { #category : #accessing }

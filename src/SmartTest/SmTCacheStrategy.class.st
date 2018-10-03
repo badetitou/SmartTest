@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'cache'
 	],
-	#category : 'SmartTest-Cache'
+	#category : #'SmartTest-Cache'
 }
 
 { #category : #accessing }

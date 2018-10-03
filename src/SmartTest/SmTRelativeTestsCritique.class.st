@@ -8,7 +8,7 @@ Class {
 		'tests',
 		'testButton'
 	],
-	#category : 'SmartTest-Critiques'
+	#category : #'SmartTest-Critiques'
 }
 
 { #category : #'instance creation' }

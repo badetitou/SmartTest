@@ -6,7 +6,7 @@ I'm not well tested, but I'm fast and can help you for quick testing.
 Class {
 	#name : #SmTSenderTestFinderStrategy,
 	#superclass : #SmTTestFinderStrategy,
-	#category : 'SmartTest-Finder'
+	#category : #'SmartTest-Finder'
 }
 
 { #category : #testing }

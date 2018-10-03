@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'smartFinder'
 	],
-	#category : 'SmartTest-Tools'
+	#category : #'SmartTest-Tools'
 }
 
 { #category : #opening }

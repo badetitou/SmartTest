@@ -4,7 +4,7 @@ I represent a critique when there are no tests for an entity
 Class {
 	#name : #SmTNeedTestsCritique,
 	#superclass : #ReAbstractCritique,
-	#category : 'SmartTest-Critiques'
+	#category : #'SmartTest-Critiques'
 }
 
 { #category : #accessing }

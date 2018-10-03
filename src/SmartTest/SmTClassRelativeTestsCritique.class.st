@@ -4,7 +4,7 @@ The critique that explains you need to run test for this class
 Class {
 	#name : #SmTClassRelativeTestsCritique,
 	#superclass : #SmTRelativeTestsCritique,
-	#category : 'SmartTest-Critiques'
+	#category : #'SmartTest-Critiques'
 }
 
 { #category : #'instance creation' }

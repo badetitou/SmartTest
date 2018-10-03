@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'bag'
 	],
-	#category : 'SmartTest-Testing'
+	#category : #'SmartTest-Testing'
 }
 
 { #category : #'instance creation' }

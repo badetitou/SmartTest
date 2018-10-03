@@ -1,7 +1,7 @@
 Class {
 	#name : #SmTSettingsBasicCacheTest,
 	#superclass : #SmTSettingsCacheTest,
-	#category : 'SmartTest-Tests-Settings'
+	#category : #'SmartTest-Tests-Settings'
 }
 
 { #category : #settings }

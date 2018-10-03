@@ -6,7 +6,7 @@ THIS CLASS SHOULD BE RENAMED BECAUSE IT IS NOT AN EVENT
 Class {
 	#name : #ManifestSmartTest,
 	#superclass : #PackageManifest,
-	#category : 'SmartTest'
+	#category : #SmartTest
 }
 
 { #category : #'meta-data' }

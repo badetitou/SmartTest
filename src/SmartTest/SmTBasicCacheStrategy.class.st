@@ -4,7 +4,7 @@ This strategy always adds the tests to the cache and always gives the tests when
 Class {
 	#name : #SmTBasicCacheStrategy,
 	#superclass : #SmTCacheStrategy,
-	#category : 'SmartTest-Cache'
+	#category : #'SmartTest-Cache'
 }
 
 { #category : #accessing }

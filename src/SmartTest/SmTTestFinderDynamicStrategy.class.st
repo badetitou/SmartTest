@@ -9,7 +9,7 @@ Class {
 	#instVars : [
 		'currentTestExecution'
 	],
-	#category : 'SmartTest-Finder'
+	#category : #'SmartTest-Finder'
 }
 
 { #category : #testing }

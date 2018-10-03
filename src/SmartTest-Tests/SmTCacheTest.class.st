@@ -13,7 +13,7 @@ Class {
 		'cache',
 		'smartFinder'
 	],
-	#category : 'SmartTest-Tests-Cache'
+	#category : #'SmartTest-Tests-Cache'
 }
 
 { #category : #testing }

@@ -19,7 +19,7 @@ Class {
 	#instVars : [
 		'wrappers'
 	],
-	#category : 'SmartTest-Finder'
+	#category : #'SmartTest-Finder'
 }
 
 { #category : #protocol }

@@ -1,7 +1,7 @@
 Class {
 	#name : #SmTSettingsFilterIcebergTest,
 	#superclass : #SmTSettingsFilterTest,
-	#category : 'SmartTest-Tests-Settings'
+	#category : #'SmartTest-Tests-Settings'
 }
 
 { #category : #running }

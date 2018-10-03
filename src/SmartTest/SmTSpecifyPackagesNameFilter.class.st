@@ -8,7 +8,7 @@ Class {
 		'packagesRegex',
 		'selectedPackages'
 	],
-	#category : 'SmartTest-Filter'
+	#category : #'SmartTest-Filter'
 }
 
 { #category : #'settings-definition' }

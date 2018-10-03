@@ -5,7 +5,7 @@ I use the meta link to discover the coverage of Test
 Class {
 	#name : #SmTReflectivityTestFinderStrategy,
 	#superclass : #SmTTestFinderDynamicStrategy,
-	#category : 'SmartTest-Finder'
+	#category : #'SmartTest-Finder'
 }
 
 { #category : #testing }

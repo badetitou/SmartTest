@@ -6,7 +6,7 @@ When using this strategy, the cache is never reseted, even when told so.
 Class {
 	#name : #SmTBasicCacheNeverResetStrategy,
 	#superclass : #SmTBasicCacheStrategy,
-	#category : 'SmartTest-Cache'
+	#category : #'SmartTest-Cache'
 }
 
 { #category : #private }

@@ -22,7 +22,7 @@ Class {
 		'testMethodOutsidePackage1',
 		'testMethod1OutsidePackage'
 	],
-	#category : 'SmartTest-Tests-Finder'
+	#category : #'SmartTest-Tests-Finder'
 }
 
 { #category : #testing }

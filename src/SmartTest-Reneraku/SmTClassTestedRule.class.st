@@ -7,7 +7,7 @@ Class {
 	#classVars : [
 		'ClassActivated'
 	],
-	#category : 'SmartTest-Rules'
+	#category : #'SmartTest-Reneraku'
 }
 
 { #category : #'testing-interest' }
