@@ -31,14 +31,14 @@ SmTIconFabric class >> createIconForMethods: aTestCollection [
 	| ib |
 	ib := IconicButton new.
 	ib
-		target: SmTRules runner;
+		target: SmartFinder runner;
 		actionSelector: #runCases:notifyIcon:;
 		arguments:
 			{aTestCollection.
 			ib};
 		labelGraphic:
 			(self
-				iconNamed: (SmTRules runner iconForTestFromTestsCasesHistory: aTestCollection));
+				iconNamed: (SmartFinder runner iconForTestFromTestsCasesHistory: aTestCollection));
 		color: Color transparent;
 		borderColor: Color transparent;
 		helpText: 'Run the test'.

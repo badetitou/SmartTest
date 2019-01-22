@@ -65,21 +65,22 @@ SmTClassTestedRule >> check: anEntity forCritiquesDo: aCriticBlock [
 SmTClassTestedRule >> findTestsForClass: aClass [
 	| aCollectionOfCompiledTest |
 	aCollectionOfCompiledTest :=  self findTestsForMethods: (self methodUsingVariablesOfClass: aClass).
-	^tests := aCollectionOfCompiledTest 
+	^ tests := aCollectionOfCompiledTest 
 ]
 
 { #category : #'instance creation' }
 SmTClassTestedRule >> findTestsForMethods: aCollectionOfCompiledMethod [
-	^tests := aCollectionOfCompiledMethod flatCollect: [ :aCompiledMethod | self findTestsForMethod: aCompiledMethod]
+	^ tests := aCollectionOfCompiledMethod flatCollect: [ :aCompiledMethod | self findTestsForMethod: aCompiledMethod]
 ]
 
 { #category : #running }
 SmTClassTestedRule >> methodUsingVariablesOfClass: aClass [
 	| aSet |
 	aSet := Set new.
-	aSet addAll: (aClass classLayout allVisibleSlots flatCollect: #usingMethods).
-"	aSet addAll: ((aClass classVariables flatCollect: #usingMethods) collect: #compiledMethod)."
-	^tests := aSet 
+	aSet
+		addAll: (aClass classLayout allVisibleSlots flatCollect: #usingMethods).
+	"	aSet addAll: ((aClass classVariables flatCollect: #usingMethods) collect: #compiledMethod)."
+	^ tests := aSet
 ]
 
 { #category : #accessing }
