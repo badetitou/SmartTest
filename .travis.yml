@@ -11,3 +11,5 @@ matrix:
   fast_finish: true
   allow_failures:
     - smalltalk: Pharo64-8.0
+  include:
+    - smalltalk: Pharo64-8.0
