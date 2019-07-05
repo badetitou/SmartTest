@@ -4,7 +4,7 @@ This filter only looks in the packages that are loaded with Iceberg
 Class {
 	#name : #SmTIcebergLoadedPackagesFilter,
 	#superclass : #SmTFilterStrategy,
-	#category : 'SmartTest-Filter'
+	#category : #'SmartTest-Filter'
 }
 
 { #category : #asserting }

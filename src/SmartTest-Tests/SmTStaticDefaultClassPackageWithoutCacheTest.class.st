@@ -6,7 +6,7 @@ This comment is false, the research is not limited to SmartTest-Tests-Data packa
 Class {
 	#name : #SmTStaticDefaultClassPackageWithoutCacheTest,
 	#superclass : #SmTFinderAbstractTest,
-	#category : 'SmartTest-Tests-Finder'
+	#category : #'SmartTest-Tests-Finder'
 }
 
 { #category : #running }

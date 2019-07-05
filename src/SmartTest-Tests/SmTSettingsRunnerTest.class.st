@@ -1,7 +1,7 @@
 Class {
 	#name : #SmTSettingsRunnerTest,
 	#superclass : #SmTSettingsTest,
-	#category : 'SmartTest-Tests-Settings'
+	#category : #'SmartTest-Tests-Settings'
 }
 
 { #category : #testing }
@@ -18,7 +18,7 @@ SmTSettingsRunnerTest >> runnerStrategy [
 SmTSettingsRunnerTest >> testChangeRunnerStrategy [
 	"Test changement of the runner in the setting (throught SmTRules methods)"
 
-	SmTRules runner: self runnerStrategy.
-	self assert: SmTRules testFinder testRunner equals: self runnerStrategy.
-	self assert: SmTRules testFinder testingStrategy runner equals: self runnerStrategy.
+	SmartFinder runner: self runnerStrategy.
+	self assert: SmartFinder settingInstance testRunner equals: self runnerStrategy.
+	self assert: SmartFinder settingInstance testingStrategy runner equals: self runnerStrategy
 ]

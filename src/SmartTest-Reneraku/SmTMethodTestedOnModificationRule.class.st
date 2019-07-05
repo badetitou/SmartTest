@@ -7,7 +7,7 @@ Class {
 	#classInstVars : [
 		'bag'
 	],
-	#category : 'SmartTest-Rules'
+	#category : #'SmartTest-Reneraku'
 }
 
 { #category : #protocol }

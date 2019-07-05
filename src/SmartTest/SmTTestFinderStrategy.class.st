@@ -7,14 +7,20 @@ Class {
 	#instVars : [
 		'filter',
 		'cache',
-		'shouldTryToFindTestForDynamic'
+		'shouldTryToFindTestForDynamic',
+		'researchDepthLimit'
 	],
-	#category : 'SmartTest-Finder'
+	#category : #'SmartTest-Finder'
 }
 
 { #category : #protocol }
 SmTTestFinderStrategy class >> isConcreteFinder [
 	^ false
+]
+
+{ #category : #api }
+SmTTestFinderStrategy >> buildCacheFromTestSuite: aTestSuite [
+	self subclassResponsibility
 ]
 
 { #category : #accessing }
@@ -51,7 +57,9 @@ SmTTestFinderStrategy >> filter: aSmTFilter [
 
 { #category : #initialization }
 SmTTestFinderStrategy >> initialize [
-	self shouldTryToFindTestForDynamic: false
+	self shouldTryToFindTestForDynamic: false.
+	"we should study this value"
+	researchDepthLimit := 7
 ]
 
 { #category : #accessing }
@@ -113,6 +121,16 @@ SmTTestFinderStrategy >> recursiveSearchForAClass: aClass inPackages: packagesTo
 			testsFound add: aSubClass.
 			testsFound addAll: (self recursiveSearchForAClass: aSubClass inPackages: packagesToLookAt alreadyVisited: alreadyVisitedClass) ].
 	^ testsFound
+]
+
+{ #category : #accessing }
+SmTTestFinderStrategy >> researchDepthLimit [
+	^ researchDepthLimit
+]
+
+{ #category : #accessing }
+SmTTestFinderStrategy >> researchDepthLimit: anObject [
+	researchDepthLimit := anObject
 ]
 
 { #category : #accessing }

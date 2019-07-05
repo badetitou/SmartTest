@@ -13,7 +13,7 @@ Class {
 		'researchProcess',
 		'defaultSize'
 	],
-	#category : 'SmartTest-Testing'
+	#category : #'SmartTest-Testing'
 }
 
 { #category : #protocol }

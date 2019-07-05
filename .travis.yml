@@ -2,8 +2,24 @@ language: smalltalk
 sudo: false
 
 os:
-- linux
-- osx
+  - linux
 
 smalltalk:
-  - Pharo-7.0
+  - Pharo32-7.0
+  - Pharo64-7.0
+
+smalltalk_config:
+  - .smalltalk.ston
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - smalltalk: Pharo32-8.0
+      smalltalk_config: .smalltalk.ston
+    - smalltalk: Pharo64-8.0
+      smalltalk_config: .smalltalk.ston
+  include:
+    - smalltalk: Pharo32-8.0
+      smalltalk_config: .smalltalk.ston
+    - smalltalk: Pharo64-8.0
+      smalltalk_config: .smalltalk.ston

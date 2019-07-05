@@ -8,7 +8,7 @@ Class {
 		'cache',
 		'smartFinder'
 	],
-	#category : 'SmartTest-Tests-CacheBuilder'
+	#category : #'SmartTest-Tests-CacheBuilder'
 }
 
 { #category : #testing }

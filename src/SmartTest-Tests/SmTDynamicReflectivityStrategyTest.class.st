@@ -4,7 +4,7 @@ A SmTFinderStrategyReflectivityTest is a test class for testing the behavior of 
 Class {
 	#name : #SmTDynamicReflectivityStrategyTest,
 	#superclass : #SmTFinderAbstractTest,
-	#category : 'SmartTest-Tests-Finder'
+	#category : #'SmartTest-Tests-Finder'
 }
 
 { #category : #initialization }

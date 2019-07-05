@@ -4,7 +4,7 @@ These tests are here to assert that the build cache methods are correct when dea
 Class {
 	#name : #SmTCacheBuilderTestCoverageResetEveryCommitTest,
 	#superclass : #SmTCacheBuilderTestCoverageTest,
-	#category : 'SmartTest-Tests-CacheBuilder'
+	#category : #'SmartTest-Tests-CacheBuilder'
 }
 
 { #category : #initialization }

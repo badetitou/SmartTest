@@ -4,7 +4,7 @@ The critique that explains you need to write tests for this class
 Class {
 	#name : #SmTClassNeedTestsCritique,
 	#superclass : #SmTNeedTestsCritique,
-	#category : 'SmartTest-Critiques'
+	#category : #'SmartTest-Critiques'
 }
 
 { #category : #accessing }

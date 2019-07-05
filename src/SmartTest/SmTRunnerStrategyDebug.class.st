@@ -4,7 +4,7 @@ When a test is run by CORA. If it failled, the debugger will open.
 Class {
 	#name : #SmTRunnerStrategyDebug,
 	#superclass : #SmTRunnerStrategy,
-	#category : 'SmartTest-Runner'
+	#category : #'SmartTest-Runner'
 }
 
 { #category : #action }

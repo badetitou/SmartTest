@@ -59,7 +59,7 @@ Class {
 		'testMethod1FirstLevelSendersInsidePackage',
 		'testMethod2SecondLevelSendersOutsidePackageWithTestInside'
 	],
-	#category : 'SmartTest-Tests-Filter'
+	#category : #'SmartTest-Tests-Filter'
 }
 
 { #category : #testing }

@@ -4,7 +4,7 @@ In this class, the research is limited to the SmartTest-Tests-Data package and t
 Class {
 	#name : #SmTStaticSpecifyPackageNameBasicCacheTest,
 	#superclass : #SmTFinderAbstractTest,
-	#category : 'SmartTest-Tests-Finder'
+	#category : #'SmartTest-Tests-Finder'
 }
 
 { #category : #running }

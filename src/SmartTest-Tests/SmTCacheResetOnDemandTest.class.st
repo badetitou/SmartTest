@@ -1,7 +1,7 @@
 Class {
 	#name : #SmTCacheResetOnDemandTest,
 	#superclass : #SmTCacheTest,
-	#category : 'SmartTest-Tests-Cache'
+	#category : #'SmartTest-Tests-Cache'
 }
 
 { #category : #running }

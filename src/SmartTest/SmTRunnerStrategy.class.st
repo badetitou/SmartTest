@@ -4,7 +4,7 @@ I'm a tool which help the plugin to run tests and return the result of them
 Class {
 	#name : #SmTRunnerStrategy,
 	#superclass : #Object,
-	#category : 'SmartTest-Runner'
+	#category : #'SmartTest-Runner'
 }
 
 { #category : #accessing }

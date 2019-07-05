@@ -1,7 +1,7 @@
 Class {
 	#name : #SmTSettingsRunnerNoticeTest,
 	#superclass : #SmTSettingsRunnerTest,
-	#category : 'SmartTest-Tests-Settings'
+	#category : #'SmartTest-Tests-Settings'
 }
 
 { #category : #running }

@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'runner'
 	],
-	#category : 'SmartTest-Tests-Runner'
+	#category : #'SmartTest-Tests-Runner'
 }
 
 { #category : #private }

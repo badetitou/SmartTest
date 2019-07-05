@@ -4,7 +4,7 @@ Every 5 minutes, CORA run the tests which have been found in the last 5 minutes
 Class {
 	#name : #SmTTestingStrategyFiveMinutes,
 	#superclass : #SmTTestingStrategy,
-	#category : 'SmartTest-Testing'
+	#category : #'SmartTest-Testing'
 }
 
 { #category : #protocol }

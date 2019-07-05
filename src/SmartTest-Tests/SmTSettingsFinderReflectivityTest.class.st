@@ -1,7 +1,7 @@
 Class {
 	#name : #SmTSettingsFinderReflectivityTest,
 	#superclass : #SmTSettingsFinderTest,
-	#category : 'SmartTest-Tests-Settings'
+	#category : #'SmartTest-Tests-Settings'
 }
 
 { #category : #running }

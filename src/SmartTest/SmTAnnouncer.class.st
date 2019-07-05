@@ -7,7 +7,7 @@ Class {
 	#classInstVars : [
 		'announcer'
 	],
-	#category : 'SmartTest-Listener'
+	#category : #'SmartTest-Listener'
 }
 
 { #category : #accessing }
