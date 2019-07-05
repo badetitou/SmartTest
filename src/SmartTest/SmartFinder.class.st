@@ -230,8 +230,9 @@ SmartFinder >> autoUpdateCache: aBoolean [
 
 { #category : #api }
 SmartFinder >> buildCacheFromTestSuite: aTestSuite [
-	"Work only if you have selected a Dynamic strategy"
-	self smtFinder buildCacheFromTestSuite: aTestSuite 
+	"Cache will be built only for a dynamic strategy"
+
+	self smtFinder buildCacheFromTestSuite: aTestSuite
 ]
 
 { #category : #accessing }

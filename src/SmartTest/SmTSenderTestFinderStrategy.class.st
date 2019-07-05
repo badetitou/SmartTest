@@ -14,6 +14,11 @@ SmTSenderTestFinderStrategy class >> isConcreteFinder [
 	^ true
 ]
 
+{ #category : #api }
+SmTSenderTestFinderStrategy >> buildCacheFromTestSuite: aTestSuite [
+	"No cache for static finder"
+]
+
 { #category : #'private - search' }
 SmTSenderTestFinderStrategy >> collectSenderOfRGMethodeDefintion: aRGMethodDefinition [
 	^ aRGMethodDefinition isInitializer

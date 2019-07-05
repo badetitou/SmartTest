@@ -18,6 +18,11 @@ SmTTestFinderStrategy class >> isConcreteFinder [
 	^ false
 ]
 
+{ #category : #api }
+SmTTestFinderStrategy >> buildCacheFromTestSuite: aTestSuite [
+	self subclassResponsibility
+]
+
 { #category : #accessing }
 SmTTestFinderStrategy >> cache [
 	^ cache
