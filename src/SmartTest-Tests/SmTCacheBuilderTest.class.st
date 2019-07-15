@@ -32,6 +32,11 @@ SmTCacheBuilderTest >> methodAbsentInCache [
 	self subclassResponsibility
 ]
 
+{ #category : #accessing }
+SmTCacheBuilderTest >> methodPresentInCache [
+	self subclassResponsibility
+]
+
 { #category : #helpers }
 SmTCacheBuilderTest >> searchTestMethodsFor: aCompiledMethod [
 	
