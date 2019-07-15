@@ -163,6 +163,7 @@ sf cacheValues ] timeToRun
 	methodToWrap := Set new.
 	methodToWrap addAll: (self collectMethodToTestForPackagesNamed: listOfPackage).
 	"methodToWrap addAll: (self collectClassToTestForPackagesNamed: listOfPackage)."
+	methodToWrap := methodToWrap reject: [ :meth | meth isExtension ].
 	methodToWrap := methodToWrap intersection: self availableMethods.
 	wrappers at: aTestSuite put: (methodToWrap asOrderedCollection collect: [ :each | (SmTTestCoverage on: each methodReference) finder: self ]).
 	(wrappers at: aTestSuite) do: [ :each | each install ] "displayingProgress: [ :aClass | 'Installing ' , aClass asString ] every: 1".
