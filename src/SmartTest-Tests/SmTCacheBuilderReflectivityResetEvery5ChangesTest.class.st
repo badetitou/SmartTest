@@ -9,7 +9,7 @@ Class {
 
 { #category : #initialization }
 SmTCacheBuilderReflectivityResetEvery5ChangesTest >> cacheStrategy [
-^ SmTBasicCacheNeverResetStrategy 
+	^ SmTBasicCacheResetEvery5ChangesStrategy
 ]
 
 { #category : #accessing }

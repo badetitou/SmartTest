@@ -94,7 +94,6 @@ SmTCacheBuilderTest >> testResetCacheUsingTestSuite [
 		buildSuiteFromMethods: {SmTClassTest allTestSelectors second}.
 	smartFinder resetCacheUsing: testSuite.
 	self assert: smartFinder currentCache isNotEmpty.
-	smartFinder currentCache inspect .
 	self assert: (smartFinder currentCache at: self methodPresentInCache) equals: self testsInCache.
 	self deny: (smartFinder currentCache includesKey: self methodAbsentInCache)
 ]
