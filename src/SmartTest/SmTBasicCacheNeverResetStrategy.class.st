@@ -10,6 +10,6 @@ Class {
 }
 
 { #category : #private }
-SmTBasicCacheNeverResetStrategy >> resetCache [
+SmTBasicCacheNeverResetStrategy >> emptyCache [
 	"Never reset the cache for this strategy."
 ]

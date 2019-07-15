@@ -19,5 +19,5 @@ SmTStaticDefaultClassPackageWithoutCacheTest >> setUp [
 { #category : #initialization }
 SmTStaticDefaultClassPackageWithoutCacheTest >> tearDown [
 	super tearDown.
-	smartFinder resetCache
+	smartFinder emptyCache
 ]

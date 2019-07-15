@@ -12,6 +12,13 @@ Class {
 	#category : #'SmartTest-Cache'
 }
 
+{ #category : #private }
+SmTBasicCacheResetEvery5ChangesStrategy >> emptyCache [
+	numberOfChange := numberOfChange + 1.
+	numberOfChange \\ 5 == 0
+		ifTrue: [ cache removeAll. numberOfChange := 0]
+]
+
 { #category : #initialization }
 SmTBasicCacheResetEvery5ChangesStrategy >> initialize [
 self numberOfChange: 0.
@@ -25,11 +32,4 @@ SmTBasicCacheResetEvery5ChangesStrategy >> numberOfChange [
 { #category : #accessing }
 SmTBasicCacheResetEvery5ChangesStrategy >> numberOfChange: anObject [
 	numberOfChange := anObject
-]
-
-{ #category : #private }
-SmTBasicCacheResetEvery5ChangesStrategy >> resetCache [
-	numberOfChange := numberOfChange + 1.
-	numberOfChange \\ 5 == 0
-		ifTrue: [ cache removeAll. numberOfChange := 0]
 ]

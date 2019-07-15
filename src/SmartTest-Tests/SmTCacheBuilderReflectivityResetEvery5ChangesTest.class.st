@@ -11,3 +11,18 @@ Class {
 SmTCacheBuilderReflectivityResetEvery5ChangesTest >> cacheStrategy [
 ^ SmTBasicCacheNeverResetStrategy 
 ]
+
+{ #category : #accessing }
+SmTCacheBuilderReflectivityResetEvery5ChangesTest >> methodAbsentInCache [
+	^ {(SmTClassTest >> #testMethod2) asRingDefinition} asSet
+]
+
+{ #category : #accessing }
+SmTCacheBuilderReflectivityResetEvery5ChangesTest >> methodPresentInCache [
+	^ (SmTClass >> #method1) asRingDefinition
+]
+
+{ #category : #accessing }
+SmTCacheBuilderReflectivityResetEvery5ChangesTest >> testsInCache [
+	^ {(SmTClassTest >> #testMethod1) asRingDefinition} asSet
+]

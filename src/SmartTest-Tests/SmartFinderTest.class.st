@@ -105,11 +105,11 @@ SmartFinderTest >> testChangeRunnerTestingStrategy [
 ]
 
 { #category : #'tests-api' }
-SmartFinderTest >> testResetCache [
+SmartFinderTest >> testEmptyCache [
 	self assert: smartFinder currentCache isEmpty .
 	smartFinder setCacheValues: self initCache.
 	self assert: smartFinder currentCache isNotEmpty .
-	smartFinder resetCache.
+	smartFinder emptyCache.
 	self assert: smartFinder currentCache isEmpty 
 ]
 

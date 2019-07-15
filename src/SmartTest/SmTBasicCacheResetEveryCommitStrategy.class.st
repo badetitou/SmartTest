@@ -11,6 +11,6 @@ Class {
 
 { #category : #private }
 SmTBasicCacheResetEveryCommitStrategy >> resetCacheForChange: aChange [
-	(aChange isKindOf: EpMonticelloVersionSave) ifTrue:[self resetCache].
+	(aChange isKindOf: EpMonticelloVersionSave) ifTrue:[self emptyCache].
 	
 ]

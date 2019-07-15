@@ -11,3 +11,18 @@ Class {
 SmTCacheBuilderTestCoverageResetEvery5ChangesTest >> cacheStrategy [
 ^ SmTBasicCacheResetEvery5ChangesStrategy 
 ]
+
+{ #category : #accessing }
+SmTCacheBuilderTestCoverageResetEvery5ChangesTest >> methodAbsentInCache [
+	^ {(SmTClassTest >> #testMethod2) asRingDefinition} asSet
+]
+
+{ #category : #accessing }
+SmTCacheBuilderTestCoverageResetEvery5ChangesTest >> methodPresentInCache [
+	^ (SmTClass >> #method1) asRingDefinition
+]
+
+{ #category : #accessing }
+SmTCacheBuilderTestCoverageResetEvery5ChangesTest >> testsInCache [
+	^ {(SmTClassTest >> #testMethod1) asRingDefinition} asSet
+]

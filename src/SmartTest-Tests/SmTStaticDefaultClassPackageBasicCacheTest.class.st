@@ -10,7 +10,7 @@ Class {
 { #category : #running }
 SmTStaticDefaultClassPackageBasicCacheTest >> setUp [
 	super setUp.
-	smartFinder resetCache
+	smartFinder emptyCache
 ]
 
 { #category : #tests }

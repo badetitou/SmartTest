@@ -133,6 +133,13 @@ SmTTestFinderStrategy >> researchDepthLimit: anObject [
 	researchDepthLimit := anObject
 ]
 
+{ #category : #api }
+SmTTestFinderStrategy >> resetCacheUsing: aTestSuite [
+	cache emptyCache.
+	cache currentCache
+		ifEmpty: [ self buildCacheFromTestSuite: aTestSuite ]
+]
+
 { #category : #accessing }
 SmTTestFinderStrategy >> searchTestsForAClass: aClass [
 	| packagesToLookAt |

@@ -56,7 +56,7 @@ SmTDynamicCoverageStrategyTest >> setUp [
 
 { #category : #helpers }
 SmTDynamicCoverageStrategyTest >> tearDown [
-	smartFinder resetCache.
+	smartFinder emptyCache.
 ]
 
 { #category : #tests }

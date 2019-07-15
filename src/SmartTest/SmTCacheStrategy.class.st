@@ -53,6 +53,11 @@ SmTCacheStrategy >> disable [
 ]
 
 { #category : #private }
+SmTCacheStrategy >> emptyCache [
+	cache removeAll
+]
+
+{ #category : #private }
 SmTCacheStrategy >> enable [
 	"If you need something to work"
 ]
@@ -63,13 +68,8 @@ SmTCacheStrategy >> relevantTestsFor: aCompiledMethod [
 ]
 
 { #category : #private }
-SmTCacheStrategy >> resetCache [
-	cache removeAll
-]
-
-{ #category : #private }
 SmTCacheStrategy >> resetCacheForChange: aChange [
-self resetCache 
+self emptyCache 
 ]
 
 { #category : #private }

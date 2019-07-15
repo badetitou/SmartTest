@@ -188,7 +188,7 @@ If you want to check the packages are well detected,run
 		dialog: [ SimpleButtonMorph new
 				target: self settingInstance ;
 				label: 'Reset Current SmartTest Cache';
-				actionSelector: #resetCache;
+				actionSelector: #emptyCache;
 				themeChanged;
 				yourself ];
 		description:
@@ -261,6 +261,11 @@ SmartFinder >> currentCache [
 	^ self cacheStrategy currentCache 
 ]
 
+{ #category : #api }
+SmartFinder >> emptyCache [
+	self cacheStrategy emptyCache 
+]
+
 { #category : #accessing }
 SmartFinder >> filter [
 	^ filter ifNil: [ filter := SmTDefaultPackagesFilter new ]
@@ -292,8 +297,8 @@ SmartFinder >> researchTestsForMethod: aCompiledMethod [
 ]
 
 { #category : #api }
-SmartFinder >> resetCache [
-	self cacheStrategy resetCache 
+SmartFinder >> resetCacheUsing: aTestSuite [
+	self smtFinder resetCacheUsing: aTestSuite
 ]
 
 { #category : #api }

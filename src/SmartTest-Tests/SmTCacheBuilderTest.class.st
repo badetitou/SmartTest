@@ -27,6 +27,11 @@ SmTCacheBuilderTest >> dynamicFinder [
 	self subclassResponsibility 
 ]
 
+{ #category : #accessing }
+SmTCacheBuilderTest >> methodAbsentInCache [
+	self subclassResponsibility
+]
+
 { #category : #helpers }
 SmTCacheBuilderTest >> searchTestMethodsFor: aCompiledMethod [
 	
@@ -40,7 +45,7 @@ SmTCacheBuilderTest >> setUp [
 	"the cache is initially empty"
 	smartFinder autoUpdateCache: false.
 	smartFinder cacheStrategy: self cacheStrategy new.
-	smartFinder resetCache.
+	smartFinder emptyCache.
 	smartFinder smtFinder: self dynamicFinder.
 	smartFinder autoUpdateCache: true
 ]
@@ -62,6 +67,31 @@ SmTCacheBuilderTest >> testResearchTestsForStandardMethodWhileEmptyCache [
 	self assert: testsFound isEmpty.
 	
 
+]
+
+{ #category : #tests }
+SmTCacheBuilderTest >> testResetCacheUsingTestSuite [
+	<CORATestBlacklisted>
+	| testSuite |
+	self assert: smartFinder currentCache isEmpty.
+
+	"Reset cache using test suite 1"
+	testSuite := SmTClassTest
+		buildSuiteFromMethods: {SmTClassTest allTestSelectors first}.
+	smartFinder resetCacheUsing: testSuite.
+	self assert: smartFinder currentCache isNotEmpty.
+	self
+		assert: (smartFinder currentCache at: (SmTClass >> #method1) asRingDefinition)
+		equals: {(SmTClassTest >> #testMethod1) asRingDefinition} asSet.
+
+	"Reset cache using test suite 2"
+	testSuite := SmTClassTest
+		buildSuiteFromMethods: {SmTClassTest allTestSelectors second}.
+	smartFinder resetCacheUsing: testSuite.
+	self assert: smartFinder currentCache isNotEmpty.
+	smartFinder currentCache inspect .
+	self assert: (smartFinder currentCache at: self methodPresentInCache) equals: self testsInCache.
+	self deny: (smartFinder currentCache includesKey: self methodAbsentInCache)
 ]
 
 { #category : #tests }
@@ -105,4 +135,9 @@ SmTCacheBuilderTest >> testRunningTestMethod5ToBuildCache [
 	self assert: smartFinder currentCache size equals: 2.
 	self assert: (smartFinder currentCache at: (SmTClass2 >> #initialize) asRingDefinition) equals: {(SmTClassTest >> #testMethod5) asRingDefinition} asSet.
 	self assert: (smartFinder currentCache at: (SmTClassTest >> #testMethod5) asRingDefinition) equals: {(SmTClassTest >> #testMethod5) asRingDefinition} asSet
+]
+
+{ #category : #accessing }
+SmTCacheBuilderTest >> testsInCache [
+	self subclassResponsibility
 ]

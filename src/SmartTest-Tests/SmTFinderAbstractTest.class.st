@@ -69,7 +69,7 @@ SmTFinderAbstractTest >> setUp [
 { #category : #running }
 SmTFinderAbstractTest >> tearDown [
 	"reset the cache"
-	smartFinder resetCache.
+	smartFinder emptyCache.
 	smartFinder clean.
 	super tearDown
 ]
