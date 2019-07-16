@@ -302,6 +302,11 @@ SmartFinder >> resetCacheUsing: aTestSuite [
 ]
 
 { #category : #api }
+SmartFinder >> resetCacheUsing: aTestSuite forChange: aChange [
+	self smtFinder resetCacheUsing: aTestSuite forChange: aChange
+]
+
+{ #category : #api }
 SmartFinder >> searchTestsForASetUpMethod: aCompiledMethod [ 
 	^ self smtFinder searchTestsForASetUpMethod: aCompiledMethod.
 ]

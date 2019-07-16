@@ -140,6 +140,13 @@ SmTTestFinderStrategy >> resetCacheUsing: aTestSuite [
 		ifEmpty: [ self buildCacheFromTestSuite: aTestSuite ]
 ]
 
+{ #category : #api }
+SmTTestFinderStrategy >> resetCacheUsing: aTestSuite forChange: aChange [
+	cache emptyCacheForChange: aChange.
+	cache currentCache
+		ifEmpty: [ self buildCacheFromTestSuite: aTestSuite ]
+]
+
 { #category : #accessing }
 SmTTestFinderStrategy >> searchTestsForAClass: aClass [
 	| packagesToLookAt |

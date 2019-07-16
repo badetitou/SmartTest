@@ -10,7 +10,7 @@ Class {
 }
 
 { #category : #private }
-SmTBasicCacheResetEveryCommitStrategy >> resetCacheForChange: aChange [
-	(aChange isKindOf: EpMonticelloVersionSave) ifTrue:[self emptyCache].
-	
+SmTBasicCacheResetEveryCommitStrategy >> emptyCacheForChange: aChange [
+	(aChange isKindOf: EpMonticelloVersionSave)
+		ifTrue: [ self emptyCache ]
 ]

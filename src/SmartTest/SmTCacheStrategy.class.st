@@ -58,6 +58,11 @@ SmTCacheStrategy >> emptyCache [
 ]
 
 { #category : #private }
+SmTCacheStrategy >> emptyCacheForChange: aChange [
+	self emptyCache
+]
+
+{ #category : #private }
 SmTCacheStrategy >> enable [
 	"If you need something to work"
 ]
@@ -65,11 +70,6 @@ SmTCacheStrategy >> enable [
 { #category : #private }
 SmTCacheStrategy >> relevantTestsFor: aCompiledMethod [
 	self subclassResponsibility
-]
-
-{ #category : #private }
-SmTCacheStrategy >> resetCacheForChange: aChange [
-self emptyCache 
 ]
 
 { #category : #private }

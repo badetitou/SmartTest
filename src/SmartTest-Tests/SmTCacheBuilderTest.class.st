@@ -77,13 +77,14 @@ SmTCacheBuilderTest >> testResearchTestsForStandardMethodWhileEmptyCache [
 { #category : #tests }
 SmTCacheBuilderTest >> testResetCacheUsingTestSuite [
 	<CORATestBlacklisted>
-	| testSuite |
+	| testSuite change |
 	self assert: smartFinder currentCache isEmpty.
+	change := EpMethodAddition new.
 
 	"Reset cache using test suite 1"
 	testSuite := SmTClassTest
 		buildSuiteFromMethods: {SmTClassTest allTestSelectors first}.
-	smartFinder resetCacheUsing: testSuite.
+	smartFinder resetCacheUsing: testSuite forChange: change.
 	self assert: smartFinder currentCache isNotEmpty.
 	self
 		assert: (smartFinder currentCache at: (SmTClass >> #method1) asRingDefinition)
@@ -92,10 +93,13 @@ SmTCacheBuilderTest >> testResetCacheUsingTestSuite [
 	"Reset cache using test suite 2"
 	testSuite := SmTClassTest
 		buildSuiteFromMethods: {SmTClassTest allTestSelectors second}.
-	smartFinder resetCacheUsing: testSuite.
+	smartFinder resetCacheUsing: testSuite forChange: change.
 	self assert: smartFinder currentCache isNotEmpty.
-	self assert: (smartFinder currentCache at: self methodPresentInCache) equals: self testsInCache.
-	self deny: (smartFinder currentCache includesKey: self methodAbsentInCache)
+	self
+		assert: (smartFinder currentCache at: self methodPresentInCache)
+		equals: self testsInCache.
+	self
+		deny: (smartFinder currentCache includesKey: self methodAbsentInCache)
 ]
 
 { #category : #tests }

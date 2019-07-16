@@ -11,36 +11,40 @@ SmTCacheResetOnDemandTest >> strategyTested [
 
 { #category : #tests }
 SmTCacheResetOnDemandTest >> testResetAfter1Commit [
-"After one method change, the cache should be empty for NeverRest, EveryFiveChange, and EveryCommit case."
-smartFinder cacheStrategy resetCacheForChange: EpMonticelloVersionSave new.
-self assert: (smartFinder currentCache isEmpty)
+	"After one commit, the cache should be empty for EveryCommit and OnDemand."
+
+	smartFinder cacheStrategy
+		emptyCacheForChange: EpMonticelloVersionSave new.
+	self assert: smartFinder currentCache isEmpty
 ]
 
 { #category : #tests }
 SmTCacheResetOnDemandTest >> testResetAfter1MethodChange [
-"Here, the cache should be empty because the BasicCache strategy allows that the reset of the cache"
-smartFinder cacheStrategy resetCacheForChange: EpMethodAddition new.
-self assert: (smartFinder currentCache isEmpty)
+	"After one method change, the cache should be empty for OnDemand."
+
+	smartFinder cacheStrategy emptyCacheForChange: EpMethodAddition new.
+	self assert: smartFinder currentCache isEmpty
 ]
 
 { #category : #tests }
 SmTCacheResetOnDemandTest >> testResetAfter4MethodChange [
-	"After one method change, the cache should be empty for NeverRest, EveryFiveChange, and EveryCommit case."
+	"After one method change, the cache should be empty for OnDemand."
 
-	smartFinder cacheStrategy resetCacheForChange: EpMethodAddition new.
-	smartFinder cacheStrategy resetCacheForChange: EpMethodAddition new.
-	smartFinder cacheStrategy resetCacheForChange: EpMethodAddition new.
-	smartFinder cacheStrategy resetCacheForChange: EpMethodAddition new.
+	smartFinder cacheStrategy emptyCacheForChange: EpMethodAddition new.
+	smartFinder cacheStrategy emptyCacheForChange: EpMethodAddition new.
+	smartFinder cacheStrategy emptyCacheForChange: EpMethodAddition new.
+	smartFinder cacheStrategy emptyCacheForChange: EpMethodAddition new.
 	self assert: smartFinder currentCache isEmpty
 ]
 
 { #category : #tests }
 SmTCacheResetOnDemandTest >> testResetAfter5MethodChange [
-"After one method change, the cache should be empty for NeverRest, EveryFiveChange, and EveryCommit case."
-smartFinder cacheStrategy resetCacheForChange: EpMethodAddition new.
-smartFinder cacheStrategy resetCacheForChange: EpMethodAddition new.
-smartFinder cacheStrategy resetCacheForChange: EpMethodAddition new.
-smartFinder cacheStrategy resetCacheForChange: EpMethodAddition new.
-smartFinder cacheStrategy resetCacheForChange: EpMethodAddition new.
-self assert: (smartFinder currentCache isEmpty)
+	"After 5 method change, the cache should be empty for OnDemand and EveryFiveChange."
+
+	smartFinder cacheStrategy emptyCacheForChange: EpMethodAddition new.
+	smartFinder cacheStrategy emptyCacheForChange: EpMethodAddition new.
+	smartFinder cacheStrategy emptyCacheForChange: EpMethodAddition new.
+	smartFinder cacheStrategy emptyCacheForChange: EpMethodAddition new.
+	smartFinder cacheStrategy emptyCacheForChange: EpMethodAddition new.
+	self assert: smartFinder currentCache isEmpty
 ]

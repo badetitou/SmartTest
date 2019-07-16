@@ -11,8 +11,9 @@ SmTCacheResetEveryCommitTest >> strategyTested [
 
 { #category : #tests }
 SmTCacheResetEveryCommitTest >> testResetAfter1Commit [
-	"After one method change, the cache should be empty for NeverRest, EveryFiveChange, and EveryCommit case."
+	"After one commit, the cache should be empty for EveryCommit and OnDemand."
 
-	smartFinder cacheStrategy resetCacheForChange: EpMonticelloVersionSave new.
+	smartFinder cacheStrategy
+		emptyCacheForChange: EpMonticelloVersionSave new.
 	self assert: smartFinder currentCache isEmpty
 ]
