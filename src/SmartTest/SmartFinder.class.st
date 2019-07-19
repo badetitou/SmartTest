@@ -230,7 +230,11 @@ SmartFinder >> autoUpdateCache: aBoolean [
 
 { #category : #api }
 SmartFinder >> buildCacheFromTestSuite: aTestSuite [
-	"Cache will be built only for a dynamic strategy"
+	"This method does not empty the cache before filling it.
+	If you want to empty the cache before filling it, please use resetCacheUsing:forChange:
+	The cache will be filled only if the selection strategy is dynamic.
+	
+	This method is used only to evaluate SmartTest and in SmTSelectPackageBrowser>>nextAction"
 
 	self smtFinder buildCacheFromTestSuite: aTestSuite
 ]
@@ -294,11 +298,6 @@ SmartFinder >> initialize [
 SmartFinder >> researchTestsForMethod: aCompiledMethod [ 
 	"If you only want to find the tests"
 	^ [ self smtFinder methodsFor: aCompiledMethod ] on: Exception do: [ "oups" MetaLink uninstallAll. ^ {  } ]
-]
-
-{ #category : #api }
-SmartFinder >> resetCacheUsing: aTestSuite [
-	self smtFinder resetCacheUsing: aTestSuite
 ]
 
 { #category : #api }

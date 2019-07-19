@@ -134,13 +134,6 @@ SmTTestFinderStrategy >> researchDepthLimit: anObject [
 ]
 
 { #category : #api }
-SmTTestFinderStrategy >> resetCacheUsing: aTestSuite [
-	cache emptyCache.
-	cache currentCache
-		ifEmpty: [ self buildCacheFromTestSuite: aTestSuite ]
-]
-
-{ #category : #api }
 SmTTestFinderStrategy >> resetCacheUsing: aTestSuite forChange: aChange [
 	cache emptyCacheForChange: aChange.
 	cache currentCache
