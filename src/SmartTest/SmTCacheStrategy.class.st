@@ -67,6 +67,12 @@ SmTCacheStrategy >> enable [
 	"If you need something to work"
 ]
 
+{ #category : #initialization }
+SmTCacheStrategy >> initialize [
+	super initialize.
+	cache := Dictionary new
+]
+
 { #category : #private }
 SmTCacheStrategy >> relevantTestsFor: aCompiledMethod [
 	self subclassResponsibility

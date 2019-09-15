@@ -33,6 +33,11 @@ SmTNoCacheStrategy >> at: aMethodReference put: aCacheElement [
 ]
 
 { #category : #accessing }
+SmTNoCacheStrategy >> cache: aDictionary [
+	^ self
+]
+
+{ #category : #accessing }
 SmTNoCacheStrategy >> currentCache [
 	^ Dictionary new
 ]
