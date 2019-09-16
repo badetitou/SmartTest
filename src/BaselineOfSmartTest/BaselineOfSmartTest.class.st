@@ -10,8 +10,8 @@ BaselineOfSmartTest >> baseline: spec [
 	spec
 		for: #common
 		do: [ self defineDependencies: spec.
-			self definePackages: spec
-			"self defineGroups: spec" ]
+			self definePackages: spec.
+			self defineGroups: spec ]
 ]
 
 { #category : #baselines }
