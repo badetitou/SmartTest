@@ -13,7 +13,7 @@ With this plugin installed, developers will save time and will develop in a bett
 
 ## Installation
 
-The complete presentation is available [here](http://badetitou.github.io/research/smalltalk/2017/08/21/SmartTest/).
+The complete presentation is available [here](https://badetitou.github.io/projects/SmartTest/SmartTest/).
 
 ## Development version
 
